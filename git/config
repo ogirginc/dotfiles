@@ -1,0 +1,20 @@
+[user]
+  name = Ogulcan Girginc
+  email = ogirginc@gmail.com
+
+[core]
+  editor = nvim
+	commentChar = ";"
+	; core.excludesfile is not needed as $XDG_CONFIG_HOME is defined which forces
+	; Git to use it's default value, $XDG_CONFIG_HOME/git/ignore.
+	; excludesfile = $HOME/Configurations/git/ignore
+
+[alias]
+	upstream = "!f() { git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD); }; f"
+  cam = "!f() { git add . && git commit -m \"$1\"; }; f"
+	rb = "!f() { git rebase -i HEAD~$1 --autostash; }; f"
+	co  = "!f() { git checkout $(git branch | fzf --height 40% --reverse); }; f"
+
+  com = "checkout master"
+	blr = "branch --list --remotes"
+	prs = "pull --rebase --autostash"

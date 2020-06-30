@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Neovim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+Session.vim
+.netrwhist
+*~
+.un~
+
+# Tags
+tags
+tags.lock
+tags.temp
+tags.temp.tmp
+.gutctags
+.ctags
+
+# Solargraph
+.solargraph.yml
+
+# Vscode
+.vscode/
+
+# Notes
+ogirginc/
