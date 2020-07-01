@@ -58,10 +58,10 @@ source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 [ -f $HOME/.fzf.zsh ] && source $HOME/.fzf.zsh
 
 # Aliases
-alias .nvimrc="nvim $HOME/.config/nvim/config/init.vimrc"
-alias .zshrc="nvim $HOME/.config/.zshrc"
-alias .brewrc="nvim $HOME/.config/Brewfile"
+alias .nvimrc="nvim $HOME/Configurations/nvim/config/init.vimrc"
+alias .zshrc="nvim $HOME/Configurations/zshrc"
+alias .brewrc="nvim $HOME/Configurations/Brewfile"
 
 # ENV exports
 export XDG_CONFIG_HOME="$HOME/.config"
-export HOMEBREW_BUNDLE_FILE="$HOME/Documents/Programming/Configs/Brewfile"
+export HOMEBREW_BUNDLE_FILE="$HOME/Configurations/Brewfile"
