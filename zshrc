@@ -62,6 +62,9 @@ alias .nvimrc="nvim $HOME/Configurations/nvim/config/init.vimrc"
 alias .zshrc="nvim $HOME/Configurations/zshrc"
 alias .brewrc="nvim $HOME/Configurations/Brewfile"
 
+# Add to path
+export PATH="/usr/local/opt/openjdk/bin:$PATH" # Homebrew's Java
+
 # ENV exports
 export XDG_CONFIG_HOME="$HOME/.config"
 export HOMEBREW_BUNDLE_FILE="$HOME/Configurations/Brewfile"
