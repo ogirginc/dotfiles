@@ -16,8 +16,10 @@ set relativenumber
 set nobackup          " Get rid of annoying ~file.
 
 set colorcolumn=81,101
-set tabstop=2
-set shiftwidth=2
+
+set expandtab    " Insert space characters whenever the tab key is pressed.
+set tabstop=2		 " Number of spaces will be inserted when the tab key is pressed.
+set shiftwidth=2 " Number of space characters inserted for indentation
 
 " If g[o]t[ab], why no g[o]b[ack]
 nnoremap gb gT
