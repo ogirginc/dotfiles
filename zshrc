@@ -61,6 +61,7 @@ source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 alias .nvimrc="nvim $HOME/Configurations/nvim/config/init.vimrc"
 alias .zshrc="nvim $HOME/Configurations/zshrc"
 alias .brewrc="nvim $HOME/Configurations/Brewfile"
+alias .dotfiles="cd $HOME/Configurations && nvim -c ':NERDTreeToggle'"
 
 # Add to path
 export PATH="/usr/local/opt/openjdk/bin:$PATH" # Homebrew's Java
