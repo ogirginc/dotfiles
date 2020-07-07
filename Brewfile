@@ -22,6 +22,7 @@ brew "coreutils"
 brew "gnupg"
 brew "gpg"
 
+brew "awscli"
 brew "fzf"
 brew "git"
 brew "heroku/brew/heroku"
