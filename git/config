@@ -19,5 +19,6 @@
 
   com = "checkout master"
   bd = "!f() { git branch -d \"$1\"; }; f"
+  bl = "branch --list"
 	blr = "branch --list --remotes"
 	prs = "pull --rebase --autostash"
