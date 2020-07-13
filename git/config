@@ -13,6 +13,8 @@
 	upstream = "!f() { git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD); }; f"
 
   cam = "!f() { git add . && git commit -m \"$1\"; }; f"
+  wip = "!f() { git add . && git commit -m "WIP"; }; f"
+
 	rb = "!f() { git rebase -i HEAD~$1 --autostash; }; f"
 	co  = "!f() { git checkout $(git branch | fzf --height 40% --reverse); }; f"
   cb = "!f() { git checkout -b \"$1\"; }; f"
