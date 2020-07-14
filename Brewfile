@@ -53,10 +53,11 @@ cask "loom"
 cask "monitorcontrol"
 cask "ngrok"
 cask "notion"
+cask "postman"
 cask "visual-studio"
 cask "visual-studio-code"
+cask "vlc"
 cask "zoomus"
-cask "postman"
 
 mas "1Password 7 - Password Manager", id: 1333542190
 mas "Browserism for Chrome", id: 979047768
