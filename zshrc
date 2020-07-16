@@ -71,3 +71,4 @@ export PATH="/usr/local/opt/openjdk/bin:$PATH" # Homebrew's Java
 # ENV exports
 export XDG_CONFIG_HOME="$HOME/.config"
 export HOMEBREW_BUNDLE_FILE="$HOME/Configurations/Brewfile"
+export LANG="tr_TR.UTF-8"
