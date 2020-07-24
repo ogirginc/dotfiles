@@ -59,6 +59,7 @@ cask "postman"
 cask "visual-studio"
 cask "visual-studio-code"
 cask "vlc"
+cask "webtorrent"
 cask "zoomus"
 
 mas "1Password 7 - Password Manager", id: 1333542190
@@ -84,7 +85,6 @@ brew "mosh"
 # brew "wp-cli"
 # brew "wp-cli-completion"
 
-# cask "webtorrent"
 
 # cask "postgres" # Alternative: https://github.com/MaccaTech/PostgresPrefs
 # cask "pgadmin4"
