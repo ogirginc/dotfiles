@@ -513,6 +513,18 @@
         "options": {
           "full_name": "vlc"
         }
+      },
+      "webtorrent": {
+        "version": "0.21.0",
+        "options": {
+          "full_name": "webtorrent"
+        }
+      },
+      "alfred": {
+        "version": "4.1_1167",
+        "options": {
+          "full_name": "alfred"
+        }
       }
     },
     "mas": {

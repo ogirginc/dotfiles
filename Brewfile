@@ -42,6 +42,7 @@ brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 
+cask "alfred"
 cask "appcleaner"
 cask "contexts"
 cask "docker"
