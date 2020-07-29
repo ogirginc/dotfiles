@@ -15,6 +15,9 @@ set incsearch         " Highlight matches as you type.
 set relativenumber
 set nobackup          " Get rid of annoying ~file.
 
+set ignorecase " All your searches will be case insensitive.
+set smartcase  " Search will be case sensitive if it contains an uppercase letter.
+
 set colorcolumn=81,101
 
 set expandtab    " Insert space characters whenever the tab key is pressed.
