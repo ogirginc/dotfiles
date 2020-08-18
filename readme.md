@@ -1,7 +1,7 @@
 # Dotfiles
 
 ```
-ln -s ~/Dotfiles/zshrc .zshrc
-ln -s ~/Dotfiles/git/ ~/.config/
-ln -s ~/Dotfiles/nvim/config/ ~/.config/nvim/
+ln -sfn ~/Dotfiles/zshrc .zshrc
+ln -sfn ~/Dotfiles/git/ ~/.config/
+ln -sfn ~/Dotfiles/nvim/config/ ~/.config/nvim/
 ```
