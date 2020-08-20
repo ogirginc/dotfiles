@@ -1,2 +1,2 @@
-source ~/Configurations/nvim/config/init.vimrc
-source ~/Configurations/nvim/config/plugins.vimrc
+source ~/.config/nvim/config/init.vimrc
+source ~/.config/nvim/config/plugins.vimrc
