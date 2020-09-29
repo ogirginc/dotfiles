@@ -9,7 +9,7 @@ git clone https://github.com/ogirginc/dotfiles.git Dotfiles
 ### Create folders
 
 ```
-mkdir ~/.config/nvim/
+mkdir -p ~/.config/nvim/
 mkdir ~/.config/nvim/.undo/
 mkdir ~/.config/nvim/.backup/
 mkdir ~/.config/nvim/.swp/
