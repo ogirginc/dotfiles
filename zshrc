@@ -72,3 +72,6 @@ export PATH="/usr/local/opt/openjdk/bin:$PATH" # Homebrew's Java
 export XDG_CONFIG_HOME="$HOME/.config"
 export HOMEBREW_BUNDLE_FILE="$HOME/Dotfiles/Brewfile"
 export LANG="en_US.UTF-8"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
