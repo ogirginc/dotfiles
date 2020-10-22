@@ -4,23 +4,26 @@
 
 [core]
   editor = nvim
-	commentChar = ";"
-	; core.excludesfile is not needed as $XDG_CONFIG_HOME is defined which forces
-	; Git to use it's default value, $XDG_CONFIG_HOME/git/ignore.
-	; excludesfile = $HOME/Configurations/git/ignore
+  commentChar = ";"
+  ; core.excludesfile is not needed as $XDG_CONFIG_HOME is defined which forces
+  ; Git to use it's default value, $XDG_CONFIG_HOME/git/ignore.
+  ; excludesfile = $HOME/Configurations/git/ignore
 
 [alias]
-	upstream = "!f() { git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD); }; f"
+upstream = "!f() { git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD); }; f"
 
   cam = "!f() { git add . && git commit -m \"$1\"; }; f"
   wip = "!f() { git add . && git commit -m "WIP"; }; f"
 
-	rb = "!f() { git rebase -i HEAD~$1 --autostash; }; f"
-	co  = "!f() { git checkout $(git branch | fzf --height 40% --reverse); }; f"
+  rb = "!f() { git rebase -i HEAD~$1 --autostash; }; f"
+  co  = "!f() { git checkout $(git branch | fzf --height 40% --reverse); }; f"
   cb = "!f() { git checkout -b \"$1\"; }; f"
 
   com = "checkout master"
   bd = "!f() { git branch -d \"$1\"; }; f"
   bl = "branch --list"
-	blr = "branch --list --remotes"
-	prs = "pull --rebase --autostash"
+  blr = "branch --list --remotes"
+  prs = "pull --rebase --autostash"
+
+[diff "rspec"]
+  xfuncname = "^[ \t]*((RSpec|describe|context|it|before|after|feature|scenario|background)[ \t].*)$"
