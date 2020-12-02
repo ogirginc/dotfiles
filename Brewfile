@@ -28,7 +28,6 @@ brew "git"
 brew "git-bug"
 brew "heroku/brew/heroku"
 brew "htop"
-brew "java"
 brew "lazygit"
 brew "neovim"
 brew "petere/postgresql/postgresql-common"
@@ -42,7 +41,7 @@ brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 
-cask "alfred"
+# cask "alfred" # Setapp
 cask "appcleaner"
 cask "contexts"
 cask "dash"
@@ -59,7 +58,6 @@ cask "ngrok"
 cask "notion"
 cask "postman"
 cask "telegram"
-cask "visual-studio"
 cask "visual-studio-code"
 cask "vlc"
 cask "webtorrent"
@@ -69,15 +67,9 @@ mas "1Password 7 - Password Manager", id: 1333542190
 mas "Browserism for Chrome", id: 979047768
 mas "Octotree Pro", id: 1457450145
 mas "Poolside FM", id: 1514817810
-mas "Save to Pocket", id: 1477385213
 mas "Slack", id: 803453959
 mas "Vimari", id: 1480933944
 mas "WhatsApp Desktop", id: 1147396723
-
-# Remote terminal application that allows roaming, supports intermittent
-# connectivity, and provides intelligent local echo and line editing of user
-# keystrokes. https://mosh.org/
-brew "mosh"
 
 # Keep application settings in sync
 # brew "mackup"
