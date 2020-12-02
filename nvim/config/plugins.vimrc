@@ -36,6 +36,9 @@ Plug 'pangloss/vim-javascript'
 Plug 'OmniSharp/omnisharp-vim'
 Plug 'adamclerk/vim-razor'
 
+" KOTLIN
+Plug 'udalov/kotlin-vim'
+
 " GIT
 Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-fugitive'

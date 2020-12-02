@@ -10,7 +10,7 @@
   ; excludesfile = $HOME/Configurations/git/ignore
 
 [alias]
-upstream = "!f() { git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD); }; f"
+  upstream = "!f() { git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD); }; f"
 
   cam = "!f() { git add . && git commit -m \"$1\"; }; f"
   wip = "!f() { git add . && git commit -m "WIP"; }; f"
