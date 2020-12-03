@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "034459da8e6cd11076c578f0ac067fd50d1b14fa"
+        "revision": "6fa389091d1b7450df0701d6a0d20e862bda6507"
       },
       "homebrew/cask": {
-        "revision": "b8311968b425f30d34cdc1ccd4703bd72cc0376e"
+        "revision": "57beef251dfb79e56fe0c2f3cc3e48ff89a2a770"
       },
       "homebrew/cask-versions": {
-        "revision": "81a3c660d92e1de3ae313302f112403ca971576e"
+        "revision": "e45825a4d79841fd82159d877d3f62b8d1c3ca4d"
       },
       "homebrew/core": {
-        "revision": "9c214141b2207488f63b57a00ce1e91659e51720"
+        "revision": "c92b05f896c95ccd09e42638625cf3003896760a"
       },
       "homebrew/services": {
         "revision": "14c1da7bb28345d15ab4307dd6c8dcab55013f9e"
@@ -406,22 +406,22 @@
         }
       },
       "awscli": {
-        "version": "2.1.4",
+        "version": "2.1.5",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "big_sur": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.4.big_sur.bottle.tar.gz",
-              "sha256": "c2683ca9f904ec563d27e9ac124ae257b2347a5589408aa04b3d8f77dc58d39b"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.5.big_sur.bottle.tar.gz",
+              "sha256": "c051650b9d3b17f66a98f884d4e49b88b9795c6c2c336efe843098650f0c00ba"
             },
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.4.catalina.bottle.tar.gz",
-              "sha256": "714e7821d45ddcc8aba6468049d68decb000a7537eb69ee5b0a803d2c57d518e"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.5.catalina.bottle.tar.gz",
+              "sha256": "8ad831c15da0b0ed4cb7e064267f31d302bfd5e876e5915a8d043a816029f60a"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.4.mojave.bottle.tar.gz",
-              "sha256": "21df0c7e82c7acd0d9f8b3ee15ddc1aa7c1fe5003c9599ed2e2a8f80bd092f03"
+              "url": "https://homebrew.bintray.com/bottles/awscli-2.1.5.mojave.bottle.tar.gz",
+              "sha256": "7357efa2fc836140d771861a954efffc436cdab0cd716cba397852366619ea39"
             }
           }
         }
@@ -467,7 +467,7 @@
         }
       },
       "docker": {
-        "version": "2.3.0.3,45519",
+        "version": "2.3.0.5,48029",
         "options": {
           "full_name": "docker"
         }
@@ -479,7 +479,7 @@
         }
       },
       "iterm2": {
-        "version": "3.3.11",
+        "version": "3.3.12",
         "options": {
           "full_name": "iterm2"
         }
@@ -491,19 +491,19 @@
         }
       },
       "karabiner-elements": {
-        "version": "12.9.0",
+        "version": "12.10.0",
         "options": {
           "full_name": "karabiner-elements"
         }
       },
       "krisp": {
-        "version": "1.12.13",
+        "version": "1.16.6",
         "options": {
           "full_name": "krisp"
         }
       },
       "loom": {
-        "version": "0.38.0",
+        "version": "0.50.11",
         "options": {
           "full_name": "loom"
         }
@@ -533,19 +533,19 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.45.1",
+        "version": "1.49.2",
         "options": {
           "full_name": "visual-studio-code"
         }
       },
       "zoomus": {
-        "version": "5.4.58887.1115",
+        "version": "5.4.58903.1122",
         "options": {
           "full_name": "zoomus"
         }
       },
       "postman": {
-        "version": "7.27.0",
+        "version": "7.33.1",
         "options": {
           "full_name": "postman"
         }
@@ -557,7 +557,7 @@
         }
       },
       "vlc": {
-        "version": "3.0.11",
+        "version": "3.0.11.1",
         "options": {
           "full_name": "vlc"
         }
@@ -575,15 +575,21 @@
         }
       },
       "dash": {
-        "version": "5.2.0",
+        "version": "5.4.1",
         "options": {
           "full_name": "dash"
         }
       },
       "telegram": {
-        "version": "6.3.1.203760",
+        "version": "7.1,206149",
         "options": {
           "full_name": "telegram"
+        }
+      },
+      "hammerspoon": {
+        "version": "0.9.82",
+        "options": {
+          "full_name": "hammerspoon"
         }
       }
     },
@@ -598,7 +604,7 @@
       },
       "Slack": {
         "id": "803453959",
-        "version": "4.10.3"
+        "version": "4.11.3"
       },
       "Vimari": {
         "id": "1480933944",
@@ -626,9 +632,9 @@
         "macOS": "10.15.7"
       },
       "big_sur": {
-        "HOMEBREW_VERSION": "2.5.12-338-g7afaebc",
+        "HOMEBREW_VERSION": "2.6.0",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "9c214141b2207488f63b57a00ce1e91659e51720",
+        "Homebrew/homebrew-core": "c92b05f896c95ccd09e42638625cf3003896760a",
         "CLT": "12.2.0.0.1.1604076827",
         "Xcode": "12.2",
         "macOS": "11.0.1"
