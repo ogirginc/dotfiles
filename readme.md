@@ -23,5 +23,5 @@ ln -sfn ~/Dotfiles/zshrc .zshrc
 ln -sfn ~/Dotfiles/git/ ~/.config/
 ln -sfn ~/Dotfiles/nvim/config/ ~/.config/nvim/
 ln -sfn ~/Dotfiles/nvim/init.vim ~/.config/nvim/
-ln -sfn ~/Dotfiles/hammerspoon ~/.hammerspoon
+ln -sFfn ~/Dotfiles/hammerspoon ~/.hammerspoon
 ```
