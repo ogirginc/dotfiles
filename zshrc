@@ -48,30 +48,36 @@ source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 
 ################################################################################
-# Other
-################################################################################
-# Add asdf to shell
-. $(brew --prefix asdf)/asdf.sh
-
-
-# Add fzf to shell
-[ -f $HOME/.fzf.zsh ] && source $HOME/.fzf.zsh
-
 # Aliases
+################################################################################
 alias .dotfiles="cd $HOME/Dotfiles && nvim -c ':NERDTreeToggle'"
-
 alias .brewrc="nvim $HOME/Dotfiles/Brewfile"
 alias .gitconfig="nvim $HOME/Dotfiles/git/config"
 alias .nvimrc="nvim $HOME/Dotfiles/nvim/config/init.vimrc"
 alias .zshrc="nvim $HOME/Dotfiles/zshrc"
 
-# Add to path
-export PATH="/usr/local/opt/openjdk/bin:$PATH" # Homebrew's Java
 
-# ENV exports
+
+################################################################################
+# Environment Variables
+################################################################################
 export XDG_CONFIG_HOME="$HOME/.config"
 export HOMEBREW_BUNDLE_FILE="$HOME/Dotfiles/Brewfile"
 export LANG="en_US.UTF-8"
+
+
+
+################################################################################
+# Other
+################################################################################
+# Add asdf to shell
+. $(brew --prefix asdf)/asdf.sh
+
+# Add fzf to shell
+[ -f $HOME/.fzf.zsh ] && source $HOME/.fzf.zsh
+
+# Add to path
+export PATH="/usr/local/opt/openjdk/bin:$PATH" # Homebrew's Java
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
