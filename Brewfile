@@ -62,7 +62,7 @@ cask "telegram"
 cask "visual-studio-code"
 cask "vlc"
 cask "webtorrent"
-cask "zoomus"
+cask "zoom"
 
 mas "1Password 7 - Password Manager", id: 1333542190
 mas "Browserism for Chrome", id: 979047768
