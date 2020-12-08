@@ -64,6 +64,7 @@ alias .zshrc="nvim $HOME/Dotfiles/zshrc"
 export XDG_CONFIG_HOME="$HOME/.config"
 export HOMEBREW_BUNDLE_FILE="$HOME/Dotfiles/Brewfile"
 export LANG="en_US.UTF-8"
+export EDITOR="nvim"
 
 
 
