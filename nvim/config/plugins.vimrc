@@ -33,6 +33,7 @@ Plug 'slim-template/vim-slim'
 " JAVASCRIPT
 Plug 'pangloss/vim-javascript'
 Plug 'HerringtonDarkholme/yats.vim'
+Plug 'maxmellon/vim-jsx-pretty'
 
 " CSHARP & DOTNET
 Plug 'OmniSharp/omnisharp-vim'
