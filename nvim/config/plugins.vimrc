@@ -28,6 +28,7 @@ Plug 'ecomba/vim-ruby-refactoring'
 Plug 'ck3g/vim-change-hash-syntax'
 
 Plug 'nelstrom/vim-textobj-rubyblock'
+Plug 'slim-template/vim-slim'
 
 " JAVASCRIPT
 Plug 'pangloss/vim-javascript'
@@ -89,3 +90,4 @@ source $HOME/.config/nvim/config/vim-indent.vimrc
 source $HOME/.config/nvim/config/vim-move.vimrc
 source $HOME/.config/nvim/config/vim-test.vimrc
 source $HOME/.config/nvim/config/neo-solarized.vimrc
+source $HOME/.config/nvim/config/vim-slim.vimrc
