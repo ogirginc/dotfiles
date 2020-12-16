@@ -15,6 +15,7 @@ let g:lightline = {
       \              [ 'fileformat', 'fileencoding', 'filetype' ] ]
       \ },
       \ 'component_function': {
+      \   'filename': 'LightlineTruncatedFileName',
       \   'gitbranch': 'FugitiveHead'
       \ },
       \ 'component': {
@@ -22,3 +23,12 @@ let g:lightline = {
       \   'charvaluehex': '0x%B'
       \ },
       \ }
+
+function! LightlineTruncatedFileName()
+let l:filePath = expand('%')
+    if winwidth(0) > 100
+        return l:filePath
+    else
+        return pathshorten(l:filePath)
+    endif
+endfunction
