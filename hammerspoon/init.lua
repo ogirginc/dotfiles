@@ -1,3 +1,7 @@
+--------------------------------------------------------------------------------
+-- A ShiftIt like Hammerspoon window management configuration.
+-- https://github.com/peterklijn/hammerspoon-shiftit
+--------------------------------------------------------------------------------
 hs.loadSpoon("ShiftIt")
 spoon.ShiftIt:bindHotkeys({})
 
