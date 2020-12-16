@@ -490,6 +490,20 @@
 	<dict>
 		<key>installed</key>
 		<dict>
+			<key>cancan</key>
+			<dict>
+				<key>date</key>
+				<date>2020-12-12T09:51:53Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>cancan</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>cancan</string>
+				</dict>
+			</dict>
 			<key>devise</key>
 			<dict>
 				<key>date</key>
@@ -502,6 +516,34 @@
 					<string>rubyGems</string>
 					<key>uniqueIdentifier</key>
 					<string>devise</string>
+				</dict>
+			</dict>
+			<key>stripe</key>
+			<dict>
+				<key>date</key>
+				<date>2020-12-12T09:51:52Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>stripe</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>stripe</string>
+				</dict>
+			</dict>
+			<key>twilio</key>
+			<dict>
+				<key>date</key>
+				<date>2020-12-12T09:52:00Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>twilio</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>twilio</string>
 				</dict>
 			</dict>
 		</dict>
