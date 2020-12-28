@@ -25,5 +25,7 @@
   blr = "branch --list --remotes"
   prs = "pull --rebase --autostash"
 
+  wip = "for-each-ref --sort='authordate:iso8601' --format=' %(color:green)%(authordate:relative)%09%(color:white)%(refname:short)' refs/heads"
+
 [diff "rspec"]
   xfuncname = "^[ \t]*((RSpec|describe|context|it|before|after|feature|scenario|background)[ \t].*)$"
