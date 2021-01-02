@@ -591,6 +591,18 @@
         "options": {
           "full_name": "hammerspoon"
         }
+      },
+      "1password-cli": {
+        "version": "1.8.0",
+        "options": {
+          "full_name": "1password-cli"
+        }
+      },
+      "zoom": {
+        "version": "5.4.58903.1122",
+        "options": {
+          "full_name": "zoom"
+        }
       }
     },
     "mas": {
@@ -604,7 +616,7 @@
       },
       "Slack": {
         "id": "803453959",
-        "version": "4.11.3"
+        "version": "4.12.0"
       },
       "Vimari": {
         "id": "1480933944",
@@ -635,9 +647,9 @@
         "HOMEBREW_VERSION": "2.6.0",
         "HOMEBREW_PREFIX": "/usr/local",
         "Homebrew/homebrew-core": "c92b05f896c95ccd09e42638625cf3003896760a",
-        "CLT": "12.2.0.0.1.1604076827",
-        "Xcode": "12.2",
-        "macOS": "11.0.1"
+        "CLT": "",
+        "Xcode": "",
+        "macOS": "11.1"
       }
     }
   }
