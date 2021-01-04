@@ -25,8 +25,32 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=243'
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
-ZSH_AUTOSUGGEST_USE_ASYNC=true
+ZSH_AUTOSUGGEST_USE_ASYNC=trug
 MENU_COMPLETE=true
+
+
+
+#########################################################################################
+# ZSH History Settings
+#########################################################################################
+# History location.
+export HISTFILE=~/.zsh_history
+
+# It’s not possible to set the history to an unlimited size in zsh. The max
+# history size can be the value of LONG_MAX variable from limits.h header,
+# which is 9223372036854775807.
+export HISTFILESIZE=9223372036854775800
+export HISTSIZE=9223372036854775800
+
+# Append history without exiting shell.
+setopt INC_APPEND_HISTORY
+export HISTTIMEFORMAT="[%F %T] "
+
+# Add Timestamp to history.
+setopt EXTENDED_HISTORY
+
+# When searching, skip duplicates and show each command only once.
+setopt HIST_FIND_NO_DUPS
 
 
 
