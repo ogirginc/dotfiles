@@ -24,4 +24,5 @@ ln -sfn ~/Dotfiles/git/ ~/.config/
 ln -sfn ~/Dotfiles/nvim/config/ ~/.config/nvim/
 ln -sfn ~/Dotfiles/nvim/init.vim ~/.config/nvim/
 ln -sFfn ~/Dotfiles/hammerspoon ~/.hammerspoon
+ln -sFfn ~/Dotfiles/pryrc ~/.pryrc
 ```
