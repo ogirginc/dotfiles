@@ -216,6 +216,24 @@
 					<string>Mac_Startup_Keys</string>
 				</dict>
 			</dict>
+			<key>RSpec_Expectations</key>
+			<dict>
+				<key>date</key>
+				<date>2021-01-05T12:28:46Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>ruby</string>
+					</array>
+					<key>name</key>
+					<string>RSpec Expectations</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>RSpec_Expectations</string>
+				</dict>
+			</dict>
 			<key>Rails_Migrations_CLI</key>
 			<dict>
 				<key>date</key>
@@ -518,10 +536,52 @@
 					<string>devise</string>
 				</dict>
 			</dict>
+			<key>rspec-core</key>
+			<dict>
+				<key>date</key>
+				<date>2021-01-05T12:29:36Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>rspec-core</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>rspec-core</string>
+				</dict>
+			</dict>
+			<key>rspec-expectations</key>
+			<dict>
+				<key>date</key>
+				<date>2021-01-05T12:29:35Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>rspec-expectations</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>rspec-expectations</string>
+				</dict>
+			</dict>
+			<key>rspec-rails</key>
+			<dict>
+				<key>date</key>
+				<date>2021-01-05T12:29:34Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>rspec-rails</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>rspec-rails</string>
+				</dict>
+			</dict>
 			<key>stripe</key>
 			<dict>
 				<key>date</key>
-				<date>2020-12-12T09:51:52Z</date>
+				<date>2021-01-06T06:29:34Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -548,7 +608,22 @@
 			</dict>
 		</dict>
 		<key>uninstalled</key>
-		<dict/>
+		<dict>
+			<key>rspec</key>
+			<dict>
+				<key>date</key>
+				<date>2021-01-05T12:31:00Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>rspec</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>rspec</string>
+				</dict>
+			</dict>
+		</dict>
 	</dict>
 	<key>DHScalaRepo</key>
 	<dict>
