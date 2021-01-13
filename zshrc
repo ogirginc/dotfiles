@@ -43,14 +43,18 @@ export HISTFILESIZE=9223372036854775800
 export HISTSIZE=9223372036854775800
 
 # Append history without exiting shell.
-setopt INC_APPEND_HISTORY
+setopt inc_append_history
 export HISTTIMEFORMAT="[%F %T] "
 
 # Add Timestamp to history.
-setopt EXTENDED_HISTORY
+setopt extended_history
 
 # When searching, skip duplicates and show each command only once.
-setopt HIST_FIND_NO_DUPS
+setopt hist_find_no_dups
+
+# To retrieve the history file everytime history is called upon. The only
+# caveat is the need to press enter to fetch history.
+setopt share_history
 
 
 
