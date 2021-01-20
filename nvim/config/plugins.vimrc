@@ -35,49 +35,50 @@ Plug 'pangloss/vim-javascript'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'maxmellon/vim-jsx-pretty'
 
-" CSHARP & DOTNET
-Plug 'OmniSharp/omnisharp-vim'
-Plug 'adamclerk/vim-razor'
-
-" KOTLIN
-Plug 'udalov/kotlin-vim'
-
 " GIT
 Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 
-" OTHER
-Plug 'AndrewRadev/splitjoin.vim'
-Plug 'henrik/vim-indexed-search'
-Plug 'junegunn/vim-easy-align'
-Plug 'kana/vim-textobj-user'
-Plug 'matze/vim-move'
-Plug 'rizzatti/dash.vim'
-Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-surround'
-Plug 'voldikss/vim-floaterm'
-
-" Code Styling
+" CODE STYLING
 Plug 'tpope/vim-abolish'
 Plug 'ConradIrwin/vim-bracketed-paste'
 
-" Other
-Plug 'janko-m/vim-test'
-Plug 'tpope/vim-repeat'
-Plug 'tpope/vim-jdaddy' " JSON manipulation and pretty printing
-Plug 'tpope/vim-speeddating'
-Plug 'schickling/vim-bufonly'
-Plug 'nathanaelkane/vim-indent-guides'
-Plug 'tpope/vim-obsession'
+" OTHER
+Plug 'AndrewRadev/splitjoin.vim'
+Plug 'henrik/vim-indexed-search'
 Plug 'inkarkat/vim-SyntaxRange'
+Plug 'janko-m/vim-test'
+Plug 'junegunn/vim-easy-align'
+Plug 'kana/vim-textobj-user'
+Plug 'matze/vim-move'
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'rizzatti/dash.vim'
+Plug 'schickling/vim-bufonly'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-jdaddy' " JSON manipulation and pretty printing
+Plug 'tpope/vim-obsession'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-speeddating'
+Plug 'tpope/vim-surround'
+Plug 'voldikss/vim-floaterm'
+
+" THEME
+Plug 'iCyMind/NeoSolarized'
+Plug 'itchyny/lightline.vim'
+
+" UNUSED
 
 " Plug 'w0rp/ale'
 " Plug 'mhinz/vim-startify'
 " Plug 'terryma/vim-multiple-cursors'
 
-Plug 'iCyMind/NeoSolarized'
-Plug 'itchyny/lightline.vim'
+" CSHARP & DOTNET
+" Plug 'OmniSharp/omnisharp-vim'
+" Plug 'adamclerk/vim-razor'
+
+" KOTLIN
+" Plug 'udalov/kotlin-vim'
 
 call plug#end()
 
