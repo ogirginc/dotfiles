@@ -661,26 +661,6 @@
 					<string>HTTP</string>
 				</dict>
 			</dict>
-			<key>Kotlin</key>
-			<dict>
-				<key>date</key>
-				<date>2020-12-12T09:31:36Z</date>
-				<key>entry</key>
-				<dict>
-					<key>aliases</key>
-					<array/>
-					<key>authorLinkHref</key>
-					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Kotlin#readme</string>
-					<key>authorLinkText</key>
-					<string>Alexander Ronald Altman</string>
-					<key>name</key>
-					<string>Kotlin</string>
-					<key>platform</key>
-					<string>usercontribKotlin</string>
-					<key>uniqueIdentifier</key>
-					<string>Kotlin</string>
-				</dict>
-			</dict>
 			<key>Kubernetes</key>
 			<dict>
 				<key>date</key>
@@ -855,7 +835,28 @@
 			</dict>
 		</dict>
 		<key>uninstalled</key>
-		<dict/>
+		<dict>
+			<key>Kotlin</key>
+			<dict>
+				<key>date</key>
+				<date>2021-01-20T11:43:45Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Kotlin#readme</string>
+					<key>authorLinkText</key>
+					<string>Alexander Ronald Altman</string>
+					<key>name</key>
+					<string>Kotlin</string>
+					<key>platform</key>
+					<string>usercontribKotlin</string>
+					<key>uniqueIdentifier</key>
+					<string>Kotlin</string>
+				</dict>
+			</dict>
+		</dict>
 	</dict>
 	<key>actuallyDarkWebView</key>
 	<false/>
@@ -918,6 +919,8 @@
 	<true/>
 	<key>showInDock</key>
 	<false/>
+	<key>sortDocsetsAlphabetically</key>
+	<true/>
 	<key>versionedDHCheatRepo</key>
 	<dict>
 		<key>installed</key>
