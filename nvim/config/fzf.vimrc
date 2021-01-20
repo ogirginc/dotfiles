@@ -35,8 +35,8 @@ let g:fzf_action = {
 "   \   fzf#vim#with_preview(),
 "   \   <bang>0)
 
-" " Enable per-command history.
-" " CTRL-N and CTRL-P will be automatically bound to next-history and
-" " previous-history instead of down and up. If you don't like the change,
-" " explicitly bind the keys to down and up in your $FZF_DEFAULT_OPTS.
-" let g:fzf_history_dir = '~/.local/share/fzf-history'
+" Enable per-command history.
+" CTRL-N and CTRL-P will be automatically bound to next-history and
+" previous-history instead of down and up. If you don't like the change,
+" explicitly bind the keys to down and up in your $FZF_DEFAULT_OPTS.
+let g:fzf_history_dir = '~/.local/share/fzf-history'
