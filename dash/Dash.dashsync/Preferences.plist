@@ -41,7 +41,7 @@
 			<key>Git</key>
 			<dict>
 				<key>date</key>
-				<date>2020-08-07T07:46:22Z</date>
+				<date>2021-01-23T11:46:43Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -727,7 +727,7 @@
 			<key>RuboCop</key>
 			<dict>
 				<key>date</key>
-				<date>2020-12-12T09:31:59Z</date>
+				<date>2021-01-23T11:46:44Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -920,7 +920,7 @@
 	<key>showInDock</key>
 	<false/>
 	<key>sortDocsetsAlphabetically</key>
-	<true/>
+	<false/>
 	<key>versionedDHCheatRepo</key>
 	<dict>
 		<key>installed</key>
