@@ -70,6 +70,7 @@ mas "Browserism for Chrome", id: 979047768
 mas "Octotree Pro", id: 1457450145
 mas "Poolside FM", id: 1514817810
 mas "Slack", id: 803453959
+mas "Userscripts", id: 1463298887
 mas "Vimari", id: 1480933944
 mas "WhatsApp Desktop", id: 1147396723
 
