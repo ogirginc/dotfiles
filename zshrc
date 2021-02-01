@@ -95,6 +95,8 @@ export HOMEBREW_BUNDLE_FILE="$HOME/Dotfiles/Brewfile"
 export LANG="en_US.UTF-8"
 export EDITOR="nvim"
 
+source "$HOME/Documents/Dotfiles/env-vars.sh"
+
 
 
 #########################################################################################
