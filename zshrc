@@ -103,6 +103,10 @@ source "$HOME/Documents/Dotfiles/env-vars.sh"
 # Functions
 #########################################################################################
 function rubocop_changes() {
+  git status --porcelain | sed s/^...// | xargs rubocop
+}
+
+function bundle_rubocop_changes() {
   git status --porcelain | sed s/^...// | xargs bundle exec rubocop
 }
 
