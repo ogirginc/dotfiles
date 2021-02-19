@@ -44,6 +44,9 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-abolish'
 Plug 'ConradIrwin/vim-bracketed-paste'
 
+" UNIX
+Plug 'lambdalisue/suda.vim'
+
 " OTHER
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'henrik/vim-indexed-search'
