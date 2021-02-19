@@ -581,7 +581,7 @@
 			<key>stripe</key>
 			<dict>
 				<key>date</key>
-				<date>2021-01-06T06:29:34Z</date>
+				<date>2021-02-10T12:14:26Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -727,7 +727,7 @@
 			<key>RuboCop</key>
 			<dict>
 				<key>date</key>
-				<date>2021-01-23T11:46:44Z</date>
+				<date>2021-02-05T12:13:23Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -869,6 +869,11 @@
 	<dict>
 		<key>installed</key>
 		<dict>
+			<key>http://kapeli.com/feeds/Ruby_3.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-02-11T09:27:36Z</date>
+			</dict>
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_6.xml</key>
 			<dict>
 				<key>date</key>
