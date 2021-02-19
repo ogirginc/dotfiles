@@ -8,6 +8,15 @@
 hs.loadSpoon("SpoonInstall")
 SpoonInstall=spoon.SpoonInstall
 
+----------------------------------------
+-- ReloadConfiguration
+----------------------------------------
+SpoonInstall:andUse("ReloadConfiguration")
+spoon.ReloadConfiguration:start()
+hs.notify.new({title="Hammerspoon", informativeText="Config file is reloaded"}):send() 
+
+
+
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 -- A ShiftIt like Hammerspoon window management configuration.
