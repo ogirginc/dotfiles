@@ -18,11 +18,20 @@ hs.notify.new({title="Hammerspoon", informativeText="Config file is reloaded"}):
 
 
 --------------------------------------------------------------------------------
+-- SPOONS
+--------------------------------------------------------------------------------
+
 --------------------------------------------------------------------------------
 -- A ShiftIt like Hammerspoon window management configuration.
 -- https://github.com/peterklijn/hammerspoon-shiftit
 --------------------------------------------------------------------------------
-hs.loadSpoon("ShiftIt")
+SpoonInstall.repos.ShiftIt = {
+   url = "https://github.com/peterklijn/hammerspoon-shiftit",
+   desc = "ShiftIt spoon repository",
+   branch = "master",
+}
+
+SpoonInstall:andUse("ShiftIt", { repo = "ShiftIt" })
 spoon.ShiftIt:bindHotkeys({})
 
 --------------------------------------------------------------------------------
