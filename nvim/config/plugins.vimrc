@@ -83,6 +83,10 @@ Plug 'itchyny/lightline.vim'
 " KOTLIN
 " Plug 'udalov/kotlin-vim'
 
+" EMBER
+Plug 'joukevandermaas/vim-ember-hbs'
+Plug 'AndrewRadev/ember_tools.vim'
+
 call plug#end()
 
 source $HOME/.config/nvim/config/coc.vimrc
