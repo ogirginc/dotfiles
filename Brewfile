@@ -43,6 +43,7 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 
 # cask "alfred" # Setapp
+cask "apparition47/tap/mailtrackerblocker"
 cask "1password-cli"
 cask "appcleaner"
 cask "contexts"
