@@ -39,6 +39,7 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
+Plug 'ruanyl/vim-gh-line'
 
 " CODE STYLING
 Plug 'tpope/vim-abolish'
