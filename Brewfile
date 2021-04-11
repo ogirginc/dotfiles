@@ -74,6 +74,7 @@ mas "1Password 7 - Password Manager", id: 1333542190
 mas "Browserism for Chrome", id: 979047768
 mas "Octotree Pro", id: 1457450145
 mas "Poolside FM", id: 1514817810
+mas "Refined GitHub", id: 1519867270
 mas "Slack", id: 803453959
 mas "Userscripts", id: 1463298887
 mas "Vimari", id: 1480933944
