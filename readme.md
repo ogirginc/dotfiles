@@ -23,5 +23,7 @@ ln -sfn ~/Dotfiles/zshrc .zshrc
 ln -sfn ~/Dotfiles/git/ ~/.config/
 ln -sfn ~/Dotfiles/nvim/config/ ~/.config/nvim/
 ln -sfn ~/Dotfiles/nvim/init.vim ~/.config/nvim/
+
+ln -sFfn ~/Dotfiles/tmuxconf ~/.tmux.conf
 ln -sFfn ~/Dotfiles/hammerspoon ~/.hammerspoon
 ```

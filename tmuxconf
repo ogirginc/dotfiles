@@ -1,0 +1,60 @@
+################################################################################
+# GENERAL #
+################################################################################
+
+# Set bind key to reload configuration file
+bind r source-file ~/.tmux.conf \; display "Reloaded!"
+
+# Set history loggint to very high
+set -g history-limit 999999999
+
+# Vi mode
+setw -g mode-keys vi
+
+# Enable mouse mode
+set -g mouse on
+# setw -g mode-mouse off
+# set -g mouse-select-pane on
+# set -g mouse-resize-pane on
+# set -g mouse-select-window on
+
+################################################################################
+# THEME #
+################################################################################
+# Start window and pane indexing at 1 instead of 0
+set -g base-index 1
+set -g pane-base-index 1
+
+# Status bar
+# set -g status-fg white
+# set -g status-bg black
+
+# refresh status bar
+# set -g status-interval 60
+
+# setw -g window-status-fg cyan
+# setw -g window-status-bg default
+# setw -g window-status-attr dim
+
+# Command line
+# set -g message-fg white
+# set -g message-bg black
+# set -g message-attr bright
+
+# Window list
+set -g status-justify centre
+
+# Disable auto window naming
+set-option -g allow-rename off
+
+# Identify activity in other windows
+setw -g monitor-activity on
+set -g visual-activity on
+
+# Status bar left
+# set -g status-left-length 80
+set -g status-left "Session: #[fg=green]#S #[fg=cyan]#P "
+
+# Status bar right
+set -g status-right ""
+# set -g status-right "#[fg=red]#(~/Developer/dotfiles/battery Discharging) #[fg=cyan] %a, %m/%d/%Y %H:%M"
