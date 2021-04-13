@@ -45,6 +45,7 @@ brew "zsh-syntax-highlighting"
 brew "overmind"
 # cask "alfred" # Setapp
 cask "apparition47/tap/mailtrackerblocker"
+cask "chromedriver"
 cask "tuple"
 cask "1password-cli"
 cask "appcleaner"
