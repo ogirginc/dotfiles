@@ -42,6 +42,7 @@ brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 
+brew "overmind"
 # cask "alfred" # Setapp
 cask "apparition47/tap/mailtrackerblocker"
 cask "1password-cli"

@@ -83,6 +83,10 @@ function! FormatXml()
   set filetype=xml syntax=xml | %!xmllint --format -
 endfunction
 
+function! PrettyXml()
+  set filetype=xml syntax=xml | %!xmllint --format -
+endfunction
+
 " Use leader + rn to rename
 nnoremap <leader>rn :call RenameFile()<CR>
 
