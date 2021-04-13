@@ -42,6 +42,7 @@ brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 
+brew "memcached"
 brew "overmind"
 # cask "alfred" # Setapp
 cask "apparition47/tap/mailtrackerblocker"
