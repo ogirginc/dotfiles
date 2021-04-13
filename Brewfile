@@ -31,7 +31,7 @@ brew "htop"
 brew "jq"
 brew "lazygit"
 brew "neovim"
-brew "petere/postgresql/postgresql-common"
+# brew "petere/postgresql/postgresql-common"
 brew "redis"
 brew "ripgrep"
 brew "romkatv/powerlevel10k/powerlevel10k"
@@ -44,6 +44,8 @@ brew "zsh-syntax-highlighting"
 
 brew "memcached"
 brew "overmind"
+brew "postgresql@11", restart_service: true, link: true
+
 # cask "alfred" # Setapp
 cask "apparition47/tap/mailtrackerblocker"
 cask "chromedriver"
