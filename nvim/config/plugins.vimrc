@@ -97,6 +97,7 @@ source $HOME/.config/nvim/config/fzf.vimrc
 source $HOME/.config/nvim/config/lightline.vimrc
 source $HOME/.config/nvim/config/nerdtree.vimrc
 source $HOME/.config/nvim/config/omnisharp.vimrc
+source $HOME/.config/nvim/config/vim-commentary.vimrc
 source $HOME/.config/nvim/config/vim-indent.vimrc
 source $HOME/.config/nvim/config/vim-move.vimrc
 source $HOME/.config/nvim/config/vim-test.vimrc
