@@ -6,10 +6,158 @@
 	<dict>
 		<key>installed</key>
 		<dict>
+			<key>HTTP_Status_Codes_Rails</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:27:37Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>HTTP Status Codes Ruby on Rails</string>
+						<string>HTTP Status Codes for Ruby on Rails</string>
+						<string>HTTP Status Codes Rails</string>
+						<string>HTTP Status Codes for RoR</string>
+					</array>
+					<key>name</key>
+					<string>HTTP Status Codes for Rails</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>HTTP_Status_Codes_Rails</string>
+				</dict>
+			</dict>
+			<key>PostgreSQL_CLI</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:27:54Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>PostgreSQL CLI</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>PostgreSQL_CLI</string>
+				</dict>
+			</dict>
+			<key>RSpec_Expectations</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:28:03Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>ruby</string>
+					</array>
+					<key>name</key>
+					<string>RSpec Expectations</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>RSpec_Expectations</string>
+				</dict>
+			</dict>
+			<key>Rails_Migrations_CLI</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:27:59Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>Ruby on Rails</string>
+						<string>RoR</string>
+					</array>
+					<key>name</key>
+					<string>Rails Migrations CLI</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Rails_Migrations_CLI</string>
+				</dict>
+			</dict>
+			<key>Rails_i18n</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:27:59Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>Ruby on Rails</string>
+						<string>RoR</string>
+					</array>
+					<key>name</key>
+					<string>Rails i18n</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Rails_i18n</string>
+				</dict>
+			</dict>
+			<key>Ruby_strftime</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:28:04Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>Ruby strftime</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Ruby_strftime</string>
+				</dict>
+			</dict>
+			<key>Semantic_Commits</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:28:09Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>git svn source control hg mercurial</string>
+					</array>
+					<key>name</key>
+					<string>Semantic Commits</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Semantic_Commits</string>
+				</dict>
+			</dict>
+			<key>Unix_File_Permissions</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:28:21Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>chmod</string>
+					</array>
+					<key>name</key>
+					<string>Unix File Permissions</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>Unix_File_Permissions</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>uninstalled</key>
+		<dict>
 			<key>Docker</key>
 			<dict>
 				<key>date</key>
-				<date>2020-08-07T07:46:10Z</date>
+				<date>2021-03-10T12:15:01Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -25,7 +173,7 @@
 			<key>Dockerfile</key>
 			<dict>
 				<key>date</key>
-				<date>2020-08-07T07:46:10Z</date>
+				<date>2021-03-10T12:15:01Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -41,7 +189,7 @@
 			<key>Git</key>
 			<dict>
 				<key>date</key>
-				<date>2021-01-23T11:46:43Z</date>
+				<date>2021-03-10T12:15:05Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -62,7 +210,7 @@
 			<key>Git_Flow</key>
 			<dict>
 				<key>date</key>
-				<date>2020-08-07T07:46:20Z</date>
+				<date>2021-03-10T12:15:02Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -83,7 +231,7 @@
 			<key>HTML_Entities</key>
 			<dict>
 				<key>date</key>
-				<date>2020-08-07T07:46:28Z</date>
+				<date>2021-03-10T12:15:02Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -99,7 +247,7 @@
 			<key>HTML_Head_Elements</key>
 			<dict>
 				<key>date</key>
-				<date>2020-08-07T07:46:29Z</date>
+				<date>2021-03-10T12:15:04Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -115,7 +263,7 @@
 			<key>HTTP_Header_Fields</key>
 			<dict>
 				<key>date</key>
-				<date>2020-08-07T07:46:33Z</date>
+				<date>2021-03-10T12:15:03Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -131,7 +279,7 @@
 			<key>HTTP_Status_Codes</key>
 			<dict>
 				<key>date</key>
-				<date>2020-08-07T07:46:31Z</date>
+				<date>2021-03-10T12:15:04Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -144,31 +292,10 @@
 					<string>HTTP_Status_Codes</string>
 				</dict>
 			</dict>
-			<key>HTTP_Status_Codes_Rails</key>
-			<dict>
-				<key>date</key>
-				<date>2020-08-07T07:46:32Z</date>
-				<key>entry</key>
-				<dict>
-					<key>aliases</key>
-					<array>
-						<string>HTTP Status Codes Ruby on Rails</string>
-						<string>HTTP Status Codes for Ruby on Rails</string>
-						<string>HTTP Status Codes Rails</string>
-						<string>HTTP Status Codes for RoR</string>
-					</array>
-					<key>name</key>
-					<string>HTTP Status Codes for Rails</string>
-					<key>platform</key>
-					<string>cheatsheet</string>
-					<key>uniqueIdentifier</key>
-					<string>HTTP_Status_Codes_Rails</string>
-				</dict>
-			</dict>
 			<key>Kubernetes</key>
 			<dict>
 				<key>date</key>
-				<date>2020-12-12T09:29:29Z</date>
+				<date>2021-03-10T12:15:05Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -184,7 +311,7 @@
 			<key>LaTeX_Math_Symbols</key>
 			<dict>
 				<key>date</key>
-				<date>2020-12-12T09:28:49Z</date>
+				<date>2021-03-10T12:15:04Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -200,7 +327,7 @@
 			<key>Mac_Startup_Keys</key>
 			<dict>
 				<key>date</key>
-				<date>2020-08-07T07:46:49Z</date>
+				<date>2021-03-10T12:15:05Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -216,66 +343,10 @@
 					<string>Mac_Startup_Keys</string>
 				</dict>
 			</dict>
-			<key>RSpec_Expectations</key>
-			<dict>
-				<key>date</key>
-				<date>2021-01-05T12:28:46Z</date>
-				<key>entry</key>
-				<dict>
-					<key>aliases</key>
-					<array>
-						<string>ruby</string>
-					</array>
-					<key>name</key>
-					<string>RSpec Expectations</string>
-					<key>platform</key>
-					<string>cheatsheet</string>
-					<key>uniqueIdentifier</key>
-					<string>RSpec_Expectations</string>
-				</dict>
-			</dict>
-			<key>Rails_Migrations_CLI</key>
-			<dict>
-				<key>date</key>
-				<date>2020-08-07T07:47:06Z</date>
-				<key>entry</key>
-				<dict>
-					<key>aliases</key>
-					<array>
-						<string>Ruby on Rails</string>
-						<string>RoR</string>
-					</array>
-					<key>name</key>
-					<string>Rails Migrations CLI</string>
-					<key>platform</key>
-					<string>cheatsheet</string>
-					<key>uniqueIdentifier</key>
-					<string>Rails_Migrations_CLI</string>
-				</dict>
-			</dict>
-			<key>Rails_i18n</key>
-			<dict>
-				<key>date</key>
-				<date>2020-08-07T07:47:07Z</date>
-				<key>entry</key>
-				<dict>
-					<key>aliases</key>
-					<array>
-						<string>Ruby on Rails</string>
-						<string>RoR</string>
-					</array>
-					<key>name</key>
-					<string>Rails i18n</string>
-					<key>platform</key>
-					<string>cheatsheet</string>
-					<key>uniqueIdentifier</key>
-					<string>Rails_i18n</string>
-				</dict>
-			</dict>
 			<key>Regular_Expressions</key>
 			<dict>
 				<key>date</key>
-				<date>2020-08-07T07:47:11Z</date>
+				<date>2021-03-10T12:15:04Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -291,26 +362,10 @@
 					<string>Regular_Expressions</string>
 				</dict>
 			</dict>
-			<key>Ruby_strftime</key>
-			<dict>
-				<key>date</key>
-				<date>2020-08-07T07:47:13Z</date>
-				<key>entry</key>
-				<dict>
-					<key>aliases</key>
-					<array/>
-					<key>name</key>
-					<string>Ruby strftime</string>
-					<key>platform</key>
-					<string>cheatsheet</string>
-					<key>uniqueIdentifier</key>
-					<string>Ruby_strftime</string>
-				</dict>
-			</dict>
 			<key>SMTP_Status_Codes</key>
 			<dict>
 				<key>date</key>
-				<date>2020-12-12T09:29:51Z</date>
+				<date>2021-03-10T12:15:01Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -323,28 +378,10 @@
 					<string>SMTP_Status_Codes</string>
 				</dict>
 			</dict>
-			<key>Unix_File_Permissions</key>
-			<dict>
-				<key>date</key>
-				<date>2020-08-07T07:47:29Z</date>
-				<key>entry</key>
-				<dict>
-					<key>aliases</key>
-					<array>
-						<string>chmod</string>
-					</array>
-					<key>name</key>
-					<string>Unix File Permissions</string>
-					<key>platform</key>
-					<string>cheatsheet</string>
-					<key>uniqueIdentifier</key>
-					<string>Unix_File_Permissions</string>
-				</dict>
-			</dict>
 			<key>Vim</key>
 			<dict>
 				<key>date</key>
-				<date>2020-08-07T07:47:30Z</date>
+				<date>2021-03-10T12:15:01Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -360,7 +397,7 @@
 			<key>Visual_Studio_Code</key>
 			<dict>
 				<key>date</key>
-				<date>2020-12-21T08:21:48Z</date>
+				<date>2021-03-10T12:15:05Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -376,7 +413,7 @@
 			<key>YAML</key>
 			<dict>
 				<key>date</key>
-				<date>2020-12-12T09:30:19Z</date>
+				<date>2021-03-10T12:15:04Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -392,7 +429,7 @@
 			<key>Yard</key>
 			<dict>
 				<key>date</key>
-				<date>2020-12-12T09:30:08Z</date>
+				<date>2021-03-10T12:15:05Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -410,7 +447,7 @@
 			<key>iTerm2</key>
 			<dict>
 				<key>date</key>
-				<date>2020-08-07T07:46:40Z</date>
+				<date>2021-03-10T12:15:03Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -431,7 +468,7 @@
 			<key>strftime_Format_Codes</key>
 			<dict>
 				<key>date</key>
-				<date>2020-12-12T09:29:57Z</date>
+				<date>2021-03-10T12:15:01Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -445,8 +482,6 @@
 				</dict>
 			</dict>
 		</dict>
-		<key>uninstalled</key>
-		<dict/>
 	</dict>
 	<key>DHClojureRepo</key>
 	<dict>
@@ -508,34 +543,6 @@
 	<dict>
 		<key>installed</key>
 		<dict>
-			<key>cancan</key>
-			<dict>
-				<key>date</key>
-				<date>2020-12-12T09:51:53Z</date>
-				<key>entry</key>
-				<dict>
-					<key>name</key>
-					<string>cancan</string>
-					<key>platform</key>
-					<string>rubyGems</string>
-					<key>uniqueIdentifier</key>
-					<string>cancan</string>
-				</dict>
-			</dict>
-			<key>devise</key>
-			<dict>
-				<key>date</key>
-				<date>2020-12-12T09:36:42Z</date>
-				<key>entry</key>
-				<dict>
-					<key>name</key>
-					<string>devise</string>
-					<key>platform</key>
-					<string>rubyGems</string>
-					<key>uniqueIdentifier</key>
-					<string>devise</string>
-				</dict>
-			</dict>
 			<key>rspec-core</key>
 			<dict>
 				<key>date</key>
@@ -567,7 +574,7 @@
 			<key>rspec-rails</key>
 			<dict>
 				<key>date</key>
-				<date>2021-01-05T12:29:34Z</date>
+				<date>2021-03-24T09:32:44Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -578,10 +585,55 @@
 					<string>rspec-rails</string>
 				</dict>
 			</dict>
+		</dict>
+		<key>uninstalled</key>
+		<dict>
+			<key>cancan</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:15:01Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>cancan</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>cancan</string>
+				</dict>
+			</dict>
+			<key>devise</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:15:01Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>devise</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>devise</string>
+				</dict>
+			</dict>
+			<key>rspec</key>
+			<dict>
+				<key>date</key>
+				<date>2021-01-05T12:31:00Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>rspec</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>rspec</string>
+				</dict>
+			</dict>
 			<key>stripe</key>
 			<dict>
 				<key>date</key>
-				<date>2021-02-10T12:14:26Z</date>
+				<date>2021-03-10T12:15:02Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -595,7 +647,7 @@
 			<key>twilio</key>
 			<dict>
 				<key>date</key>
-				<date>2020-12-12T09:52:00Z</date>
+				<date>2021-03-10T12:15:01Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -604,23 +656,6 @@
 					<string>rubyGems</string>
 					<key>uniqueIdentifier</key>
 					<string>twilio</string>
-				</dict>
-			</dict>
-		</dict>
-		<key>uninstalled</key>
-		<dict>
-			<key>rspec</key>
-			<dict>
-				<key>date</key>
-				<date>2021-01-05T12:31:00Z</date>
-				<key>entry</key>
-				<dict>
-					<key>name</key>
-					<string>rspec</string>
-					<key>platform</key>
-					<string>rubyGems</string>
-					<key>uniqueIdentifier</key>
-					<string>rspec</string>
 				</dict>
 			</dict>
 		</dict>
@@ -643,10 +678,34 @@
 	<dict>
 		<key>installed</key>
 		<dict>
+			<key>CanIUse</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:17:08Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>Can I use</string>
+						<string>CanIUse</string>
+						<string>caniuse.com</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/CanIUse#readme</string>
+					<key>authorLinkText</key>
+					<string>Paweł Golonko</string>
+					<key>name</key>
+					<string>Can I use…</string>
+					<key>platform</key>
+					<string>usercontribCanIUse</string>
+					<key>uniqueIdentifier</key>
+					<string>CanIUse</string>
+				</dict>
+			</dict>
 			<key>HTTP</key>
 			<dict>
 				<key>date</key>
-				<date>2020-12-12T09:31:19Z</date>
+				<date>2021-03-10T12:19:14Z</date>
 				<key>entry</key>
 				<dict>
 					<key>authorLinkHref</key>
@@ -661,33 +720,30 @@
 					<string>HTTP</string>
 				</dict>
 			</dict>
-			<key>Kubernetes</key>
+			<key>Hammerspoon</key>
 			<dict>
 				<key>date</key>
-				<date>2020-12-12T09:31:10Z</date>
+				<date>2021-03-24T09:32:42Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
-					<array>
-						<string>kubernetes</string>
-						<string>kubectl</string>
-					</array>
+					<array/>
 					<key>authorLinkHref</key>
-					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Kubernetes#readme</string>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Hammerspoon#readme</string>
 					<key>authorLinkText</key>
-					<string>John Patterson</string>
+					<string>Hammerspoon Team</string>
 					<key>name</key>
-					<string>Kubernetes</string>
+					<string>Hammerspoon</string>
 					<key>platform</key>
-					<string>usercontribKubernetes</string>
+					<string>usercontribHammerspoon</string>
 					<key>uniqueIdentifier</key>
-					<string>Kubernetes</string>
+					<string>Hammerspoon</string>
 				</dict>
 			</dict>
 			<key>Neovim</key>
 			<dict>
 				<key>date</key>
-				<date>2020-08-07T07:47:52Z</date>
+				<date>2021-03-10T12:19:02Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -706,91 +762,28 @@
 					<string>Neovim</string>
 				</dict>
 			</dict>
-			<key>Requests-html</key>
+			<key>jq</key>
 			<dict>
 				<key>date</key>
-				<date>2020-12-12T09:31:58Z</date>
+				<date>2021-03-24T09:32:42Z</date>
 				<key>entry</key>
 				<dict>
 					<key>authorLinkHref</key>
-					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Requests-html#readme</string>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/jq#readme</string>
 					<key>authorLinkText</key>
-					<string>AllanLRH</string>
+					<string>Mattias Wadman</string>
 					<key>name</key>
-					<string>Requests-HTML</string>
+					<string>jq</string>
 					<key>platform</key>
-					<string>usercontribRequests-html</string>
+					<string>usercontribjq</string>
 					<key>uniqueIdentifier</key>
-					<string>Requests-html</string>
-				</dict>
-			</dict>
-			<key>RuboCop</key>
-			<dict>
-				<key>date</key>
-				<date>2021-02-05T12:13:23Z</date>
-				<key>entry</key>
-				<dict>
-					<key>aliases</key>
-					<array>
-						<string>Rubocop</string>
-						<string>rubocop</string>
-					</array>
-					<key>authorLinkHref</key>
-					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/RuboCop#readme</string>
-					<key>authorLinkText</key>
-					<string>Étienne Deparis</string>
-					<key>name</key>
-					<string>RuboCop</string>
-					<key>platform</key>
-					<string>usercontribRuboCop</string>
-					<key>uniqueIdentifier</key>
-					<string>RuboCop</string>
-				</dict>
-			</dict>
-			<key>Yarn</key>
-			<dict>
-				<key>date</key>
-				<date>2020-12-12T09:32:33Z</date>
-				<key>entry</key>
-				<dict>
-					<key>aliases</key>
-					<array/>
-					<key>authorLinkHref</key>
-					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Yarn#readme</string>
-					<key>authorLinkText</key>
-					<string>Phill Ayers</string>
-					<key>name</key>
-					<string>Yarn</string>
-					<key>platform</key>
-					<string>usercontribYarn</string>
-					<key>uniqueIdentifier</key>
-					<string>Yarn</string>
-				</dict>
-			</dict>
-			<key>Zsh</key>
-			<dict>
-				<key>date</key>
-				<date>2020-12-12T09:32:30Z</date>
-				<key>entry</key>
-				<dict>
-					<key>aliases</key>
-					<array/>
-					<key>authorLinkHref</key>
-					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Zsh#readme</string>
-					<key>authorLinkText</key>
-					<string>Marcus Adair</string>
-					<key>name</key>
-					<string>Zsh</string>
-					<key>platform</key>
-					<string>usercontribZsh</string>
-					<key>uniqueIdentifier</key>
-					<string>Zsh</string>
+					<string>jq</string>
 				</dict>
 			</dict>
 			<key>tldr</key>
 			<dict>
 				<key>date</key>
-				<date>2020-12-12T09:32:16Z</date>
+				<date>2021-03-10T12:20:05Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -809,28 +802,6 @@
 					<string>usercontribtldr</string>
 					<key>uniqueIdentifier</key>
 					<string>tldr</string>
-				</dict>
-			</dict>
-			<key>webpack</key>
-			<dict>
-				<key>date</key>
-				<date>2020-12-12T09:32:24Z</date>
-				<key>entry</key>
-				<dict>
-					<key>aliases</key>
-					<array>
-						<string>web pack</string>
-					</array>
-					<key>authorLinkHref</key>
-					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/webpack#readme</string>
-					<key>authorLinkText</key>
-					<string>Matija Marohnić, Guill Lo</string>
-					<key>name</key>
-					<string>webpack</string>
-					<key>platform</key>
-					<string>usercontribwebpack</string>
-					<key>uniqueIdentifier</key>
-					<string>webpack</string>
 				</dict>
 			</dict>
 		</dict>
@@ -856,10 +827,195 @@
 					<string>Kotlin</string>
 				</dict>
 			</dict>
+			<key>Kubernetes</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:15:01Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>kubernetes</string>
+						<string>kubectl</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Kubernetes#readme</string>
+					<key>authorLinkText</key>
+					<string>John Patterson</string>
+					<key>name</key>
+					<string>Kubernetes</string>
+					<key>platform</key>
+					<string>usercontribKubernetes</string>
+					<key>uniqueIdentifier</key>
+					<string>Kubernetes</string>
+				</dict>
+			</dict>
+			<key>Requests-html</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:15:01Z</date>
+				<key>entry</key>
+				<dict>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Requests-html#readme</string>
+					<key>authorLinkText</key>
+					<string>AllanLRH</string>
+					<key>name</key>
+					<string>Requests-HTML</string>
+					<key>platform</key>
+					<string>usercontribRequests-html</string>
+					<key>uniqueIdentifier</key>
+					<string>Requests-html</string>
+				</dict>
+			</dict>
+			<key>RuboCop</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:24:33Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>Rubocop</string>
+						<string>rubocop</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/RuboCop#readme</string>
+					<key>authorLinkText</key>
+					<string>Étienne Deparis</string>
+					<key>name</key>
+					<string>RuboCop</string>
+					<key>platform</key>
+					<string>usercontribRuboCop</string>
+					<key>uniqueIdentifier</key>
+					<string>RuboCop</string>
+				</dict>
+			</dict>
+			<key>Tailwind_CSS</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:24:36Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>tailwind</string>
+						<string>TailwindCSS</string>
+						<string>tailwind CSS</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Tailwind_CSS#readme</string>
+					<key>authorLinkText</key>
+					<string>Ben Booth, Guill Lo</string>
+					<key>name</key>
+					<string>Tailwind CSS</string>
+					<key>platform</key>
+					<string>usercontribTailwind_CSS</string>
+					<key>uniqueIdentifier</key>
+					<string>Tailwind_CSS</string>
+				</dict>
+			</dict>
+			<key>Yarn</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:15:01Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Yarn#readme</string>
+					<key>authorLinkText</key>
+					<string>Phill Ayers</string>
+					<key>name</key>
+					<string>Yarn</string>
+					<key>platform</key>
+					<string>usercontribYarn</string>
+					<key>uniqueIdentifier</key>
+					<string>Yarn</string>
+				</dict>
+			</dict>
+			<key>Zsh</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:15:02Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Zsh#readme</string>
+					<key>authorLinkText</key>
+					<string>Marcus Adair</string>
+					<key>name</key>
+					<string>Zsh</string>
+					<key>platform</key>
+					<string>usercontribZsh</string>
+					<key>uniqueIdentifier</key>
+					<string>Zsh</string>
+				</dict>
+			</dict>
+			<key>json-schema</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:25:16Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>JSON</string>
+						<string>schema</string>
+						<string>validation</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/json-schema#readme</string>
+					<key>authorLinkText</key>
+					<string>純</string>
+					<key>name</key>
+					<string>json-schema</string>
+					<key>platform</key>
+					<string>usercontribjson-schema</string>
+					<key>uniqueIdentifier</key>
+					<string>json-schema</string>
+				</dict>
+			</dict>
+			<key>webpack</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-10T12:15:01Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array>
+						<string>web pack</string>
+					</array>
+					<key>authorLinkHref</key>
+					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/webpack#readme</string>
+					<key>authorLinkText</key>
+					<string>Matija Marohnić, Guill Lo</string>
+					<key>name</key>
+					<string>webpack</string>
+					<key>platform</key>
+					<string>usercontribwebpack</string>
+					<key>uniqueIdentifier</key>
+					<string>webpack</string>
+				</dict>
+			</dict>
 		</dict>
 	</dict>
 	<key>actuallyDarkWebView</key>
 	<false/>
+	<key>bookmarks</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>file://~/Library/Application%20Support/Dash/DocSets/Ruby_on_Rails_6/Ruby%20on%20Rails.docset/Contents/Resources/Documents/api.rubyonrails.org/classes/ActiveRecord/DelegatedType.html</string>
+			<key>platformImagePath</key>
+			<string>rails</string>
+			<key>title</key>
+			<string>ActiveRecord::DelegatedType</string>
+		</dict>
+	</array>
 	<key>docsets</key>
 	<dict>
 		<key>keywords</key>
@@ -869,6 +1025,11 @@
 	<dict>
 		<key>installed</key>
 		<dict>
+			<key>http://kapeli.com/feeds/JavaScript.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-04-14T07:45:04Z</date>
+			</dict>
 			<key>http://kapeli.com/feeds/Ruby_3.xml</key>
 			<dict>
 				<key>date</key>
@@ -877,23 +1038,67 @@
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_6.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2020-09-08T13:42:01Z</date>
+				<date>2021-03-10T12:27:31Z</date>
 			</dict>
 		</dict>
 		<key>uninstalled</key>
-		<dict/>
+		<dict>
+			<key>http://kapeli.com/feeds/CSS.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-17T13:57:20Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/EmberJS.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-03-17T13:57:20Z</date>
+			</dict>
+		</dict>
 	</dict>
 	<key>isPinned</key>
 	<true/>
+	<key>menuIconBehavior</key>
+	<integer>1</integer>
 	<key>placeholderDelimiter</key>
 	<string>__</string>
 	<key>profiles</key>
 	<array>
 		<dict>
+			<key>icon</key>
+			<string>Dash</string>
 			<key>isDefault</key>
 			<true/>
 			<key>name</key>
 			<string>Default</string>
+			<key>searchSnippets</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsets</key>
+			<array>
+				<string>~/Library/Application Support/Dash/Versioned DocSets/Ruby on Rails 5 - DHDocsetDownloader/5-2-4/Ruby on Rails.docset</string>
+				<string>~/Library/Application Support/Dash/DocSets/Ruby_on_Rails_6/Ruby on Rails.docset</string>
+				<string>~/Library/Application Support/Dash/Versioned DocSets/Ruby on Rails 6 - DHDocsetDownloader/6-1-2-1/Ruby on Rails.docset</string>
+				<string>~/Library/Application Support/Dash/Versioned DocSets/Ruby 2 - DHDocsetDownloader/2-7-2/Ruby.docset</string>
+				<string>~/Library/Application Support/Dash/DocSets/Ruby_3/Ruby.docset</string>
+			</array>
+			<key>icon</key>
+			<string>rails</string>
+			<key>name</key>
+			<string>Ruby &amp; Rails</string>
+			<key>searchSnippets</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>docsets</key>
+			<array>
+				<string>~/Library/Application Support/Dash/DocSets/JavaScript/JavaScript.docset</string>
+				<string>~/Library/Application Support/Dash/Versioned DocSets/EmberJS - DHDocsetDownloader/3-20/EmberJS.docset</string>
+			</array>
+			<key>icon</key>
+			<string>javascript</string>
+			<key>name</key>
+			<string>Javascript</string>
 			<key>searchSnippets</key>
 			<true/>
 		</dict>
@@ -911,9 +1116,9 @@
 	<key>shouldRestoreTabs</key>
 	<true/>
 	<key>shouldShowStatusIcon</key>
-	<true/>
+	<false/>
 	<key>shouldStartAtLogin</key>
-	<true/>
+	<false/>
 	<key>shouldSyncBookmarks</key>
 	<true/>
 	<key>shouldSyncDocsets</key>
@@ -922,10 +1127,12 @@
 	<true/>
 	<key>shouldSyncView</key>
 	<true/>
+	<key>showDisabledDocsets</key>
+	<false/>
 	<key>showInDock</key>
-	<false/>
+	<true/>
 	<key>sortDocsetsAlphabetically</key>
-	<false/>
+	<true/>
 	<key>versionedDHCheatRepo</key>
 	<dict>
 		<key>installed</key>
@@ -1021,6 +1228,14 @@
 	<dict>
 		<key>installed</key>
 		<dict>
+			<key>http://kapeli.com/feeds/EmberJS.xml</key>
+			<dict>
+				<key>3.20</key>
+				<dict>
+					<key>date</key>
+					<date>2021-04-14T07:44:39Z</date>
+				</dict>
+			</dict>
 			<key>http://kapeli.com/feeds/Ruby_2.xml</key>
 			<dict>
 				<key>2.7.2</key>
@@ -1030,6 +1245,14 @@
 				</dict>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_5.xml</key>
+			<dict>
+				<key>5.2.4</key>
+				<dict>
+					<key>date</key>
+					<date>2021-03-10T12:08:50Z</date>
+				</dict>
+			</dict>
+			<key>http://kapeli.com/feeds/Ruby_on_Rails_6.xml</key>
 			<dict/>
 		</dict>
 		<key>uninstalled</key>
@@ -1043,11 +1266,13 @@
 				</dict>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_5.xml</key>
+			<dict/>
+			<key>http://kapeli.com/feeds/Ruby_on_Rails_6.xml</key>
 			<dict>
-				<key>5.2.4</key>
+				<key>6.1.2.1</key>
 				<dict>
 					<key>date</key>
-					<date>2020-12-12T09:29:00Z</date>
+					<date>2021-03-10T12:26:42Z</date>
 				</dict>
 			</dict>
 		</dict>
