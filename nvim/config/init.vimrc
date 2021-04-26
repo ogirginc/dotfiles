@@ -51,6 +51,9 @@ nnoremap <leader>cnt :%s//&/gn<CR>
 nnoremap <leader>tb :%s/\s\+$//<CR>
 nnoremap <leader>tws :%s/\s\+$//<CR>
 
+" Prevent adding newline character to the end of the last line for hbs files.
+" https://stackoverflow.com/a/39627416/4565485
+autocmd FileType html.handlebars setlocal noendofline nofixendofline
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Custom Functions
