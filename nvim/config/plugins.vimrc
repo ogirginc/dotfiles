@@ -35,6 +35,7 @@ Plug 'slim-template/vim-slim'
 Plug 'pangloss/vim-javascript'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'maxmellon/vim-jsx-pretty'
+Plug 'leafgarland/typescript-vim'
 
 " GIT
 Plug 'tpope/vim-rhubarb'
