@@ -1,3 +1,14 @@
+let g:coc_global_extensions = [
+  \ 'coc-actions',
+  \ 'coc-tsserver',
+  \ 'coc-css',
+  \ 'coc-json',
+  \ 'coc-html',
+  \ 'coc-vimlsp',
+  \ 'coc-highlight',
+  \ 'coc-ember'
+\ ]
+
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> <C-w>gd :call CocAction('jumpDefinition', 'tab drop')<CR>
