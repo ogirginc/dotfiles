@@ -585,6 +585,20 @@
 					<string>rspec-rails</string>
 				</dict>
 			</dict>
+			<key>sidekiq</key>
+			<dict>
+				<key>date</key>
+				<date>2021-04-30T06:47:32Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>sidekiq</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>sidekiq</string>
+				</dict>
+			</dict>
 		</dict>
 		<key>uninstalled</key>
 		<dict>
@@ -723,7 +737,7 @@
 			<key>Hammerspoon</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-24T09:32:42Z</date>
+				<date>2021-05-05T07:46:02Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
