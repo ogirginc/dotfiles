@@ -78,13 +78,6 @@ Plug 'itchyny/lightline.vim'
 " Plug 'mhinz/vim-startify'
 " Plug 'terryma/vim-multiple-cursors'
 
-" CSHARP & DOTNET
-" Plug 'OmniSharp/omnisharp-vim'
-" Plug 'adamclerk/vim-razor'
-
-" KOTLIN
-" Plug 'udalov/kotlin-vim'
-
 " EMBER
 Plug 'joukevandermaas/vim-ember-hbs'
 Plug 'AndrewRadev/ember_tools.vim'
@@ -99,7 +92,6 @@ source $HOME/.config/nvim/config/fzf.vimrc
 source $HOME/.config/nvim/config/lightline.vimrc
 source $HOME/.config/nvim/config/neo-solarized.vimrc
 source $HOME/.config/nvim/config/nerdtree.vimrc
-source $HOME/.config/nvim/config/omnisharp.vimrc
 source $HOME/.config/nvim/config/vim-commentary.vimrc
 source $HOME/.config/nvim/config/vim-indent.vimrc
 source $HOME/.config/nvim/config/vim-move.vimrc
