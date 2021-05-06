@@ -12,11 +12,12 @@ call plug#begin('~/.config/nvim/plugged')
 " CODE NAVIGATION
 Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
+
+
+Plug 'dyng/ctrlsf.vim'
 Plug 'junegunn/fzf.vim' | Plug '/usr/local/opt/fzf'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-Plug 'dyng/ctrlsf.vim'
 Plug 'tpope/vim-projectionist'
 
 " RUBY
@@ -36,6 +37,10 @@ Plug 'pangloss/vim-javascript'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'leafgarland/typescript-vim'
+
+" EMBER
+Plug 'joukevandermaas/vim-ember-hbs'
+Plug 'AndrewRadev/ember_tools.vim'
 
 " GIT
 Plug 'tpope/vim-rhubarb'
@@ -78,10 +83,6 @@ Plug 'itchyny/lightline.vim'
 " Plug 'w0rp/ale'
 " Plug 'mhinz/vim-startify'
 " Plug 'terryma/vim-multiple-cursors'
-
-" EMBER
-Plug 'joukevandermaas/vim-ember-hbs'
-Plug 'AndrewRadev/ember_tools.vim'
 
 call plug#end()
 
