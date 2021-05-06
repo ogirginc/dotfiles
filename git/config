@@ -27,5 +27,7 @@
 
   wip = "for-each-ref --sort='authordate:iso8601' --format=' %(color:green)%(authordate:relative)%09%(color:white)%(refname:short)' refs/heads"
 
+  rubocop = "!f() { git status --porcelain | sed s/^...// | xargs bundle exec rubocop; }; f"
+
 [diff "rspec"]
   xfuncname = "^[ \t]*((RSpec|describe|context|it|before|after|feature|scenario|background)[ \t].*)$"
