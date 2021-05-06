@@ -17,6 +17,7 @@ Plug 'junegunn/fzf.vim' | Plug '/usr/local/opt/fzf'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'dyng/ctrlsf.vim'
+Plug 'tpope/vim-projectionist'
 
 " RUBY
 Plug 'tpope/vim-rails'
@@ -102,5 +103,6 @@ source $HOME/.config/nvim/config/omnisharp.vimrc
 source $HOME/.config/nvim/config/vim-commentary.vimrc
 source $HOME/.config/nvim/config/vim-indent.vimrc
 source $HOME/.config/nvim/config/vim-move.vimrc
+source $HOME/.config/nvim/config/vim-projectionist.vimrc
 source $HOME/.config/nvim/config/vim-slim.vimrc
 source $HOME/.config/nvim/config/vim-test.vimrc
