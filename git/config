@@ -5,6 +5,7 @@
 [core]
   editor = nvim
   commentChar = ";"
+  attributesfile = /Users/ogirginc/.config/git/attributes
   ; core.excludesfile is not needed as $XDG_CONFIG_HOME is defined which forces
   ; Git to use it's default value, $XDG_CONFIG_HOME/git/ignore.
   ; excludesfile = $HOME/Configurations/git/ignore
