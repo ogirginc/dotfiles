@@ -41,6 +41,7 @@ brew "zsh"
 brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
+brew "pgcli"
 
 brew "memcached"
 brew "overmind"
