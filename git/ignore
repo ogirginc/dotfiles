@@ -23,6 +23,9 @@ tags.temp.tmp
 # Vscode
 .vscode/
 
+# Rubymine
+.idea/
+
 # Notes
 ogirginc/
 
