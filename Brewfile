@@ -48,7 +48,6 @@ brew "overmind"
 brew "postgresql@11", restart_service: true, link: true
 
 # cask "alfred" # Setapp
-cask "1password-cli"
 cask "apparition47/tap/mailtrackerblocker"
 cask "appcleaner"
 cask "chromedriver"
