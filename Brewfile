@@ -79,7 +79,6 @@ cask "vlc"
 cask "webtorrent"
 cask "zoom"
 
-mas "1Password 7 - Password Manager", id: 1333542190
 mas "Browserism for Chrome", id: 979047768
 mas "Octotree Pro", id: 1457450145
 mas "Poolside FM", id: 1514817810
