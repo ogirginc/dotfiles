@@ -571,20 +571,6 @@
 					<string>rspec-expectations</string>
 				</dict>
 			</dict>
-			<key>rspec-rails</key>
-			<dict>
-				<key>date</key>
-				<date>2021-03-24T09:32:44Z</date>
-				<key>entry</key>
-				<dict>
-					<key>name</key>
-					<string>rspec-rails</string>
-					<key>platform</key>
-					<string>rubyGems</string>
-					<key>uniqueIdentifier</key>
-					<string>rspec-rails</string>
-				</dict>
-			</dict>
 			<key>sidekiq</key>
 			<dict>
 				<key>date</key>
@@ -642,6 +628,20 @@
 					<string>rubyGems</string>
 					<key>uniqueIdentifier</key>
 					<string>rspec</string>
+				</dict>
+			</dict>
+			<key>rspec-rails</key>
+			<dict>
+				<key>date</key>
+				<date>2021-05-31T14:25:29Z</date>
+				<key>entry</key>
+				<dict>
+					<key>name</key>
+					<string>rspec-rails</string>
+					<key>platform</key>
+					<string>rubyGems</string>
+					<key>uniqueIdentifier</key>
+					<string>rspec-rails</string>
 				</dict>
 			</dict>
 			<key>stripe</key>
@@ -737,7 +737,7 @@
 			<key>Hammerspoon</key>
 			<dict>
 				<key>date</key>
-				<date>2021-05-05T07:46:02Z</date>
+				<date>2021-05-21T12:01:41Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -1213,7 +1213,42 @@
 	<key>versionedDHRubyRepo</key>
 	<dict>
 		<key>installed</key>
-		<dict/>
+		<dict>
+			<key>capybara</key>
+			<dict>
+				<key>3.34.0</key>
+				<dict>
+					<key>date</key>
+					<date>2021-05-31T14:27:05Z</date>
+					<key>entry</key>
+					<dict>
+						<key>name</key>
+						<string>capybara</string>
+						<key>platform</key>
+						<string>rubyGems</string>
+						<key>uniqueIdentifier</key>
+						<string>capybara</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>rspec-rails</key>
+			<dict>
+				<key>4.0.2</key>
+				<dict>
+					<key>date</key>
+					<date>2021-05-31T14:26:52Z</date>
+					<key>entry</key>
+					<dict>
+						<key>name</key>
+						<string>rspec-rails</string>
+						<key>platform</key>
+						<string>rubyGems</string>
+						<key>uniqueIdentifier</key>
+						<string>rspec-rails</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
 		<key>uninstalled</key>
 		<dict/>
 	</dict>
