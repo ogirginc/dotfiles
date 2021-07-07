@@ -42,6 +42,7 @@ brew "zsh-autosuggestions"
 brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 brew "pgcli"
+brew "pgweb"
 
 brew "memcached"
 brew "overmind"
@@ -78,7 +79,6 @@ cask "tuple"
 cask "visual-studio-code"
 cask "vlc"
 cask "webtorrent"
-cask "zoom"
 
 mas "Browserism for Chrome", id: 979047768
 mas "Octotree Pro", id: 1457450145
