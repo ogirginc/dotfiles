@@ -1,4 +1,7 @@
-let mapleader=" " " Use spacebar as leader.
+lua << EOF
+  vim.g.mapleader = " " -- Use spacebar as leader.
+
+EOF
 
 if has('mouse')
   set mouse=a
