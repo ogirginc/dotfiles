@@ -93,7 +93,7 @@ source $HOME/.config/nvim/config/dash.vimrc
 source $HOME/.config/nvim/config/easy-align.vimrc
 source $HOME/.config/nvim/config/fzf.vimrc
 source $HOME/.config/nvim/config/lightline.vimrc
-source $HOME/.config/nvim/config/neo-solarized.vimrc
+source $HOME/.config/nvim/config/theme.vimrc
 source $HOME/.config/nvim/config/nerdtree.vimrc
 source $HOME/.config/nvim/config/vim-commentary.vimrc
 source $HOME/.config/nvim/config/vim-indent.vimrc
