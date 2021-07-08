@@ -26,4 +26,5 @@ ln -sfn ~/Dotfiles/nvim/init.lua ~/.config/nvim/
 
 ln -sFfn ~/Dotfiles/tmuxconf ~/.tmux.conf
 ln -sFfn ~/Dotfiles/hammerspoon ~/.hammerspoon
+ln -sFfn ~/Dotfiles/pryrc ~/.pryrc
 ```
