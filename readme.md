@@ -27,3 +27,11 @@ ln -sfn ~/Dotfiles/nvim/init.lua ~/.config/nvim/
 ln -sFfn ~/Dotfiles/tmuxconf ~/.tmux.conf
 ln -sFfn ~/Dotfiles/hammerspoon ~/.hammerspoon
 ```
+
+### How to bundle
+
+```
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/tt-ogirginc/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+brew bundle
+```
