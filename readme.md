@@ -31,7 +31,7 @@ ln -sFfn ~/Dotfiles/hammerspoon ~/.hammerspoon
 ### How to bundle
 
 ```
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/tt-ogirginc/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew bundle
 ```
