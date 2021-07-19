@@ -24,6 +24,7 @@ brew "gpg"
 
 brew "awscli"
 brew "fzf"
+brew "gh"
 brew "git"
 brew "git-bug"
 brew "heroku/brew/heroku"
