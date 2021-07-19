@@ -19,7 +19,7 @@ mkdir ~/.hammerspoon/
 ### How to link
 
 ```
-ln -sfn ~/Dotfiles/zshrc .zshrc
+ln -sfn ~/Dotfiles/zshrc ~/.zshrc
 ln -sfn ~/Dotfiles/git/ ~/.config/
 ln -sfn ~/Dotfiles/nvim/config/ ~/.config/nvim/
 ln -sfn ~/Dotfiles/nvim/init.lua ~/.config/nvim/
