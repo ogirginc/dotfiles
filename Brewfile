@@ -49,6 +49,7 @@ brew "memcached"
 brew "overmind"
 brew "postgresql@11", restart_service: true, link: true
 
+cask "adguard"
 cask "alfred"
 cask "apparition47/tap/mailtrackerblocker"
 cask "appcleaner"
