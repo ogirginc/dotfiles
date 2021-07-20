@@ -33,12 +33,13 @@ ln -sfn ~/Dotfiles/nvim/init.lua ~/.config/nvim/
 ```
 
 ```
-ln -sFfn ~/Dotfiles/tmuxconf ~/.tmux.conf
+ln -sfn ~/Dotfiles/hammerspoon/init.lua ~/.hammerspoon/
+ln -sfn ~/Dotfiles/hammerspoon/Spoons ~/.hammerspoon/
 ```
 
 ```
-ln -sfn ~/Dotfiles/hammerspoon/init.lua ~/.hammerspoon/
-ln -sfn ~/Dotfiles/hammerspoon/Spoons ~/.hammerspoon/
+ln -sFfn ~/Dotfiles/tmuxconf ~/.tmux.conf
+ln -sfn ~/Dotfiles/hushlogin ~/.hushlogin
 ```
 
 ### How to bundle
