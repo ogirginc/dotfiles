@@ -20,12 +20,25 @@ mkdir ~/.hammerspoon/
 
 ```
 ln -sfn ~/Dotfiles/zshrc ~/.zshrc
+ln -sfn ~/Dotfiles/p10k.zsh ~/.p10k.zsh
+```
+
+```
 ln -sfn ~/Dotfiles/git/ ~/.config/
+```
+
+```
 ln -sfn ~/Dotfiles/nvim/config/ ~/.config/nvim/
 ln -sfn ~/Dotfiles/nvim/init.lua ~/.config/nvim/
+```
 
+```
 ln -sFfn ~/Dotfiles/tmuxconf ~/.tmux.conf
-ln -sFfn ~/Dotfiles/hammerspoon ~/.hammerspoon
+```
+
+```
+ln -sfn ~/Dotfiles/hammerspoon/init.lua ~/.hammerspoon/
+ln -sfn ~/Dotfiles/hammerspoon/Spoons ~/.hammerspoon/
 ```
 
 ### How to bundle
