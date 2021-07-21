@@ -16,7 +16,8 @@ Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 Plug 'dyng/ctrlsf.vim'
-Plug 'junegunn/fzf.vim' | Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-projectionist'

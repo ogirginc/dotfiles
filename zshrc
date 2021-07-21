@@ -142,7 +142,7 @@ export PATH="/usr/local/sbin:$PATH"
 # Other
 #########################################################################################
 # Add fzf to shell
-[ -f $HOME/.fzf.zsh ] && source $HOME/.fzf.zsh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
