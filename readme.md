@@ -44,6 +44,8 @@ ln -sfn ~/Dotfiles/hushlogin ~/.hushlogin
 
 ### How to bundle
 
+Install (Homebrew)[https://brew.sh] and bundle your brewfile;
+
 ```
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
