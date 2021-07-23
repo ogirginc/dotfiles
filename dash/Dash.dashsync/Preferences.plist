@@ -9,7 +9,7 @@
 			<key>HTTP_Status_Codes_Rails</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-10T12:27:37Z</date>
+				<date>2021-07-23T09:06:19Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -30,7 +30,7 @@
 			<key>PostgreSQL_CLI</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-10T12:27:54Z</date>
+				<date>2021-07-23T09:06:19Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -46,7 +46,7 @@
 			<key>RSpec_Expectations</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-10T12:28:03Z</date>
+				<date>2021-07-23T09:06:19Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -64,7 +64,7 @@
 			<key>Rails_Migrations_CLI</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-10T12:27:59Z</date>
+				<date>2021-07-23T09:06:19Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -83,7 +83,7 @@
 			<key>Rails_i18n</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-10T12:27:59Z</date>
+				<date>2021-07-23T09:06:20Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -102,7 +102,7 @@
 			<key>Ruby_strftime</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-10T12:28:04Z</date>
+				<date>2021-07-23T09:06:20Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -118,7 +118,7 @@
 			<key>Semantic_Commits</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-10T12:28:09Z</date>
+				<date>2021-07-23T09:06:19Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -136,7 +136,7 @@
 			<key>Unix_File_Permissions</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-10T12:28:21Z</date>
+				<date>2021-07-23T09:06:18Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -546,7 +546,7 @@
 			<key>rspec-core</key>
 			<dict>
 				<key>date</key>
-				<date>2021-01-05T12:29:36Z</date>
+				<date>2021-07-23T09:07:09Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -560,7 +560,7 @@
 			<key>rspec-expectations</key>
 			<dict>
 				<key>date</key>
-				<date>2021-01-05T12:29:35Z</date>
+				<date>2021-07-23T09:07:10Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -574,7 +574,7 @@
 			<key>sidekiq</key>
 			<dict>
 				<key>date</key>
-				<date>2021-04-30T06:47:32Z</date>
+				<date>2021-07-23T09:07:09Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -695,7 +695,7 @@
 			<key>CanIUse</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-10T12:17:08Z</date>
+				<date>2021-07-23T09:06:24Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -719,7 +719,7 @@
 			<key>HTTP</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-10T12:19:14Z</date>
+				<date>2021-07-23T09:13:19Z</date>
 				<key>entry</key>
 				<dict>
 					<key>authorLinkHref</key>
@@ -737,7 +737,7 @@
 			<key>Hammerspoon</key>
 			<dict>
 				<key>date</key>
-				<date>2021-05-21T12:01:41Z</date>
+				<date>2021-07-23T09:06:28Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -757,7 +757,7 @@
 			<key>Neovim</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-10T12:19:02Z</date>
+				<date>2021-07-23T09:06:36Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -779,7 +779,7 @@
 			<key>jq</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-24T09:32:42Z</date>
+				<date>2021-07-23T09:06:32Z</date>
 				<key>entry</key>
 				<dict>
 					<key>authorLinkHref</key>
@@ -797,7 +797,7 @@
 			<key>tldr</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-10T12:20:05Z</date>
+				<date>2021-07-23T09:06:32Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -1052,7 +1052,7 @@
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_6.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-10T12:27:31Z</date>
+				<date>2021-07-23T09:11:04Z</date>
 			</dict>
 		</dict>
 		<key>uninstalled</key>
@@ -1219,7 +1219,7 @@
 				<key>3.34.0</key>
 				<dict>
 					<key>date</key>
-					<date>2021-05-31T14:27:05Z</date>
+					<date>2021-07-23T09:07:14Z</date>
 					<key>entry</key>
 					<dict>
 						<key>name</key>
@@ -1236,7 +1236,7 @@
 				<key>4.0.2</key>
 				<dict>
 					<key>date</key>
-					<date>2021-05-31T14:26:52Z</date>
+					<date>2021-07-23T09:07:08Z</date>
 					<key>entry</key>
 					<dict>
 						<key>name</key>
@@ -1282,7 +1282,7 @@
 				<key>3.20</key>
 				<dict>
 					<key>date</key>
-					<date>2021-04-14T07:44:39Z</date>
+					<date>2021-07-23T09:11:29Z</date>
 				</dict>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_2.xml</key>
@@ -1290,7 +1290,7 @@
 				<key>2.7.2</key>
 				<dict>
 					<key>date</key>
-					<date>2020-12-12T09:29:05Z</date>
+					<date>2021-07-23T09:12:13Z</date>
 				</dict>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_5.xml</key>
@@ -1298,7 +1298,7 @@
 				<key>5.2.4</key>
 				<dict>
 					<key>date</key>
-					<date>2021-03-10T12:08:50Z</date>
+					<date>2021-07-23T09:07:44Z</date>
 				</dict>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_6.xml</key>
