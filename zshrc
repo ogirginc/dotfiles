@@ -138,6 +138,9 @@ export ASDF_RUBY_BUILD_VERSION=master
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
+# To be able to access psql
+export PATH="/opt/homebrew/opt/postgresql@11/bin:$PATH"
+
 #########################################################################################
 # Other
 #########################################################################################
