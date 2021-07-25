@@ -20,15 +20,12 @@ if type brew &>/dev/null; then
 
 fi
 
+declare -A hbloc
+hbloc[x86_64]=/usr/local/
+hbloc[arm64]=/opt/homebrew/
 
-local cpu_name=$(sysctl -n machdep.cpu.brand_string)
-if [ $cpu_name = "Apple M1" ]; then
-  source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-  source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-else
-  source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-  source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-fi
+source $hbloc[$CPUTYPE]/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $hbloc[$CPUTYPE]/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=243'
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
