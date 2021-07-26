@@ -20,12 +20,8 @@ if type brew &>/dev/null; then
 
 fi
 
-declare -A hbloc
-hbloc[x86_64]=/usr/local/
-hbloc[arm64]=/opt/homebrew/
-
-source $hbloc[$CPUTYPE]/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $hbloc[$CPUTYPE]/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=243'
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
