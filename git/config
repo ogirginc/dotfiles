@@ -23,8 +23,8 @@
 
   com = "checkout master"
   bd = "!f() { git branch -d \"$1\"; }; f"
-  bl = "branch --list"
-  blr = "branch --list --remotes"
+  lb = "branch --list"
+  lbr = "branch --list --remotes"
   prs = "pull --rebase --autostash"
 
   bs = "for-each-ref --sort='authordate:iso8601' --format=' %(color:green)%(authordate:relative)%09%(color:white)%(refname:short)' refs/heads"
