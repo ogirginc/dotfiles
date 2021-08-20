@@ -36,6 +36,9 @@ nnoremap mj <C-w>j
 nnoremap mk <C-w>k
 nnoremap ml <C-w>l
 
+" reselect pasted text – https://vimtricks.com/p/reselect-pasted-text/
+nnoremap gp `[v`]
+
 " Move tabs easier
 nnoremap <leader>- :tabm-<CR>
 nnoremap <leader>+ :tabm+<CR>
