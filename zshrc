@@ -110,6 +110,11 @@ function bundle_rubocop_changes() {
   git status --porcelain | sed s/^...// | xargs bundle exec rubocop
 }
 
+function rz() {
+  echo "sourcing ~/.zshrc"
+  source ~/.zshrc
+}
+
 
 
 #########################################################################################
