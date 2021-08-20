@@ -69,6 +69,7 @@ cask "keycastr"
 cask "kindle"
 cask "krisp"
 cask "loom"
+cask "maestral" # Unofficial Dropbox client
 cask "monitorcontrol"
 cask "ngrok"
 cask "notion"
