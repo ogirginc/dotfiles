@@ -17,6 +17,7 @@
   wip = "!f() { git add . && git commit -m "WIP"; }; f"
 
   rb = "!f() { git rebase -i HEAD~$1 --autostash; }; f"
+  sb = "!f() { git switch $(git branch -a | fzf --height 20% --reverse --border); }; f"
   co  = "!f() { git checkout $(git branch | fzf --height 40% --reverse); }; f"
   cb = "!f() { git checkout -b \"$1\"; }; f"
 
