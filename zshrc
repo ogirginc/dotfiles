@@ -122,6 +122,7 @@ function rz() {
 #########################################################################################
 # Add to shell
 . $(brew --prefix asdf)/asdf.sh
+. $(brew --prefix asdf)/libexec/asdf.sh
 
 # Get all available language versions rather than waiting someone to bump it
 # https://github.com/asdf-vm/asdf-ruby/commit/af80345be901838ce2c6a58c6536a6fccc573b91
