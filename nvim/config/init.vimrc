@@ -8,6 +8,10 @@ if has('mouse')
 end
 set clipboard=unnamed
 
+" In visual mode select the lines, then `zf` to make them foldable.
+" Toggle with `za`, close all with `zm`, open all with `zR`
+set foldmethod=manual
+
 set undofile
 set undodir=~/.config/nvim/.undo//
 set backupdir=~/.config/nvim/.backup//
