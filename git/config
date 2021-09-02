@@ -21,7 +21,7 @@
   co  = "!f() { git checkout $(git branch | fzf --height 40% --reverse); }; f"
   cb = "!f() { git checkout -b \"$1\"; }; f"
 
-  com = "checkout master"
+  sm = "switch master"
   bd = "!f() { git branch -d \"$1\"; }; f"
   lb = "branch --list"
   lbr = "branch --list --remotes"
