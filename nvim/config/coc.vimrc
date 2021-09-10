@@ -6,6 +6,7 @@ let g:coc_global_extensions = [
   \ 'coc-html',
   \ 'coc-vimlsp',
   \ 'coc-highlight',
+  \ 'coc-solargraph',
   \ 'coc-ember'
 \ ]
 
