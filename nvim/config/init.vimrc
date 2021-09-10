@@ -1,6 +1,5 @@
 lua << EOF
   vim.g.mapleader = " " -- Use spacebar as leader.
-
 EOF
 
 if has('mouse')
@@ -60,6 +59,9 @@ nnoremap <leader>cnt :%s//&/gn<CR>
 " Trim blanks
 nnoremap <leader>tb :%s/\s\+$//<CR>
 nnoremap <leader>tws :%s/\s\+$//<CR>
+
+" Automatically equalize splits when Vim is resized
+autocmd VimResized * wincmd =
 
 " Prevent adding newline character to the end of the last line for hbs files.
 " https://stackoverflow.com/a/39627416/4565485
