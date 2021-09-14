@@ -42,6 +42,15 @@ export HISTFILE=~/.zsh_history
 export HISTFILESIZE=9223372036854775800
 export HISTSIZE=9223372036854775800
 
+# Maximum number of items for the history file
+export SAVEHIST=9223372036854775800
+
+# The meaning of these options can be found in man page of `zshoptions`.
+setopt HIST_IGNORE_ALL_DUPS  # do not put duplicated command into history list
+setopt HIST_SAVE_NO_DUPS  # do not save duplicated command
+setopt HIST_REDUCE_BLANKS  # remove unnecessary blanks
+setopt INC_APPEND_HISTORY_TIME  # append command to history file immediately after execution
+
 # Append history without exiting shell.
 setopt inc_append_history
 export HISTTIMEFORMAT="[%F %T] "
@@ -85,6 +94,8 @@ alias .gitconfig="nvim $HOME/Dotfiles/git/config"
 alias .nvimrc="nvim $HOME/Dotfiles/nvim/config/init.vimrc"
 alias .zshrc="nvim $HOME/Dotfiles/zshrc"
 
+# Show all the history stored with fzf.
+alias history="fc -l 1 | fzf"
 
 
 #########################################################################################
