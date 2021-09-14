@@ -1281,10 +1281,10 @@
 		<dict>
 			<key>http://kapeli.com/feeds/EmberJS.xml</key>
 			<dict>
-				<key>3.20</key>
+				<key>3.26</key>
 				<dict>
 					<key>date</key>
-					<date>2021-08-02T11:12:32Z</date>
+					<date>2021-09-13T06:54:26Z</date>
 				</dict>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_2.xml</key>
@@ -1313,6 +1313,14 @@
 		</dict>
 		<key>uninstalled</key>
 		<dict>
+			<key>http://kapeli.com/feeds/EmberJS.xml</key>
+			<dict>
+				<key>3.20</key>
+				<dict>
+					<key>date</key>
+					<date>2021-09-13T06:54:12Z</date>
+				</dict>
+			</dict>
 			<key>http://kapeli.com/feeds/Ruby_2.xml</key>
 			<dict>
 				<key>2.6.5</key>
