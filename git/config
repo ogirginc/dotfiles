@@ -10,6 +10,9 @@
   ; Git to use it's default value, $XDG_CONFIG_HOME/git/ignore.
   ; excludesfile = $HOME/Configurations/git/ignore
 
+[commit]
+  verbose = true
+
 [alias]
   upstream = "!f() { git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD); }; f"
 
@@ -43,5 +46,6 @@
   smudge = git-lfs smudge -- %f
   process = git-lfs filter-process
   required = true
+
 [mergetool "vimdiff"]
 	path = nvim
