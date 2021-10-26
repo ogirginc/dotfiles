@@ -63,6 +63,10 @@ nnoremap <leader>tws :%s/\s\+$//<CR>
 " Automatically equalize splits when Vim is resized
 autocmd VimResized * wincmd =
 
+" Search and highlight but do not jump
+" https://stackoverflow.com/questions/4256697
+nnoremap * :keepjumps normal! mi*`i<CR>
+
 " Prevent adding newline character to the end of the last line for hbs files.
 " https://stackoverflow.com/a/39627416/4565485
 autocmd FileType html.handlebars setlocal noendofline nofixendofline
