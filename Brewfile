@@ -72,7 +72,6 @@ cask "maestral" # Unofficial Dropbox client
 cask "monitorcontrol"
 cask "ngrok"
 cask "notion"
-cask "postgres-unofficial"
 cask "postman"
 cask "safari-technology-preview"
 cask "telegram"
