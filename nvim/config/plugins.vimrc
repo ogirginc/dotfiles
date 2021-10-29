@@ -25,7 +25,7 @@ Plug 'tpope/vim-projectionist'
 Plug 'elijahmanor/export-to-vscode.nvim'
 
 " RUBY
-Plug 'tpope/vim-rails'
+Plug 'tpope/vim-rails' " , { 'for': ['ruby, erb'] }
 Plug 'tpope/vim-bundler'
 Plug 'tpope/vim-endwise'
 
