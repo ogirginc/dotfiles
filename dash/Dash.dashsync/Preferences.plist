@@ -1046,16 +1046,6 @@
 				<key>date</key>
 				<date>2021-08-02T11:14:32Z</date>
 			</dict>
-			<key>http://kapeli.com/feeds/Ruby_3.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2021-08-02T11:12:49Z</date>
-			</dict>
-			<key>http://kapeli.com/feeds/Ruby_on_Rails_6.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2021-08-02T11:12:33Z</date>
-			</dict>
 		</dict>
 		<key>uninstalled</key>
 		<dict>
@@ -1068,6 +1058,16 @@
 			<dict>
 				<key>date</key>
 				<date>2021-03-17T13:57:20Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Ruby_3.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-10-21T06:58:54Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Ruby_on_Rails_6.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2021-10-21T06:58:55Z</date>
 			</dict>
 		</dict>
 	</dict>
@@ -1297,15 +1297,15 @@
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_5.xml</key>
 			<dict>
-				<key>5.0.2</key>
-				<dict>
-					<key>date</key>
-					<date>2021-08-05T10:15:42Z</date>
-				</dict>
 				<key>5.2.4</key>
 				<dict>
 					<key>date</key>
 					<date>2021-08-02T11:12:33Z</date>
+				</dict>
+				<key>5.2.5</key>
+				<dict>
+					<key>date</key>
+					<date>2021-10-21T06:58:28Z</date>
 				</dict>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_6.xml</key>
@@ -1330,7 +1330,13 @@
 				</dict>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_5.xml</key>
-			<dict/>
+			<dict>
+				<key>5.0.2</key>
+				<dict>
+					<key>date</key>
+					<date>2021-10-21T06:58:29Z</date>
+				</dict>
+			</dict>
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_6.xml</key>
 			<dict>
 				<key>6.1.2.1</key>
