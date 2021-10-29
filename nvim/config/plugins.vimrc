@@ -22,6 +22,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-projectionist'
 
+Plug 'elijahmanor/export-to-vscode.nvim'
+
 " RUBY
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-bundler'
@@ -102,3 +104,4 @@ source $HOME/.config/nvim/config/vim-move.vimrc
 source $HOME/.config/nvim/config/vim-projectionist.vimrc
 source $HOME/.config/nvim/config/vim-slim.vimrc
 source $HOME/.config/nvim/config/vim-test.vimrc
+source $HOME/.config/nvim/config/export-to-vscode.lua
