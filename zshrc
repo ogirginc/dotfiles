@@ -106,6 +106,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export HOMEBREW_BUNDLE_FILE="$HOME/Dotfiles/Brewfile"
 export LANG="en_US.UTF-8"
 export EDITOR="nvim"
+export PATH="$PATH:$HOME/.exo/bin" # https://github.com/deref/exo
 
 source "$HOME/Documents/Dotfiles/env-vars.sh"
 
