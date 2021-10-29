@@ -93,6 +93,7 @@ alias .brewrc="nvim $HOME/Dotfiles/Brewfile"
 alias .gitconfig="nvim $HOME/Dotfiles/git/config"
 alias .nvimrc="nvim $HOME/Dotfiles/nvim/config/init.vimrc"
 alias .zshrc="nvim $HOME/Dotfiles/zshrc"
+alias .history="nvim $HOME/.zsh_history"
 
 # Show all the history stored with fzf.
 alias history="fc -l 1 | fzf"
