@@ -32,6 +32,7 @@
   lb = "branch --list"
   lbr = "branch --list --remotes"
   prs = "pull --rebase --autostash"
+  cpr = "commit -m 'Apply PR reviews'"
 
   bs = "for-each-ref --sort='authordate:iso8601' --format=' %(color:green)%(authordate:relative)%09%(color:white)%(refname:short)' refs/heads"
 
