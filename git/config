@@ -17,6 +17,7 @@
 [alias]
   upstream = "!f() { git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD); }; f"
   unrestore = "restore --staged ."
+  undo = "reset head~1"
 
   cam = "!f() { git add . && git commit -m \"$1\"; }; f"
   wip = "!f() { git add . && git commit -m "WIP"; }; f"
