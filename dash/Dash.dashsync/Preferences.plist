@@ -574,7 +574,7 @@
 			<key>sidekiq</key>
 			<dict>
 				<key>date</key>
-				<date>2021-08-02T11:12:02Z</date>
+				<date>2021-11-16T11:40:26Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -737,7 +737,7 @@
 			<key>Hammerspoon</key>
 			<dict>
 				<key>date</key>
-				<date>2021-08-02T11:12:33Z</date>
+				<date>2021-11-16T11:39:28Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
