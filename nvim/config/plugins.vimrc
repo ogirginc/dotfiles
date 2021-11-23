@@ -20,8 +20,6 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
-Plug 'tpope/vim-projectionist'
-
 Plug 'github/copilot.vim'
 Plug 'elijahmanor/export-to-vscode.nvim'
 
@@ -102,7 +100,6 @@ source $HOME/.config/nvim/config/nerdtree.vimrc
 source $HOME/.config/nvim/config/vim-commentary.vimrc
 source $HOME/.config/nvim/config/vim-indent.vimrc
 source $HOME/.config/nvim/config/vim-move.vimrc
-source $HOME/.config/nvim/config/vim-projectionist.vimrc
 source $HOME/.config/nvim/config/vim-slim.vimrc
 source $HOME/.config/nvim/config/vim-test.vimrc
 source $HOME/.config/nvim/config/export-to-vscode.lua
