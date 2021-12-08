@@ -128,6 +128,10 @@ function rz() {
   source ~/.zshrc
 }
 
+function fixadguard() {
+  sudo ifconfig lo0 up
+}
+
 
 
 #########################################################################################
