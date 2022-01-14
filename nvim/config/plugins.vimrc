@@ -19,7 +19,6 @@ Plug 'dyng/ctrlsf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
-Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'github/copilot.vim'
 Plug 'elijahmanor/export-to-vscode.nvim'
 
@@ -89,7 +88,6 @@ Plug 'itchyny/lightline.vim'
 
 call plug#end()
 
-source $HOME/.config/nvim/config/coc.vimrc
 source $HOME/.config/nvim/config/ctrlsf.vimrc
 source $HOME/.config/nvim/config/dash.vimrc
 source $HOME/.config/nvim/config/easy-align.vimrc
