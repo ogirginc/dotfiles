@@ -125,6 +125,46 @@ return packer.startup(function(use)
   use "lewis6991/gitsigns.nvim"
   -- use "airblade/vim-gitgutter"
 
+  use "github/copilot.vim"
+  use "elijahmanor/export-to-vscode.nvim"
+
+  -- Ruby
+  use "tpope/vim-rails"
+  use "tpope/vim-bundler"
+  use "tpope/vim-endwise"
+  use "ck3g/vim-change-hash-syntax"
+
+  -- Javascript
+  use "pangloss/vim-javascript"
+  use "HerringtonDarkholme/yats.vim"
+  use "maxmellon/vim-jsx-pretty"
+  use "leafgarland/typescript-vim"
+
+  -- " Ember
+  use "joukevandermaas/vim-ember-hbs"
+  use "AndrewRadev/ember_tools.vim"
+
+  -- " Code styling
+  use "tpope/vim-abolish"
+  use "ConradIrwin/vim-bracketed-paste"
+
+  -- " Unix
+  use "lambdalisue/suda.vim"
+
+  -- " Other
+  use "AndrewRadev/splitjoin.vim"
+  use "henrik/vim-indexed-search"
+  use "inkarkat/vim-SyntaxRange"
+  use "junegunn/vim-easy-align"
+  use "kana/vim-textobj-user"
+  use "matze/vim-move"
+  use "rizzatti/dash.vim"
+  use "schickling/vim-bufonly"
+  use "tpope/vim-jdaddy" -- JSON manipulation and pretty printing
+  use "tpope/vim-obsession"
+  use "tpope/vim-repeat"
+  use "tpope/vim-speeddating"
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
