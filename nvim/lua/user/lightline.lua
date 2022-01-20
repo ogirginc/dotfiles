@@ -1,3 +1,4 @@
+vim.cmd([[
 let g:lightline = {
       \ 'colorscheme': 'solarized',
       \ 'active': {
@@ -23,7 +24,9 @@ let g:lightline = {
       \   'charvaluehex': '0x%B'
       \ },
       \ }
+]])
 
+vim.cmd([[
 function! LightlineTruncatedFileName()
 let l:filePath = expand('%')
     if winwidth(0) > 100
@@ -32,3 +35,4 @@ let l:filePath = expand('%')
         return pathshorten(l:filePath)
     endif
 endfunction
+]])

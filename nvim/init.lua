@@ -1,8 +1,25 @@
--- init.lua
+require "user.options"
+require "user.keymaps"
+require "user.plugins"
+require "user.colorscheme"
+require "user.helpers"
 
--- source a vimscript file
-vim.cmd('source ~/.config/nvim/config/init.vimrc')
-vim.cmd('source ~/.config/nvim/config/plugins.vimrc')
-
--- require `new_config.lua` from the nvim/lua folder:
--- require("new_config")
+-- Plugin Settings
+require "user.cmp"
+require "user.lsp"
+require "user.telescope"
+require "user.treesitter"
+require "user.toggleterm"
+require "user.nvimtree"
+require "user.ctrlsf"
+require "user.fzf"
+require "user.lightline"
+require "user.nerdtree"
+require "user.vim-commentary"
+require "user.vim-test"
+require "user.autopairs"
+require "user.gitsigns"
+require "user.easy-align"
+require "user.export-vscode"
+require "user.vim-move"
+require "user.vim-slim"

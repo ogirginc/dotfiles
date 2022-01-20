@@ -28,7 +28,7 @@ ln -sfn ~/Dotfiles/git/ ~/.config/
 ```
 
 ```
-ln -sfn ~/Dotfiles/nvim/config/ ~/.config/nvim/
+ln -sfn ~/Dotfiles/nvim/lua ~/.config/nvim/
 ln -sfn ~/Dotfiles/nvim/init.lua ~/.config/nvim/
 ```
 

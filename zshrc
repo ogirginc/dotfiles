@@ -91,7 +91,7 @@ source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme
 alias .dotfiles="cd $HOME/Dotfiles && nvim -c ':NERDTreeToggle'"
 alias .brewrc="nvim $HOME/Dotfiles/Brewfile"
 alias .gitconfig="nvim $HOME/Dotfiles/git/config"
-alias .nvimrc="nvim $HOME/Dotfiles/nvim/config/init.vimrc"
+alias .nvimrc="nvim $HOME/Dotfiles/nvim/init.lua"
 alias .zshrc="nvim $HOME/Dotfiles/zshrc"
 alias .history="nvim $HOME/.zsh_history"
 
