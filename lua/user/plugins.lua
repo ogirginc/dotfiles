@@ -48,6 +48,8 @@ return packer.startup(function(use)
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
   use "lunarvim/darkplus.nvim"
+  use "ishan9299/nvim-solarized-lua"
+  use "iCyMind/NeoSolarized"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -69,13 +71,40 @@ return packer.startup(function(use)
   -- Telescope
   use "nvim-telescope/telescope.nvim"
 
-  -- Treesitter
+  -- Treesitter & friends
   use {
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
   }
   use "p00f/nvim-ts-rainbow"
   use "nvim-treesitter/playground"
+
+  use  "scrooloose/nerdtree"
+  use  "Xuyuanp/nerdtree-git-plugin"
+  use {
+    'kyazdani42/nvim-tree.lua',
+    requires = {
+      'kyazdani42/nvim-web-devicons', -- optional, for file icon
+    },
+    config = function() require'nvim-tree'.setup {} end
+  }
+
+  use "dyng/ctrlsf.vim"
+  use { "junegunn/fzf", run = "./install --bin" }
+  use "junegunn/fzf.vim"
+
+  use "tpope/vim-commentary"
+  use "tpope/vim-surround"
+
+  use "tpope/vim-rhubarb"
+  use "tpope/vim-fugitive"
+  use "airblade/vim-gitgutter"
+  use "ruanyl/vim-gh-line"
+
+  use "itchyny/lightline.vim"
+  use "janko-m/vim-test"
+
+  -- use "akinsho/toggleterm.nvim"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
