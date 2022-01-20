@@ -101,13 +101,16 @@ return packer.startup(function(use)
 
   use "tpope/vim-rhubarb"
   use "tpope/vim-fugitive"
-  use "airblade/vim-gitgutter"
   use "ruanyl/vim-gh-line"
 
   use "itchyny/lightline.vim"
   use "janko-m/vim-test"
 
   use "akinsho/toggleterm.nvim"
+
+  -- Git
+  use "lewis6991/gitsigns.nvim"
+  -- use "airblade/vim-gitgutter"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
