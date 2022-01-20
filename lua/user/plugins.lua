@@ -93,6 +93,18 @@ return packer.startup(function(use)
     config = function() require'nvim-tree'.setup {} end
   }
 
+  use {
+    "folke/trouble.nvim",
+    requires = "kyazdani42/nvim-web-devicons",
+    config = function()
+      require("trouble").setup {
+        -- your configuration comes here
+        -- or leave it empty to use the default settings
+        -- refer to the configuration section below
+      }
+    end
+  }
+
   use "dyng/ctrlsf.vim"
   use { "junegunn/fzf", run = "./install --bin" }
   use "junegunn/fzf.vim"
