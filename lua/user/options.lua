@@ -36,9 +36,9 @@ vim.opt.foldmethod = "manual"
 
 -- Enable persistent undo & set folders.
 vim.opt.undofile = true
-vim.opt.undodir = "~/.config/nvim/.undo//"
-vim.opt.backupdir = "~/.config/nvim/.backup//"
-vim.opt.directory = "~/.config/nvim/.swp//"
+vim.opt.undodir = vim.fn.stdpath('config') .. '/.undodir'
+vim.opt.backupdir = vim.fn.stdpath('config') .. '/.backup'
+vim.opt.undodir = vim.fn.stdpath('config') .. '/.swp'
 
 vim.opt.mouse = "a"                 -- Allow the mouse to be used in neovim.
 vim.opt.clipboard = "unnamedplus"   -- Allows neovim to access the system clipboard.
