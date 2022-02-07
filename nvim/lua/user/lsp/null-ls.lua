@@ -12,8 +12,8 @@ null_ls.setup({
   debug = false,
   sources = {
     -- Ruby
-    formatting.rubocop,
-    diagnostics.rubocop,
+    -- formatting.rubocop,
+    -- diagnostics.rubocop,
     -- Javascript
     formatting.prettier,
     formatting.eslint,
