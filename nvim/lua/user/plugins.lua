@@ -83,10 +83,11 @@ return packer.startup(function(use)
   }
   use "p00f/nvim-ts-rainbow"
   use "nvim-treesitter/playground"
-  use "JoosepAlviste/nvim-ts-context-commentstring"
+  -- use "JoosepAlviste/nvim-ts-context-commentstring"
 
   use  "scrooloose/nerdtree"
   use  "Xuyuanp/nerdtree-git-plugin"
+
   use {
     'kyazdani42/nvim-tree.lua',
     requires = {
@@ -111,7 +112,7 @@ return packer.startup(function(use)
   use { "junegunn/fzf", run = "./install --bin" }
   use "junegunn/fzf.vim"
 
-  use "tpope/vim-commentary"
+  use "numToStr/Comment.nvim"
   use "tpope/vim-surround"
 
   use "tpope/vim-rhubarb"
