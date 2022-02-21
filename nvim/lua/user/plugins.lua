@@ -128,7 +128,11 @@ return packer.startup(function(use)
   use "lewis6991/gitsigns.nvim"
   -- use "airblade/vim-gitgutter"
 
-  use "github/copilot.vim"
+  -- Does not work atm because;
+  -- 1. https://github.com/github/copilot.vim/pull/10
+  -- 2. https://github.com/hrsh7th/nvim-cmp/issues/459#issuecomment-957112601
+  -- use "github/copilot.vim"
+
   use "elijahmanor/export-to-vscode.nvim"
 
   -- Ruby
