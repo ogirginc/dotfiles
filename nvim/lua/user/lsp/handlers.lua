@@ -20,7 +20,7 @@ M.setup = function()
       active = signs,
     },
     update_in_insert = true,
-    underline = true,
+    underline = false, -- do not underline when DiagnosticSignXXXX present
     severity_sort = true,
     float = {
       focusable = false,
