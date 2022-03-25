@@ -85,6 +85,15 @@ return packer.startup(function(use)
   use "nvim-treesitter/playground"
   -- use "JoosepAlviste/nvim-ts-context-commentstring"
 
+  use {
+    "cuducos/yaml.nvim",
+    ft = {"yaml"}, -- optional
+    requires = {
+      "nvim-treesitter/nvim-treesitter",
+      "nvim-telescope/telescope.nvim" -- optional
+    },
+  }
+
   use  "scrooloose/nerdtree"
   use  "Xuyuanp/nerdtree-git-plugin"
 
