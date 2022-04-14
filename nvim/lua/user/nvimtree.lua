@@ -85,7 +85,7 @@ nvim_tree.setup {
         { key = "s", cb = tree_cb "split" },
       },
     },
-    number = true,
+    number = false,
     relativenumber = true,
   },
   quit_on_open = 0,
