@@ -47,6 +47,7 @@ brew "pgweb"
 brew "memcached"
 brew "overmind"
 
+cask "1password"
 cask "alfred"
 cask "apparition47/tap/mailtrackerblocker"
 cask "appcleaner"
