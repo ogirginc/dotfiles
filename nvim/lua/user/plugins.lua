@@ -94,9 +94,6 @@ return packer.startup(function(use)
     },
   }
 
-  use  "scrooloose/nerdtree"
-  use  "Xuyuanp/nerdtree-git-plugin"
-
   use {
     'kyazdani42/nvim-tree.lua',
     requires = {
