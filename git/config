@@ -20,7 +20,7 @@
   undo = "reset head~1"
 
   cam = "!f() { git add . && git commit -m \"$1\"; }; f"
-  wip = "!f() { git add . && git commit -m "WIP"; }; f"
+  wip = "!f() { git add . && git commit -m "WIP" --no-verify; }; f"
 
   rb = "!f() { git rebase -i HEAD~$1 --autostash; }; f"
   sb = "!f() { git switch $(git branch | fzf --height 40% --reverse --border); }; f"
