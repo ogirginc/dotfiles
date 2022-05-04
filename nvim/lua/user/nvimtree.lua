@@ -1,3 +1,24 @@
+-- https://github.com/LunarVim/Neovim-from-scratch/issues/124
+vim.g = {
+  auto_close = false, -- do not close when it is last window
+  update_to_buf_dir = {
+    enable = false,
+    auto_open = true,
+  },
+  auto_resize = true,
+  quit_on_open = 0,
+  git_hl = 1,
+  disable_window_picker = 0,
+  root_folder_modifier = ":t",
+  show_icons = {
+    git = 1,
+    folders = 1,
+    files = 1,
+    folder_alrows = 1,
+    tree_width = 30,
+  },
+}
+
 -- following options are the default
 -- each of these are documented in `:help nvim-tree.OPTION_NAME`
 vim.g.nvim_tree_icons = {
@@ -42,14 +63,9 @@ nvim_tree.setup {
     "dashboard",
     "alpha",
   },
-  auto_close = false, -- do not close when it is last window
   open_on_tab = false,
   hijack_cursor = false,
   update_cwd = true,
-  update_to_buf_dir = {
-    enable = false,
-    auto_open = true,
-  },
   diagnostics = {
     enable = true,
     icons = {
@@ -74,7 +90,6 @@ nvim_tree.setup {
     height = 30,
     hide_root_folder = false,
     side = "left",
-    auto_resize = true,
     mappings = {
       custom_only = false,
       list = {
@@ -87,17 +102,6 @@ nvim_tree.setup {
     },
     number = false,
     relativenumber = true,
-  },
-  quit_on_open = 0,
-  git_hl = 1,
-  disable_window_picker = 0,
-  root_folder_modifier = ":t",
-  show_icons = {
-    git = 1,
-    folders = 1,
-    files = 1,
-    folder_alrows = 1,
-    tree_width = 30,
   },
 }
 
