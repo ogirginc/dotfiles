@@ -1090,7 +1090,7 @@
     },
     "cask": {
       "1password-cli": {
-        "version": "1.9.1",
+        "version": "2.1.0",
         "options": {
           "full_name": "1password-cli"
         }
