@@ -49,6 +49,10 @@ return packer.startup(function(use)
 
   -- Colorschemes
   use "ishan9299/nvim-solarized-lua"
+  -- use "~/neovim/nvim-solarized-lua"
+  -- use "~/neovim/solarized-light.nvim"
+  -- use "lifepillar/vim-solarized8"
+  -- use "iCyMind/NeoSolarized"
   use "folke/lsp-colors.nvim"
   use {
     "norcalli/nvim-colorizer.lua",
