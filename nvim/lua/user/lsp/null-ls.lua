@@ -12,7 +12,7 @@ null_ls.setup({
   debug = false,
   sources = {
     -- Ruby
-    -- formatting.rubocop,
+    formatting.rubocop,
     -- diagnostics.rubocop,
     -- Javascript
     formatting.prettier,
