@@ -6,7 +6,20 @@ end
 local lspconfig = require("lspconfig")
 
 -- Add the servers you want to use
-local servers = { "cssls", "cssmodules_ls", "html", "ember", "eslint", "jsonls", "tsserver", "solargraph", "stylelint_lsp", "sumneko_lua", "tailwindcss" }
+local servers = {
+  "cssls",
+  "cssmodules_ls",
+  "ember",
+  "eslint",
+  "html",
+  "jsonls",
+  "remark_ls",
+  "solargraph",
+  "stylelint_lsp",
+  "sumneko_lua",
+  "tailwindcss",
+  "tsserver",
+}
 
 lsp_installer.setup {
 	ensure_installed = servers
