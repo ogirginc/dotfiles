@@ -17,6 +17,6 @@ null_ls.setup({
     -- Javascript
     formatting.prettier,
     formatting.eslint,
-    diagnostics.eslint,
+    -- diagnostics.eslint,
   },
 })
