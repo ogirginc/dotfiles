@@ -65,7 +65,8 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-path" -- path completions
   use "hrsh7th/cmp-cmdline" -- cmdline completions
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
-  use "hrsh7th/cmp-nvim-lsp"
+  use "hrsh7th/cmp-nvim-lsp" -- lsp completions
+  -- use "hrsh7th/cmp-copilot"
 
   -- snippets
   use "L3MON4D3/LuaSnip" --snippet engine
@@ -138,6 +139,20 @@ return packer.startup(function(use)
   -- use "airblade/vim-gitgutter"
 
   use "github/copilot.vim"
+  use {
+    "zbirenbaum/copilot.lua",
+    event = {"VimEnter"},
+    config = function()
+      vim.defer_fn(function()
+        require("copilot").setup()
+      end, 100)
+    end,
+  }
+  use {
+    "zbirenbaum/copilot-cmp",
+    module = "copilot_cmp",
+    cmp_method = "getPanelCompletions",
+  }
 
   use "elijahmanor/export-to-vscode.nvim"
 

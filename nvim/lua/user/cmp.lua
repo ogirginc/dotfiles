@@ -66,12 +66,8 @@ cmp.setup {
     -- Set `select` to `false` to only confirm explicitly selected items.
     ["<CR>"] = cmp.mapping.confirm { select = false },
     ["<Tab>"] = cmp.mapping(function(fallback)
-			local copilot_keys = vim.fn["copilot#Accept"]("")
-
       if cmp.visible() then
         cmp.select_next_item()
-			elseif copilot_keys ~= "" then
-				vim.api.nvim_feedkeys(copilot_keys, "i", false)
       elseif luasnip.expandable() then
         luasnip.expand()
       elseif luasnip.expand_or_jumpable() then
@@ -105,6 +101,7 @@ cmp.setup {
       vim_item.kind = string.format("%s", kind_icons[vim_item.kind])
       -- vim_item.kind = string.format('%s %s', kind_icons[vim_item.kind], vim_item.kind) -- This concatonates the icons with the name of the item kind
       vim_item.menu = ({
+        copilot = "[Copilot]",
         nvim_lsp = "[LSP]",
         luasnip = "[Snippet]",
         buffer = "[Buffer]",
@@ -114,6 +111,7 @@ cmp.setup {
     end,
   },
   sources = {
+    { name = 'copilot' },
     { name = "nvim_lsp" },
     { name = "luasnip" },
     { name = "buffer" },
