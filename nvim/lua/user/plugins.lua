@@ -154,8 +154,6 @@ return packer.startup(function(use)
     cmp_method = "getPanelCompletions",
   }
 
-  use "elijahmanor/export-to-vscode.nvim"
-
   -- Ruby
   use "tpope/vim-rails"
   use "tpope/vim-bundler"
