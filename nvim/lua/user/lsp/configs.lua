@@ -13,7 +13,6 @@ local servers = {
   "eslint",
   "html",
   "jsonls",
-  "remark_ls",
   "solargraph",
   "stylelint_lsp",
   "sumneko_lua",
