@@ -98,6 +98,8 @@ nvim_tree.setup {
         { key = "h", cb = tree_cb "close_node" },
         { key = "v", cb = tree_cb "vsplit" },
         { key = "s", cb = tree_cb "split" },
+        { key = "<C-e>", action = "" },
+        { key = "<C-y>", action = "" },
       },
     },
     number = false,
