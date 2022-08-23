@@ -105,6 +105,11 @@ nvim_tree.setup {
     number = false,
     relativenumber = true,
   },
+  actions = {
+    open_file = {
+      resize_window = false,
+    },
+  },
 }
 
 local opts = { noremap = true, silent = true }
