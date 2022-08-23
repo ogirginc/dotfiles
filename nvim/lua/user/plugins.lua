@@ -190,6 +190,7 @@ return packer.startup(function(use)
   use "tpope/vim-obsession"
   use "tpope/vim-repeat"
   use "tpope/vim-speeddating"
+  use { 'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async' }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
