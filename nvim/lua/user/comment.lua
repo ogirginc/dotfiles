@@ -4,8 +4,8 @@ if not status_ok then
 end
 
 local ft = require "Comment.ft"
-ft.set("html.handlebars", "{{!-- %s --}}")
-ft.set("handlebars", "{{!-- %s --}}")
+ft.set("html.handlebars", "{{! %s }}")
+ft.set("handlebars", "{{! %s }}")
 
 comment.setup {
   toggler = {
