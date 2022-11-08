@@ -93,6 +93,25 @@ return packer.startup(function(use)
     use "windwp/nvim-autopairs" -- autoclose parens, brackets, quotes, etc...
     use { "windwp/nvim-ts-autotag", after = "nvim-treesitter" } -- autoclose tags
 
+    -- COPILOT
+    use {
+      "zbirenbaum/copilot.lua",
+      -- after = "lightline.nvim", -- whichever statusline plugin you use here
+      event = "VimEnter",
+      config = function ()
+        vim.defer_fn(function()
+          require("copilot").setup()
+        end, 100)
+      end,
+    }
+    use {
+      "zbirenbaum/copilot-cmp",
+      after = { "copilot.lua" },
+      config = function ()
+        require("copilot_cmp").setup()
+      end
+    }
+
   ------------------------------------------------------------------------------
   -- OTHER EDITOR FUNCTIONALITY
   ------------------------------------------------------------------------------
