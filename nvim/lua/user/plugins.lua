@@ -59,7 +59,7 @@ return packer.startup(function(use)
     use "dyng/ctrlsf.vim"
     use "junegunn/fzf.vim"
     use { "junegunn/fzf", run = "./install --bin" }
-    use { "kyazdani42/nvim-ree.lua", requires = { "kyazdani42/nvim-web-devicons" }}
+    use { "kyazdani42/nvim-tree.lua", requires = { "kyazdani42/nvim-web-devicons" }}
 
     -- TESTING
     use "janko-m/vim-test"
