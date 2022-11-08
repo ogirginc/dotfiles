@@ -31,7 +31,7 @@ end
 
 -- Have packer use a popup window
 packer.init {
-  max_jobs = 5,
+  -- max_jobs = 5, -- If packer sync fails
   display = {
     open_fn = function()
       return require("packer.util").float { border = "rounded" }
@@ -39,159 +39,86 @@ packer.init {
   },
 }
 
--- Install your plugins here
+--------------------------------------------------------------------------------
+-- PACKER PLUGINS
+--------------------------------------------------------------------------------
 return packer.startup(function(use)
-  -- My plugins here
-  use "wbthomason/packer.nvim" -- Have packer manage itself
-  use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
-  use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
+  use "wbthomason/packer.nvim"
+  use "nvim-lua/popup.nvim"
+  use "nvim-lua/plenary.nvim"
 
-  use "windwp/nvim-autopairs"
-
-  -- Colorschemes
+  ------------------------------------------------------------------------------
+  -- COLORSCHEMES
+  ------------------------------------------------------------------------------
   use "ishan9299/nvim-solarized-lua"
-  -- use "~/neovim/nvim-solarized-lua"
-  -- use "~/neovim/solarized-light.nvim"
-  -- use "lifepillar/vim-solarized8"
-  -- use "iCyMind/NeoSolarized"
-  use "folke/lsp-colors.nvim"
-  use {
-    "norcalli/nvim-colorizer.lua",
-    config = function() require("colorizer").setup() end
-  }
 
-  -- cmp plugins
-  use "hrsh7th/nvim-cmp" -- The completion plugin
-  use "hrsh7th/cmp-buffer" -- buffer completions
-  use "hrsh7th/cmp-path" -- path completions
-  use "hrsh7th/cmp-cmdline" -- cmdline completions
-  use "saadparwaiz1/cmp_luasnip" -- snippet completions
-  use "hrsh7th/cmp-nvim-lsp" -- lsp completions
-  -- use "hrsh7th/cmp-copilot"
+  ------------------------------------------------------------------------------
+  -- EDITOR FUNCTIONALITY
+  ------------------------------------------------------------------------------
+    -- CODE SEARCH
+    use "dyng/ctrlsf.vim"
+    use "junegunn/fzf.vim"
+    use { "junegunn/fzf", run = "./install --bin" }
+    use { "kyazdani42/nvim-ree.lua", requires = { "kyazdani42/nvim-web-devicons" }}
 
-  -- snippets
-  use "L3MON4D3/LuaSnip" --snippet engine
-  use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
+    -- TESTING
+    use "janko-m/vim-test"
 
-  -- LSP
-  use "neovim/nvim-lspconfig" -- enable LSP
-  use "williamboman/nvim-lsp-installer" -- simple to use language server installer
-  use "tamago324/nlsp-settings.nvim" -- language server settings defined in json for
-  use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
+    -- CODE MANIPULATION
+    use "AndrewRadev/splitjoin.vim" -- Switch between single & multiline code
+    use "junegunn/vim-easy-align" -- Align your code
+    use "matze/vim-move" -- Move code by line
+    use "numToStr/Comment.nvim"
+    use "tpope/vim-jdaddy" -- JSON manipulation and pretty printing
+    use "tpope/vim-repeat"
+    use "tpope/vim-speeddating"
+    use "tpope/vim-surround"
+    use { "kevinhwang91/nvim-ufo", requires = "kevinhwang91/promise-async" }
 
-  -- Telescope
-  use "nvim-telescope/telescope.nvim"
+    -- EX COMMANDS
+    use "lambdalisue/suda.vim" -- SUDO access
+    use "schickling/vim-bufonly" -- Keep open buf only
+    use "tpope/vim-obsession" -- All about :mksession
 
-  -- Treesitter & friends
-  use {
-    "nvim-treesitter/nvim-treesitter",
-    run = ":TSUpdate",
-  }
-  use "p00f/nvim-ts-rainbow"
-  use "nvim-treesitter/playground"
-  -- use "JoosepAlviste/nvim-ts-context-commentstring"
+    -- OTHER
+    use "akinsho/toggleterm.nvim"
+    use "itchyny/lightline.vim"
 
-  use {
-    "cuducos/yaml.nvim",
-    ft = {"yaml"}, -- optional
-    requires = {
-      "nvim-treesitter/nvim-treesitter",
-      "nvim-telescope/telescope.nvim" -- optional
-    },
-  }
+  ------------------------------------------------------------------------------
+  -- LANGUAGE SPECIFIC PLUGINS
+  ------------------------------------------------------------------------------
+    -- GIT
+    use "lewis6991/gitsigns.nvim"
+    use "tpope/vim-rhubarb"
+    use "tpope/vim-fugitive"
+    use "ruanyl/vim-gh-line"
 
-  use {
-    'kyazdani42/nvim-tree.lua',
-    requires = {
-      'kyazdani42/nvim-web-devicons', -- optional, for file icon
-    },
-  }
+    -- RUBY
+    use "tpope/vim-rails"
+    use "tpope/vim-bundler"
+    use "tpope/vim-endwise"
+    use "ck3g/vim-change-hash-syntax"
 
-  use {
-    "folke/trouble.nvim",
-    requires = "kyazdani42/nvim-web-devicons",
-    config = function()
-      require("trouble").setup {
-        -- your configuration comes here
-        -- or leave it empty to use the default settings
-        -- refer to the configuration section below
-      }
-    end
-  }
+    -- JAVASCRIPT
+    use "pangloss/vim-javascript"
+    use "HerringtonDarkholme/yats.vim"
+    use "maxmellon/vim-jsx-pretty"
+    use "leafgarland/typescript-vim"
 
-  use "dyng/ctrlsf.vim"
-  use { "junegunn/fzf", run = "./install --bin" }
-  use "junegunn/fzf.vim"
+    -- EMBER JS
+    use "joukevandermaas/vim-ember-hbs"
+    use "AndrewRadev/ember_tools.vim"
 
-  use "numToStr/Comment.nvim"
-  use "tpope/vim-surround"
+  ------------------------------------------------------------------------------
+  -- MISC
+  ------------------------------------------------------------------------------
+    -- THIRD PARTY TOOLING
+    use "rizzatti/dash.vim"
 
-  use "tpope/vim-rhubarb"
-  use "tpope/vim-fugitive"
-  use "ruanyl/vim-gh-line"
-
-  use "itchyny/lightline.vim"
-  use "janko-m/vim-test"
-
-  use "akinsho/toggleterm.nvim"
-
-  -- Git
-  use "lewis6991/gitsigns.nvim"
-  -- use "airblade/vim-gitgutter"
-
-  use "github/copilot.vim"
-  use {
-    "zbirenbaum/copilot.lua",
-    event = {"VimEnter"},
-    config = function()
-      vim.defer_fn(function()
-        require("copilot").setup()
-      end, 100)
-    end,
-  }
-  use {
-    "zbirenbaum/copilot-cmp",
-    module = "copilot_cmp",
-    cmp_method = "getPanelCompletions",
-  }
-
-  -- Ruby
-  use "tpope/vim-rails"
-  use "tpope/vim-bundler"
-  use "tpope/vim-endwise"
-  use "ck3g/vim-change-hash-syntax"
-
-  -- Javascript
-  use "pangloss/vim-javascript"
-  use "HerringtonDarkholme/yats.vim"
-  use "maxmellon/vim-jsx-pretty"
-  use "leafgarland/typescript-vim"
-
-  -- " Ember
-  use "joukevandermaas/vim-ember-hbs"
-  use "AndrewRadev/ember_tools.vim"
-
-  -- " Code styling
-  use "tpope/vim-abolish"
-  use "ConradIrwin/vim-bracketed-paste"
-
-  -- " Unix
-  use "lambdalisue/suda.vim"
-
-  -- " Other
-  use "AndrewRadev/splitjoin.vim"
-  use "henrik/vim-indexed-search"
-  use "inkarkat/vim-SyntaxRange"
-  use "junegunn/vim-easy-align"
-  use "kana/vim-textobj-user"
-  use "matze/vim-move"
-  use "rizzatti/dash.vim"
-  use "schickling/vim-bufonly"
-  use "tpope/vim-jdaddy" -- JSON manipulation and pretty printing
-  use "tpope/vim-obsession"
-  use "tpope/vim-repeat"
-  use "tpope/vim-speeddating"
-  use { 'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async' }
+    -- ARE WE SURE ABOUT THAT THIS IS NEEDED MY DEAR???
+    use "ConradIrwin/vim-bracketed-paste"
+    -- use "henrik/vim-indexed-search"
+    -- use "inkarkat/vim-SyntaxRange"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

@@ -38,3 +38,7 @@ vim.cmd([[
 " Use leader + rn to rename
 nnoremap <leader>rn :call RenameFile()<CR>
 ]])
+
+vim.cmd([[
+autocmd BufNewFile,BufRead *.slim setlocal filetype=slim
+]])
