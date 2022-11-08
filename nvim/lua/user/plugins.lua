@@ -53,7 +53,48 @@ return packer.startup(function(use)
   use "ishan9299/nvim-solarized-lua"
 
   ------------------------------------------------------------------------------
-  -- EDITOR FUNCTIONALITY
+  -- MODERN EDITOR FUNCTIONALITY
+  ------------------------------------------------------------------------------
+    -- AUTOCOMPLETION
+    use "hrsh7th/nvim-cmp"
+    use "hrsh7th/cmp-buffer"
+    use "hrsh7th/cmp-path"
+    use "hrsh7th/cmp-cmdline"
+
+    -- SNIPPETS
+    use "L3MON4D3/LuaSnip"
+    use "saadparwaiz1/cmp_luasnip"
+    use "rafamadriz/friendly-snippets"
+
+    --- MANAGE & INSTALL LSP SERVERS, LINTERS & FORMATTERS
+    use "williamboman/mason.nvim"
+    use "williamboman/mason-lspconfig.nvim"
+
+    --- CONFIGURE LSP
+    use "neovim/nvim-lspconfig"
+    use "hrsh7th/cmp-nvim-lsp"
+    use { "glepnir/lspsaga.nvim", branch = "main" }
+    use "jose-elias-alvarez/typescript.nvim" -- additional functionality for ts server
+    use "onsails/lspkind.nvim" -- VSCode like icons for autocompletion
+
+    -- FORMATTING & LINTING
+    use "jose-elias-alvarez/null-ls.nvim"
+    use "jayp0521/mason-null-ls.nvim"
+
+    -- TREESITTER
+    use {
+      "nvim-treesitter/nvim-treesitter",
+      run = function()
+        require("nvim-treesitter.install").update({ with_sync = true })
+      end,
+    }
+
+    -- TREESITTER TOOLING
+    use "windwp/nvim-autopairs" -- autoclose parens, brackets, quotes, etc...
+    use { "windwp/nvim-ts-autotag", after = "nvim-treesitter" } -- autoclose tags
+
+  ------------------------------------------------------------------------------
+  -- OTHER EDITOR FUNCTIONALITY
   ------------------------------------------------------------------------------
     -- CODE SEARCH
     use "dyng/ctrlsf.vim"
