@@ -36,7 +36,7 @@ endfunction
 
 vim.cmd([[
 " Use leader + rn to rename
-nnoremap <leader>rn :call RenameFile()<CR>
+nnoremap <leader>rnf :call RenameFile()<CR>
 ]])
 
 vim.cmd([[
