@@ -11,6 +11,7 @@ require "plugins.easy-align"
 require "plugins.fzf"
 require "plugins.gitsigns"
 require "plugins.lightline"
+require "plugins.neo-tree"
 require "plugins.nvim-cmp"
 require "plugins.nvimtree"
 require "plugins.toggleterm"
@@ -22,3 +23,4 @@ require "plugins.lsp.mason"
 require "plugins.lsp.lspsaga" -- Need to load before lsp.confgg
 require "plugins.lsp.config"
 require "plugins.lsp.null-ls"
+
