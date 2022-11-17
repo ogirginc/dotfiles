@@ -130,68 +130,68 @@ return packer.startup(function(use)
         }
       }
 
-    -- TESTING
-    use "janko-m/vim-test"
+      -- TESTING
+      use "janko-m/vim-test"
 
-    -- CODE MANIPULATION
-    use "AndrewRadev/splitjoin.vim" -- Switch between single & multiline code
-    use "junegunn/vim-easy-align" -- Align your code
-    use "matze/vim-move" -- Move code by line
-    use "numToStr/Comment.nvim"
-    use "tpope/vim-jdaddy" -- JSON manipulation and pretty printing
-    use "tpope/vim-repeat"
-    use "tpope/vim-speeddating"
-    use "tpope/vim-surround"
-    use { "kevinhwang91/nvim-ufo", requires = "kevinhwang91/promise-async" }
+      -- CODE MANIPULATION
+      use "AndrewRadev/splitjoin.vim" -- Switch between single & multiline code
+      use "junegunn/vim-easy-align" -- Align your code
+      use "matze/vim-move" -- Move code by line
+      use "numToStr/Comment.nvim"
+      use "tpope/vim-jdaddy" -- JSON manipulation and pretty printing
+      use "tpope/vim-repeat"
+      use "tpope/vim-speeddating"
+      use "tpope/vim-surround"
+      use { "kevinhwang91/nvim-ufo", requires = "kevinhwang91/promise-async" }
 
-    -- EX COMMANDS
-    use "lambdalisue/suda.vim" -- SUDO access
-    use "schickling/vim-bufonly" -- Keep open buf only
-    use "tpope/vim-obsession" -- All about :mksession
+      -- EX COMMANDS
+      use "lambdalisue/suda.vim" -- SUDO access
+      use "schickling/vim-bufonly" -- Keep open buf only
+      use "tpope/vim-obsession" -- All about :mksession
 
-    -- OTHER
-    use "akinsho/toggleterm.nvim"
-    use "itchyny/lightline.vim"
+      -- OTHER
+      use "akinsho/toggleterm.nvim"
+      use "itchyny/lightline.vim"
 
-  ------------------------------------------------------------------------------
-  -- LANGUAGE SPECIFIC PLUGINS
-  ------------------------------------------------------------------------------
-    -- GIT
-    use "lewis6991/gitsigns.nvim"
-    use "tpope/vim-rhubarb"
-    use "tpope/vim-fugitive"
-    use "ruanyl/vim-gh-line"
+      ------------------------------------------------------------------------------
+      -- LANGUAGE SPECIFIC PLUGINS
+      ------------------------------------------------------------------------------
+      -- GIT
+      use "lewis6991/gitsigns.nvim"
+      use "tpope/vim-rhubarb"
+      use "tpope/vim-fugitive"
+      use "ruanyl/vim-gh-line"
 
-    -- RUBY
-    use "tpope/vim-rails"
-    use "tpope/vim-bundler"
-    use "tpope/vim-endwise"
-    use "ck3g/vim-change-hash-syntax"
+      -- RUBY
+      use "tpope/vim-rails"
+      use "tpope/vim-bundler"
+      use "tpope/vim-endwise"
+      use "ck3g/vim-change-hash-syntax"
 
-    -- JAVASCRIPT
-    use "pangloss/vim-javascript"
-    use "HerringtonDarkholme/yats.vim"
-    use "maxmellon/vim-jsx-pretty"
-    use "leafgarland/typescript-vim"
+      -- JAVASCRIPT
+      use "pangloss/vim-javascript"
+      use "HerringtonDarkholme/yats.vim"
+      use "maxmellon/vim-jsx-pretty"
+      use "leafgarland/typescript-vim"
 
-    -- EMBER JS
-    use "joukevandermaas/vim-ember-hbs"
-    use "AndrewRadev/ember_tools.vim"
+      -- EMBER JS
+      use "joukevandermaas/vim-ember-hbs"
+      use "AndrewRadev/ember_tools.vim"
 
-  ------------------------------------------------------------------------------
-  -- MISC
-  ------------------------------------------------------------------------------
-    -- THIRD PARTY TOOLING
-    use "rizzatti/dash.vim"
+      ------------------------------------------------------------------------------
+      -- MISC
+      ------------------------------------------------------------------------------
+      -- THIRD PARTY TOOLING
+      use "rizzatti/dash.vim"
 
-    -- ARE WE SURE ABOUT THAT THIS IS NEEDED MY DEAR???
-    use "ConradIrwin/vim-bracketed-paste"
-    -- use "henrik/vim-indexed-search"
-    -- use "inkarkat/vim-SyntaxRange"
+      -- ARE WE SURE ABOUT THAT THIS IS NEEDED MY DEAR???
+      use "ConradIrwin/vim-bracketed-paste"
+      -- use "henrik/vim-indexed-search"
+      -- use "inkarkat/vim-SyntaxRange"
 
-  -- Automatically set up your configuration after cloning packer.nvim
-  -- Put this at the end after all plugins
-  if PACKER_BOOTSTRAP then
-    require("packer").sync()
-  end
-end)
+      -- Automatically set up your configuration after cloning packer.nvim
+      -- Put this at the end after all plugins
+      if PACKER_BOOTSTRAP then
+        require("packer").sync()
+      end
+    end)
