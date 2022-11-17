@@ -53,8 +53,11 @@ neo_tree.setup({
   window = {
     mappings = {
       ["o"] = "open",
+      ["v"] = "vsplit_with_window_picker",
+      ["s"] = "split_with_window_picker",
       ["w"] = "",
       ["m"] = "",
+      ["mv"] = "move",
       ["z"] = "",
       ["Z"] = "close_all_nodes",
     },
