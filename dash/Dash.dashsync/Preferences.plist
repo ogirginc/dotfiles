@@ -6,6 +6,22 @@
 	<dict>
 		<key>installed</key>
 		<dict>
+			<key>HTML_Head_Elements</key>
+			<dict>
+				<key>date</key>
+				<date>2022-11-29T17:07:29Z</date>
+				<key>entry</key>
+				<dict>
+					<key>aliases</key>
+					<array/>
+					<key>name</key>
+					<string>HTML Head Elements</string>
+					<key>platform</key>
+					<string>cheatsheet</string>
+					<key>uniqueIdentifier</key>
+					<string>HTML_Head_Elements</string>
+				</dict>
+			</dict>
 			<key>HTTP_Status_Codes_Rails</key>
 			<dict>
 				<key>date</key>
@@ -231,7 +247,7 @@
 			<key>HTML_Entities</key>
 			<dict>
 				<key>date</key>
-				<date>2021-03-10T12:15:02Z</date>
+				<date>2022-11-29T17:08:00Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -242,22 +258,6 @@
 					<string>cheatsheet</string>
 					<key>uniqueIdentifier</key>
 					<string>HTML_Entities</string>
-				</dict>
-			</dict>
-			<key>HTML_Head_Elements</key>
-			<dict>
-				<key>date</key>
-				<date>2021-03-10T12:15:04Z</date>
-				<key>entry</key>
-				<dict>
-					<key>aliases</key>
-					<array/>
-					<key>name</key>
-					<string>HTML Head Elements</string>
-					<key>platform</key>
-					<string>cheatsheet</string>
-					<key>uniqueIdentifier</key>
-					<string>HTML_Head_Elements</string>
 				</dict>
 			</dict>
 			<key>HTTP_Header_Fields</key>
@@ -1041,19 +1041,34 @@
 	<dict>
 		<key>installed</key>
 		<dict>
+			<key>http://kapeli.com/feeds/CSS.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2022-11-29T17:09:18Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/HTML.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2022-11-29T17:08:04Z</date>
+			</dict>
 			<key>http://kapeli.com/feeds/JavaScript.xml</key>
 			<dict>
 				<key>date</key>
 				<date>2021-08-02T11:14:32Z</date>
 			</dict>
+			<key>http://kapeli.com/feeds/PostgreSQL.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2022-11-29T17:09:52Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/TypeScript.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2022-11-29T17:10:15Z</date>
+			</dict>
 		</dict>
 		<key>uninstalled</key>
 		<dict>
-			<key>http://kapeli.com/feeds/CSS.xml</key>
-			<dict>
-				<key>date</key>
-				<date>2021-03-17T13:57:20Z</date>
-			</dict>
 			<key>http://kapeli.com/feeds/EmberJS.xml</key>
 			<dict>
 				<key>date</key>
@@ -1068,6 +1083,11 @@
 			<dict>
 				<key>date</key>
 				<date>2021-10-21T06:58:55Z</date>
+			</dict>
+			<key>http://kapeli.com/feeds/Ruby_on_Rails_7.xml</key>
+			<dict>
+				<key>date</key>
+				<date>2022-11-24T07:57:44Z</date>
 			</dict>
 		</dict>
 	</dict>
@@ -1092,16 +1112,17 @@
 		<dict>
 			<key>docsets</key>
 			<array>
-				<string>~/Library/Application Support/Dash/Versioned DocSets/Ruby on Rails 5 - DHDocsetDownloader/5-2-4/Ruby on Rails.docset</string>
-				<string>~/Library/Application Support/Dash/DocSets/Ruby_on_Rails_6/Ruby on Rails.docset</string>
-				<string>~/Library/Application Support/Dash/Versioned DocSets/Ruby on Rails 6 - DHDocsetDownloader/6-1-2-1/Ruby on Rails.docset</string>
-				<string>~/Library/Application Support/Dash/Versioned DocSets/Ruby 2 - DHDocsetDownloader/2-7-2/Ruby.docset</string>
-				<string>~/Library/Application Support/Dash/DocSets/Ruby_3/Ruby.docset</string>
+				<string>~/Library/Application Support/Dash/Versioned DocSets/Ruby on Rails 6 - DHDocsetDownloader/6-1-5/Ruby on Rails.docset</string>
+				<string>~/Library/Application Support/Dash/Versioned DocSets/Ruby 3 - DHDocsetDownloader/3-1-2/Ruby.docset</string>
+				<string>~/Library/Application Support/Dash/Cheat Sheets/HTML Entities/HTML_Entities.docset</string>
+				<string>~/Library/Application Support/Dash/Cheat Sheets/HTML Head Elements/HTML_Head_Elements.docset</string>
 			</array>
 			<key>icon</key>
 			<string>rails</string>
 			<key>name</key>
-			<string>Ruby &amp; Rails</string>
+			<string>Backend TT</string>
+			<key>placeholder</key>
+			<string>Teamtailor</string>
 			<key>searchSnippets</key>
 			<true/>
 		</dict>
@@ -1127,6 +1148,17 @@
 			<string>Search Snippets</string>
 			<key>searchSnippets</key>
 			<true/>
+		</dict>
+		<dict>
+			<key>docsets</key>
+			<array>
+				<string>~/Library/Application Support/Dash/Versioned DocSets/Ruby 3 - DHDocsetDownloader/3-1-2/Ruby.docset</string>
+				<string>~/Library/Application Support/Dash/Versioned DocSets/Ruby on Rails 7 - DHDocsetDownloader/7-0-4/Ruby on Rails.docset</string>
+			</array>
+			<key>name</key>
+			<string>Jurnlog</string>
+			<key>searchSnippets</key>
+			<false/>
 		</dict>
 	</array>
 	<key>shouldRestoreTabs</key>
@@ -1288,11 +1320,13 @@
 				</dict>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_2.xml</key>
+			<dict/>
+			<key>http://kapeli.com/feeds/Ruby_3.xml</key>
 			<dict>
-				<key>2.7.2</key>
+				<key>3.1.2</key>
 				<dict>
 					<key>date</key>
-					<date>2021-08-02T11:12:42Z</date>
+					<date>2022-11-24T07:57:20Z</date>
 				</dict>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_5.xml</key>
@@ -1302,14 +1336,23 @@
 					<key>date</key>
 					<date>2021-08-02T11:12:33Z</date>
 				</dict>
-				<key>5.2.5</key>
-				<dict>
-					<key>date</key>
-					<date>2021-10-21T06:58:28Z</date>
-				</dict>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_6.xml</key>
-			<dict/>
+			<dict>
+				<key>6.1.4</key>
+				<dict>
+					<key>date</key>
+					<date>2022-11-24T07:57:37Z</date>
+				</dict>
+			</dict>
+			<key>http://kapeli.com/feeds/Ruby_on_Rails_7.xml</key>
+			<dict>
+				<key>7.0.4</key>
+				<dict>
+					<key>date</key>
+					<date>2022-11-29T17:03:47Z</date>
+				</dict>
+			</dict>
 		</dict>
 		<key>uninstalled</key>
 		<dict>
@@ -1328,6 +1371,11 @@
 					<key>date</key>
 					<date>2020-12-12T09:28:51Z</date>
 				</dict>
+				<key>2.7.2</key>
+				<dict>
+					<key>date</key>
+					<date>2022-11-24T07:57:20Z</date>
+				</dict>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_5.xml</key>
 			<dict>
@@ -1336,6 +1384,11 @@
 					<key>date</key>
 					<date>2021-10-21T06:58:29Z</date>
 				</dict>
+				<key>5.2.5</key>
+				<dict>
+					<key>date</key>
+					<date>2022-11-24T07:57:34Z</date>
+				</dict>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_6.xml</key>
 			<dict>
@@ -1343,6 +1396,14 @@
 				<dict>
 					<key>date</key>
 					<date>2021-03-10T12:26:42Z</date>
+				</dict>
+			</dict>
+			<key>http://kapeli.com/feeds/Ruby_on_Rails_7.xml</key>
+			<dict>
+				<key>7.0.2</key>
+				<dict>
+					<key>date</key>
+					<date>2022-11-24T07:57:41Z</date>
 				</dict>
 			</dict>
 		</dict>
