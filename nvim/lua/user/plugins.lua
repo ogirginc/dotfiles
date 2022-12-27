@@ -201,6 +201,9 @@ return packer.startup(function(use)
       use "joukevandermaas/vim-ember-hbs"
       use "AndrewRadev/ember_tools.vim"
 
+      -- YAML
+      use "cuducos/yaml.nvim"
+
       ------------------------------------------------------------------------------
       -- MISC
       ------------------------------------------------------------------------------
