@@ -118,6 +118,7 @@ return packer.startup(function(use)
     -- CODE SEARCH
     use "dyng/ctrlsf.vim"
     use "junegunn/fzf.vim"
+    use { "nvim-telescope/telescope.nvim", branch = "0.1.x" }
     use { "junegunn/fzf", run = "./install --bin" }
     use { "kyazdani42/nvim-tree.lua", requires = { "kyazdani42/nvim-web-devicons" }}
     use {
