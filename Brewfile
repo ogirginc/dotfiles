@@ -48,7 +48,6 @@ brew "memcached"
 brew "overmind"
 
 cask "1password"
-cask "1password-cli"
 cask "alfred"
 cask "apparition47/tap/mailtrackerblocker"
 cask "appcleaner"
