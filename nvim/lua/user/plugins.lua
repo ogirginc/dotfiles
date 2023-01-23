@@ -184,6 +184,7 @@ return packer.startup(function(use)
       use "tpope/vim-rhubarb"
       use "tpope/vim-fugitive"
       use "ruanyl/vim-gh-line"
+      use { "2kabhishek/co-author.nvim", requires = "stevearc/dressing.nvim" }
 
       -- RUBY
       use "tpope/vim-rails"
