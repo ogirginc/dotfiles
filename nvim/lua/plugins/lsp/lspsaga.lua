@@ -1,10 +1,10 @@
 -- Import saga plugin safely
-local saga_status, saga = pcall(require, "saga")
+local saga_status, saga = pcall(require, "lspsaga")
 if not saga_status then
   return
 end
 
-saga.init_lsp_saga({
+saga.setup({
   -- Keybinds for navigation in lspsaga window
   move_in_saga = { prev = "<C-p>", next = "<C-n>" },
 
