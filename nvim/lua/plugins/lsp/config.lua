@@ -27,8 +27,8 @@ local on_attach = function(client, bufnr)
   -- if there is no implement it will hide
   -- when you use action in finder like open vsplit then you can
   -- use <C-t> to jump back
-  keymap.set("n", "gh", "<cmd>Lspsaga lsp_finder<CR>", opts)
-  keymap.set("n", "gf", "<cmd>Lspsaga lsp_finder<CR>", opts) -- show definition, references
+  keymap.set("n", "<leader>gh", "<cmd>Lspsaga lsp_finder<CR>", opts)
+  keymap.set("n", "<leader>gf", "<cmd>Lspsaga lsp_finder<CR>", opts) -- show definition, references
 
   -- See available code actions
   keymap.set("n", "<leader>ca", "<cmd>Lspsaga code_action<CR>", opts)
@@ -43,10 +43,10 @@ local on_attach = function(client, bufnr)
   -- you can edit the definition file in this flaotwindow
   -- also support open/vsplit/etc operation check definition_action_keys
   -- support tagstack C-t jump back
-  keymap.set("n", "gd", "<cmd>Lspsaga peek_definition<CR>", opts) -- see definition and make edits in window
+  keymap.set("n", "<leader>gd", "<cmd>Lspsaga peek_definition<CR>", opts) -- see definition and make edits in window
 
   -- Got to declaration
-  keymap.set("n", "gD", "<Cmd>lua vim.lsp.buf.declaration()<CR>", opts)
+  keymap.set("n", "<leader>gD", "<Cmd>lua vim.lsp.buf.declaration()<CR>", opts)
   -- Go to implementation
   keymap.set("n", "gi", "<cmd>lua vim.lsp.buf.implementation()<CR>", opts)
 
