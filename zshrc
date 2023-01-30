@@ -138,7 +138,6 @@ function fixadguard() {
 # asdf
 #########################################################################################
 # Add to shell
-. $(brew --prefix asdf)/asdf.sh
 . $(brew --prefix asdf)/libexec/asdf.sh
 
 # Get all available language versions rather than waiting someone to bump it
