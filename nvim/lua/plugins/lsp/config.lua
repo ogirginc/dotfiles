@@ -163,3 +163,7 @@ lspconfig["sumneko_lua"].setup({
     },
   },
 })
+
+vim.diagnostic.config({
+  virtual_text = false, -- TODO: is there a better way than global?
+})
