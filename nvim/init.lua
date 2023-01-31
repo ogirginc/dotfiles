@@ -19,7 +19,5 @@ require "plugins.treesitter"
 require "plugins.vim-move"
 require "plugins.vim-test"
 
-require "plugins.lsp.mason"
-require "plugins.lsp.lspsaga" -- Need to load before lsp.confgg
+require "plugins.lsp.lspsaga" -- Need to load before lsp.config
 require "plugins.lsp.config"
-require "plugins.lsp.null-ls"

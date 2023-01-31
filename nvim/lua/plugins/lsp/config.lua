@@ -1,25 +1,10 @@
--- Import lspconfig plugin safely
-local lspconfig_status, lspconfig = pcall(require, "lspconfig")
-if not lspconfig_status then
-  return
-end
-
--- Import cmp_nvim_lsp plugin safely
-local cmp_nvim_lsp_status, cmp_nvim_lsp = pcall(require, "cmp_nvim_lsp")
-if not cmp_nvim_lsp_status then
-  return
-end
-
--- Import typescript plugin safely
-local typescript_status, typescript = pcall(require, "typescript")
-if not typescript_status then
-  return
-end
-
-local keymap = vim.keymap
-
+--------------------------------------------------------------------------------
+-- LSP KEYBINDINGS
+--------------------------------------------------------------------------------
 -- Enable keybinds only for when lsp server available
 local on_attach = function(client, bufnr)
+  local keymap = vim.keymap
+
   -- Keybind options
   local opts = { noremap = true, silent = true, buffer = bufnr }
 
@@ -81,89 +66,135 @@ local on_attach = function(client, bufnr)
   end
 end
 
+--------------------------------------------------------------------------------
+-- LSP SERVER CONFIGURATIONS
+--------------------------------------------------------------------------------
+require("mason").setup()
+require("mason-lspconfig").setup()
+
 -- To enable autocompletion (assign to every lsp server config)
-local capabilities = cmp_nvim_lsp.default_capabilities()
+local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
---------------------------------------------------------------------------------
--- SERVER CONFIGURATIONS
--- https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
---------------------------------------------------------------------------------
+local lspconfig = require("lspconfig")
 
--- html server
-lspconfig["html"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
+require("mason-lspconfig").setup_handlers {
+  -- The first entry (without a key) will be the default handler
+  -- and will be called for each installed server that doesn't have
+  -- a dedicated handler.
+  function (server_name) -- default handler (optional)
+    lspconfig[server_name].setup {
+      capabilities = capabilities,
+      on_attach = on_attach,
+    }
+  end,
 
--- css server
-lspconfig["cssls"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
+  -- ["ruby_ls"] = function ()
+  --   lspconfig.ruby_ls.setup {
+  --     capabilities = capabilities,
+  --     on_attach = on_attach,
+  --     init_options = {
+  --       {
+  --         enabledFeatures = {
+  --           "codeActions",
+  --           "diagnostics",
+  --           "documentHighlights",
+  --           "documentSymbols",
+  --           -- "formatting",
+  --           "inlayHint"
+  --         },
+  --       },
+  --     },
+  --   }
+  -- end,
 
--- tailwindcss server
-lspconfig["tailwindcss"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
+  -- ["solargraph"] = function ()
+  --   lspconfig.solargraph.setup {
+  --     capabilities = capabilities,
+  --     on_attach = on_attach,
+  --     -- settings = { solargraph = { diagnostics = true, completion = true } },
+  --     -- settings = { solargraph = { formatting = false } },
+  --     -- init_options = {
+  --     --   formatting = false,
+  --     -- },
+  --     settings = {
+  --       solargraph = {
+  --         formatting = false,
+  --         diagnostics = true,
+  --         completion = true,
+  --         definitions = true,
+  --         symbols = true,
+  --         hover = true,
+  --         references = true
+  --       }
+  --     },
+  --     -- init_options = {
+  --     --   {
+  --     --     formatting = { false },
+  --     --   },
+  --     -- },
+  --   }
+  -- end,
 
--- ember server
-lspconfig["ember"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
-
--- graphql server
-lspconfig["graphql"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
-
--- jsonls server
-lspconfig["jsonls"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
-
--- ruby_ls server
-lspconfig["ruby_ls"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
-
--- solargraph server
-lspconfig["solargraph"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
-
--- yamlls server
-lspconfig["yamlls"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
-
--- Lua server (with special settings)
-lspconfig["sumneko_lua"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-  settings = { -- custom settings for lua
-    Lua = {
-      -- make the language server recognize "vim" global
-      diagnostics = {
-        globals = { "vim" },
-      },
-      workspace = {
-        -- make language server aware of runtime files
-        library = {
-          [vim.fn.expand("$VIMRUNTIME/lua")] = true,
-          [vim.fn.stdpath("config") .. "/lua"] = true,
-        },
-      },
-    },
-  },
-})
+  -- Next, you can provide a dedicated handler for specific servers.
+  -- For example, a handler override for the `sumneko_lua`:
+  ["sumneko_lua"] = function ()
+    lspconfig.sumneko_lua.setup {
+      capabilities = capabilities,
+      on_attach = on_attach,
+      settings = {
+        Lua = {
+          diagnostics = {
+            globals = { "vim" }
+          },
+          workspace = {
+            -- make language server aware of runtime files
+            library = {
+              [vim.fn.expand("$VIMRUNTIME/lua")] = true,
+              [vim.fn.stdpath("config") .. "/lua"] = true,
+            },
+          },
+        }
+      }
+    }
+  end
+}
 
 vim.diagnostic.config({
   virtual_text = false, -- TODO: is there a better way than global?
 })
+
+--------------------------------------------------------------------------------
+-- LINTER CONFIGURATIONS
+--------------------------------------------------------------------------------
+-- require("mason-null-ls").setup({
+--   ensure_installed = {
+--     -- Opt to list sources here, when available in mason.
+--   },
+--   automatic_installation = false,
+--   automatic_setup = true, -- Recommended, but optional
+-- })
+
+-- require("null-ls").setup({
+--   sources = {
+--     -- Anything not supported by mason.
+--   }
+-- })
+
+-- require('mason-null-ls').setup_handlers() -- If `automatic_setup` is true.
+
+-- local null_ls = require("null-ls")
+
+-- -- register any number of sources simultaneously
+-- local sources = {
+--   null_ls.builtins.formatting.standardrb,
+--   null_ls.builtins.diagnostics.standardrb,
+-- }
+
+-- null_ls.setup({ sources = sources })
+
+require('lint').linters_by_ft = {
+  ruby = {'standardrb',}
+}
+--------------------------------------------------------------------------------
+-- FORMATTER CONFIGURATIONS
+--------------------------------------------------------------------------------
