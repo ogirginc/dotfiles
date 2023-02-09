@@ -14,6 +14,9 @@
 [commit]
   verbose = true
 
+[rebase]
+  autosquash = true
+
 [alias]
   upstream = "!f() { git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD); }; f"
   unrestore = "restore --staged ."
