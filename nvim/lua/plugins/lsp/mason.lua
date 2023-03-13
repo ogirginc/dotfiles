@@ -26,6 +26,7 @@ mason_lspconfig.setup({
     "jsonls",
     "tsserver",
     "lua_ls",
+    "standardrb",
     "ruby_ls",
     "tailwindcss",
     "yamlls",
@@ -39,7 +40,7 @@ mason_lspconfig.setup({
 mason_null_ls.setup({
   ensure_installed = {
     "prettier",
-    "rubocop",
+    "standardrb",
     "erb_lint",
     "haml_lint",
     "zsh",

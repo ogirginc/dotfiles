@@ -12,8 +12,10 @@ local diagnostics = null_ls.builtins.diagnostics
 null_ls.setup({
   sources = {
     -- Ruby
-    formatting.rubocop,
+    -- formatting.rubocop,
     -- diagnostics.rubocop,
+    formatting.standardrb,
+    diagnostics.standardrb,
 
     -- Javascript
     formatting.prettier,
