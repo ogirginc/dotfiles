@@ -31,7 +31,7 @@ end
 
 -- Have packer use a popup window
 packer.init {
-  -- max_jobs = 5, -- If packer sync fails
+  max_jobs = 5, -- If packer sync fails
   display = {
     open_fn = function()
       return require("packer.util").float { border = "rounded" }
