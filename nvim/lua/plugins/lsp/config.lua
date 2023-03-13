@@ -132,10 +132,10 @@ lspconfig["ruby_ls"].setup({
 })
 
 -- solargraph server
-lspconfig["solargraph"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-})
+-- lspconfig["solargraph"].setup({
+--   capabilities = capabilities,
+--   on_attach = on_attach,
+-- })
 
 -- yamlls server
 lspconfig["yamlls"].setup({
