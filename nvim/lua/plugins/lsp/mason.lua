@@ -25,7 +25,7 @@ mason_lspconfig.setup({
     "html",
     "jsonls",
     "tsserver",
-    "sumneko_lua",
+    "lua_ls",
     "ruby_ls",
     "solargraph",
     "tailwindcss",
