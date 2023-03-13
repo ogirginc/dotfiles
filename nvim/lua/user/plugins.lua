@@ -160,6 +160,8 @@ return packer.startup(function(use)
       use "AndrewRadev/splitjoin.vim" -- Switch between single & multiline code
       use "junegunn/vim-easy-align" -- Align your code
       use "matze/vim-move" -- Move code by line
+      use "tpope/vim-commentary"
+      use "JoosepAlviste/nvim-ts-context-commentstring"
       use "numToStr/Comment.nvim"
       use "tpope/vim-jdaddy" -- JSON manipulation and pretty printing
       use "tpope/vim-repeat"
