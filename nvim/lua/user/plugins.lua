@@ -178,9 +178,9 @@ return packer.startup(function(use)
       use "akinsho/toggleterm.nvim"
       use "itchyny/lightline.vim"
 
-      ------------------------------------------------------------------------------
-      -- LANGUAGE SPECIFIC PLUGINS
-      ------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------
+    -- LANGUAGE SPECIFIC PLUGINS
+    ----------------------------------------------------------------------------
       -- GIT
       use "lewis6991/gitsigns.nvim"
       use "tpope/vim-rhubarb"
@@ -207,9 +207,9 @@ return packer.startup(function(use)
       -- YAML
       use "cuducos/yaml.nvim"
 
-      ------------------------------------------------------------------------------
-      -- MISC
-      ------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------
+    -- MISC
+    ----------------------------------------------------------------------------
       -- THIRD PARTY TOOLING
       use "rizzatti/dash.vim"
 
@@ -218,9 +218,12 @@ return packer.startup(function(use)
       -- use "henrik/vim-indexed-search"
       -- use "inkarkat/vim-SyntaxRange"
 
-      -- Automatically set up your configuration after cloning packer.nvim
-      -- Put this at the end after all plugins
-      if PACKER_BOOTSTRAP then
-        require("packer").sync()
-      end
-    end)
+  ------------------------------------------------------------------------------
+  -- PACKER END
+  ------------------------------------------------------------------------------
+  -- Automatically set up your configuration after cloning packer.nvim
+  -- Put this at the end after all plugins
+  if PACKER_BOOTSTRAP then
+    require("packer").sync()
+  end
+end)
