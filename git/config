@@ -27,6 +27,7 @@
 
   rb = "!f() { git rebase -i HEAD~$1 --autostash; }; f"
   ssb = "!f() { git add . && git stash && git switch $(git branch | fzf --height 40% --reverse --border) && git stash pop; }; f"
+  ssm = "!f() { git add . && git stash && git switch main && git stash pop; }; f"
   sb = "!f() { git switch $(git branch | fzf --height 40% --reverse --border); }; f"
   sbr = "!f() { git switch -t $(git branch -r | fzf --height 40% --reverse --border); }; f"
   ssbr = "!f() { git add . && git stash && git switch -t $(git branch -r | fzf --height 40% --reverse --border); }; f"
