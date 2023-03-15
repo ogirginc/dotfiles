@@ -26,15 +26,14 @@
   wip = "!f() { git add . && git commit -m "WIP" --no-verify; }; f"
 
   rb = "!f() { git rebase -i HEAD~$1 --autostash; }; f"
-  ssb = "!f() { git add . && git stash && git switch $(git branch | fzf --height 40% --reverse --border) && git stash pop; }; f"
+
+  sm = "switch main"
   ssm = "!f() { git add . && git stash && git switch main && git stash pop; }; f"
   sb = "!f() { git switch $(git branch | fzf --height 40% --reverse --border); }; f"
   sbr = "!f() { git switch -t $(git branch -r | fzf --height 40% --reverse --border); }; f"
+  ssb = "!f() { git add . && git stash && git switch $(git branch | fzf --height 40% --reverse --border) && git stash pop; }; f"
   ssbr = "!f() { git add . && git stash && git switch -t $(git branch -r | fzf --height 40% --reverse --border); }; f"
-  co  = "!f() { git checkout $(git branch | fzf --height 40% --reverse); }; f"
-  cb = "!f() { git checkout -b \"$1\"; }; f"
 
-  sm = "switch main"
   bd = "!f() { git branch -d \"$1\"; }; f"
   lb = "branch --list"
   lbr = "branch --list --remotes"
