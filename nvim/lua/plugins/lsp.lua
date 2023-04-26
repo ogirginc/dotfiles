@@ -57,7 +57,8 @@ require('mason-null-ls').setup({
   ensure_installed = nil,
   automatic_installation = false, -- You can still set this to `true`
   automatic_setup = true,
+  handlers = {},
 })
 
 -- Required when `automatic_setup` is true
-require('mason-null-ls').setup_handlers()
+-- require('mason-null-ls').setup_handlers()
