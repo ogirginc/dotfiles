@@ -154,7 +154,7 @@ export PATH="/usr/local/opt/openjdk/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
 # To be able to access psql
-export PATH="/opt/homebrew/opt/postgresql@11/bin:$PATH"
+# export PATH="/opt/homebrew/opt/postgresql@11/bin:$PATH"
 
 #########################################################################################
 # Other
