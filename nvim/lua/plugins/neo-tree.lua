@@ -13,7 +13,7 @@ neo_tree.setup({
 
   source_selector = {
     -- winbar = true, -- toggle to show selector on winbar
-    tab_labels = { -- falls back to source_name if nil
+    sources = { -- falls back to source_name if nil
       filesystem = "  Files ",
       buffers =    "  Buffers ",
       git_status = "  Git ",
