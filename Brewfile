@@ -90,6 +90,7 @@ mas "Slack", id: 803453959
 mas "Userscripts", id: 1463298887
 mas "Vimari", id: 1480933944
 mas "LanguageTool - Grammar Checker", id: 1534275760
+mas "ShellHistory", id: 1564015476
 
 # Keep application settings in sync
 # brew "mackup"
