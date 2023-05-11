@@ -53,29 +53,23 @@ cask "raycast"
 cask "apparition47/tap/mailtrackerblocker"
 cask "appcleaner"
 cask "chromedriver"
-cask "cloudflare-warp"
 cask "contexts"
 cask "dash"
 cask "detectx-swift"
-cask "discord"
 cask "docker"
-cask "firefox-developer-edition"
 cask "github"
 cask "hammerspoon"
 cask "hey"
 cask "iterm2"
-cask "itsycal"
 cask "karabiner-elements"
 cask "keycastr"
 cask "kindle"
 cask "krisp"
-cask "loom"
 cask "maestral" # Unofficial Dropbox client
 cask "monitorcontrol"
 cask "ngrok"
 cask "notion"
 cask "postman"
-cask "safari-technology-preview"
 cask "telegram"
 cask "termius"
 cask "tuple"
@@ -87,17 +81,9 @@ tap "archivebox/archivebox"
 brew "archivebox"
 
 mas "Browserism for Chrome", id: 979047768
-mas "Octotree Pro", id: 1457450145
 mas "Poolside FM", id: 1514817810
 mas "Refined GitHub", id: 1519867270
 mas "Slack", id: 803453959
 mas "Userscripts", id: 1463298887
-mas "Vimari", id: 1480933944
 mas "LanguageTool - Grammar Checker", id: 1534275760
 mas "ShellHistory", id: 1564015476
-
-# Keep application settings in sync
-# brew "mackup"
-
-# cask "postgres" # Alternative: https://github.com/MaccaTech/PostgresPrefs
-# cask "pgadmin4"
