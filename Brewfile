@@ -49,6 +49,7 @@ brew "overmind"
 
 cask "1password"
 cask "alfred"
+cask "raycast"
 cask "apparition47/tap/mailtrackerblocker"
 cask "appcleaner"
 cask "chromedriver"
