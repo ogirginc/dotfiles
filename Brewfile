@@ -83,6 +83,9 @@ cask "visual-studio-code"
 cask "vlc"
 cask "webtorrent"
 
+tap "archivebox/archivebox"
+brew "archivebox"
+
 mas "Browserism for Chrome", id: 979047768
 mas "Octotree Pro", id: 1457450145
 mas "Poolside FM", id: 1514817810
