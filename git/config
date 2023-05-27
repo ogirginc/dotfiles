@@ -30,7 +30,11 @@
   sm = "switch main"
   smn = "switch main"
   smr = "switch master"
+
   ssm = "!f() { git add . && git stash && git switch main && git stash pop; }; f"
+  ssmn = "!f() { git add . && git stash && git switch main && git stash pop; }; f"
+  ssmr = "!f() { git add . && git stash && git switch master && git stash pop; }; f"
+
   sb = "!f() { git switch $(git branch | fzf --height 40% --reverse --border); }; f"
   sbr = "!f() { git switch -t $(git branch -r | fzf --height 40% --reverse --border); }; f"
   ssb = "!f() { git add . && git stash && git switch $(git branch | fzf --height 40% --reverse --border) && git stash pop; }; f"
