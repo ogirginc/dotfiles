@@ -14,6 +14,10 @@ setw -g mode-keys vi
 # Enable mouse mode
 set -g mouse on
 
+# Use ctrl-b ctrl-k to clear pane history
+bind -n C-k send-keys -R \; send-keys C-l \; clear-history; display "Cleared"
+
+
 ################################################################################
 # THEME #
 ################################################################################
