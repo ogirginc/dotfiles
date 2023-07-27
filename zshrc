@@ -116,6 +116,8 @@ alias .nvimrc="nvim $HOME/Dotfiles/nvim/init.lua"
 alias .zshrc="nvim $HOME/Dotfiles/zshrc"
 alias .history="nvim $HOME/.zsh_history"
 
+alias nvim-lazy="NVIM_APPNAME=lazyvim nvim"
+
 # Show all the history stored with fzf.
 alias history="fc -l 1 | fzf"
 
