@@ -9,7 +9,7 @@
 			<key>HTML_Head_Elements</key>
 			<dict>
 				<key>date</key>
-				<date>2022-11-29T17:07:29Z</date>
+				<date>2023-09-21T07:22:02Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -25,7 +25,7 @@
 			<key>HTTP_Status_Codes_Rails</key>
 			<dict>
 				<key>date</key>
-				<date>2021-08-02T11:10:49Z</date>
+				<date>2023-09-21T07:22:02Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -46,7 +46,7 @@
 			<key>PostgreSQL_CLI</key>
 			<dict>
 				<key>date</key>
-				<date>2021-08-02T11:10:49Z</date>
+				<date>2023-09-21T07:22:02Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -62,7 +62,7 @@
 			<key>RSpec_Expectations</key>
 			<dict>
 				<key>date</key>
-				<date>2021-08-02T11:10:48Z</date>
+				<date>2023-09-21T07:22:02Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -80,7 +80,7 @@
 			<key>Rails_Migrations_CLI</key>
 			<dict>
 				<key>date</key>
-				<date>2021-08-02T11:10:50Z</date>
+				<date>2023-09-21T07:22:03Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -99,7 +99,7 @@
 			<key>Rails_i18n</key>
 			<dict>
 				<key>date</key>
-				<date>2021-08-02T11:10:47Z</date>
+				<date>2023-09-21T07:22:03Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -118,7 +118,7 @@
 			<key>Ruby_strftime</key>
 			<dict>
 				<key>date</key>
-				<date>2021-08-02T11:10:50Z</date>
+				<date>2023-09-21T07:22:02Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -134,7 +134,7 @@
 			<key>Semantic_Commits</key>
 			<dict>
 				<key>date</key>
-				<date>2021-08-02T11:10:48Z</date>
+				<date>2023-09-21T07:22:04Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -152,7 +152,7 @@
 			<key>Unix_File_Permissions</key>
 			<dict>
 				<key>date</key>
-				<date>2021-08-02T11:10:47Z</date>
+				<date>2023-09-21T07:22:02Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -560,7 +560,7 @@
 			<key>rspec-expectations</key>
 			<dict>
 				<key>date</key>
-				<date>2021-08-02T11:12:01Z</date>
+				<date>2023-09-21T07:30:56Z</date>
 				<key>entry</key>
 				<dict>
 					<key>name</key>
@@ -695,7 +695,7 @@
 			<key>CanIUse</key>
 			<dict>
 				<key>date</key>
-				<date>2021-08-02T11:12:33Z</date>
+				<date>2023-09-21T07:22:13Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -737,7 +737,7 @@
 			<key>Hammerspoon</key>
 			<dict>
 				<key>date</key>
-				<date>2021-11-16T11:39:28Z</date>
+				<date>2023-09-21T07:22:38Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -757,17 +757,18 @@
 			<key>Neovim</key>
 			<dict>
 				<key>date</key>
-				<date>2021-08-02T11:12:33Z</date>
+				<date>2023-09-21T07:22:39Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
 					<array>
 						<string>Nvim</string>
+						<string>Neovim</string>
 					</array>
 					<key>authorLinkHref</key>
 					<string>https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Neovim#readme</string>
 					<key>authorLinkText</key>
-					<string>ianding1</string>
+					<string>h-hg</string>
 					<key>name</key>
 					<string>Neovim</string>
 					<key>platform</key>
@@ -779,7 +780,7 @@
 			<key>jq</key>
 			<dict>
 				<key>date</key>
-				<date>2021-08-02T11:12:33Z</date>
+				<date>2023-09-21T07:22:08Z</date>
 				<key>entry</key>
 				<dict>
 					<key>authorLinkHref</key>
@@ -797,7 +798,7 @@
 			<key>tldr</key>
 			<dict>
 				<key>date</key>
-				<date>2021-08-02T11:12:33Z</date>
+				<date>2023-09-21T07:22:38Z</date>
 				<key>entry</key>
 				<dict>
 					<key>aliases</key>
@@ -1035,7 +1036,10 @@
 	<key>docsets</key>
 	<dict>
 		<key>keywords</key>
-		<dict/>
+		<dict>
+			<key>~/Library/Application Support/Dash/Cheat Sheets/Rails i18n/Rails_i18n.docset</key>
+			<string>railsi18n:</string>
+		</dict>
 	</dict>
 	<key>feeds</key>
 	<dict>
@@ -1044,27 +1048,27 @@
 			<key>http://kapeli.com/feeds/CSS.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2022-11-29T17:09:18Z</date>
+				<date>2023-09-21T07:28:22Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/HTML.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2022-11-29T17:08:04Z</date>
+				<date>2023-09-21T07:25:01Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/JavaScript.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2021-08-02T11:14:32Z</date>
+				<date>2023-09-21T07:28:16Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/PostgreSQL.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2022-11-29T17:09:52Z</date>
+				<date>2023-09-21T07:22:38Z</date>
 			</dict>
 			<key>http://kapeli.com/feeds/TypeScript.xml</key>
 			<dict>
 				<key>date</key>
-				<date>2022-11-29T17:10:15Z</date>
+				<date>2023-09-21T07:23:27Z</date>
 			</dict>
 		</dict>
 		<key>uninstalled</key>
@@ -1110,36 +1114,6 @@
 			<true/>
 		</dict>
 		<dict>
-			<key>docsets</key>
-			<array>
-				<string>~/Library/Application Support/Dash/Versioned DocSets/Ruby on Rails 6 - DHDocsetDownloader/6-1-5/Ruby on Rails.docset</string>
-				<string>~/Library/Application Support/Dash/Versioned DocSets/Ruby 3 - DHDocsetDownloader/3-1-2/Ruby.docset</string>
-				<string>~/Library/Application Support/Dash/Cheat Sheets/HTML Entities/HTML_Entities.docset</string>
-				<string>~/Library/Application Support/Dash/Cheat Sheets/HTML Head Elements/HTML_Head_Elements.docset</string>
-			</array>
-			<key>icon</key>
-			<string>rails</string>
-			<key>name</key>
-			<string>Backend TT</string>
-			<key>placeholder</key>
-			<string>Teamtailor</string>
-			<key>searchSnippets</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>docsets</key>
-			<array>
-				<string>~/Library/Application Support/Dash/DocSets/JavaScript/JavaScript.docset</string>
-				<string>~/Library/Application Support/Dash/Versioned DocSets/EmberJS - DHDocsetDownloader/3-20/EmberJS.docset</string>
-			</array>
-			<key>icon</key>
-			<string>javascript</string>
-			<key>name</key>
-			<string>Javascript</string>
-			<key>searchSnippets</key>
-			<true/>
-		</dict>
-		<dict>
 			<key>icon</key>
 			<string>Snippet</string>
 			<key>name</key>
@@ -1148,17 +1122,6 @@
 			<string>Search Snippets</string>
 			<key>searchSnippets</key>
 			<true/>
-		</dict>
-		<dict>
-			<key>docsets</key>
-			<array>
-				<string>~/Library/Application Support/Dash/Versioned DocSets/Ruby 3 - DHDocsetDownloader/3-1-2/Ruby.docset</string>
-				<string>~/Library/Application Support/Dash/Versioned DocSets/Ruby on Rails 7 - DHDocsetDownloader/7-0-4/Ruby on Rails.docset</string>
-			</array>
-			<key>name</key>
-			<string>Jurnlog</string>
-			<key>searchSnippets</key>
-			<false/>
 		</dict>
 	</array>
 	<key>shouldRestoreTabs</key>
@@ -1316,7 +1279,15 @@
 				<key>3.26</key>
 				<dict>
 					<key>date</key>
-					<date>2021-09-13T06:54:26Z</date>
+					<date>2023-09-21T07:24:52Z</date>
+				</dict>
+			</dict>
+			<key>http://kapeli.com/feeds/React.xml</key>
+			<dict>
+				<key>17.0.2</key>
+				<dict>
+					<key>date</key>
+					<date>2023-09-21T07:30:30Z</date>
 				</dict>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_2.xml</key>
@@ -1326,7 +1297,7 @@
 				<key>3.1.2</key>
 				<dict>
 					<key>date</key>
-					<date>2022-11-24T07:57:20Z</date>
+					<date>2023-09-21T07:29:21Z</date>
 				</dict>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_5.xml</key>
@@ -1342,7 +1313,7 @@
 				<key>6.1.4</key>
 				<dict>
 					<key>date</key>
-					<date>2022-11-24T07:57:37Z</date>
+					<date>2023-09-21T07:26:13Z</date>
 				</dict>
 			</dict>
 			<key>http://kapeli.com/feeds/Ruby_on_Rails_7.xml</key>
