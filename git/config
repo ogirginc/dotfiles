@@ -27,17 +27,17 @@
 
   rb = "!f() { git rebase -i HEAD~$1 --autostash; }; f"
 
-  sm = "switch main"
-  smn = "switch main"
-  smr = "switch master"
-
-  ssm = "!f() { git add . && git stash && git switch main && git stash pop; }; f"
-  ssmn = "!f() { git add . && git stash && git switch main && git stash pop; }; f"
+  sms = "switch master"
   ssmr = "!f() { git add . && git stash && git switch master && git stash pop; }; f"
 
-  sb = "!f() { git switch $(git branch | fzf --height 40% --reverse --border); }; f"
-  sbr = "!f() { git switch -t $(git branch -r | fzf --height 40% --reverse --border); }; f"
-  ssb = "!f() { git add . && git stash && git switch $(git branch | fzf --height 40% --reverse --border) && git stash pop; }; f"
+  sm  = "switch main"
+  ssm  = "!f() { git add . && git stash && git switch main && git stash pop; }; f"
+  ssmn = "!f() { git add . && git stash && git switch main && git stash pop; }; f"
+
+  sb   = "!f() { git switch $(git branch | fzf --height 40% --reverse --border); }; f"
+  sbr  = "!f() { git switch -t $(git branch -r | fzf --height 40% --reverse --border); }; f"
+
+  ssb  = "!f() { git add . && git stash && git switch $(git branch | fzf --height 40% --reverse --border) && git stash pop; }; f"
   ssbr = "!f() { git add . && git stash && git switch -t $(git branch -r | fzf --height 40% --reverse --border); }; f"
 
   bd = "!f() { git branch -d \"$1\"; }; f"
@@ -59,6 +59,8 @@
   staged-rspec = "!f() { git rspec-staged; }; f"
   staged-rubocop = "!f() { git rubocop-staged; }; f"
   staged-rr = "!f() { git staged-rubocop && git staged-rspec; }; f"
+
+  ob = "!f() { gh browse -b=$(git branch --show-current); }; f"
 
 [diff "rspec"]
   xfuncname = "^[ \t]*((RSpec|describe|context|it|before|after|feature|scenario|background)[ \t].*)$"
