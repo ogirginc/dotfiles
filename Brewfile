@@ -54,33 +54,22 @@ cask "apparition47/tap/mailtrackerblocker"
 cask "appcleaner"
 cask "chromedriver"
 cask "contexts"
-cask "dash"
 cask "detectx-swift"
 cask "docker"
 cask "github"
 cask "hammerspoon"
-cask "hey"
 cask "iterm2"
 cask "karabiner-elements"
 cask "keycastr"
-cask "kindle"
 cask "krisp"
-cask "maestral" # Unofficial Dropbox client
-cask "monitorcontrol"
-cask "ngrok"
 cask "notion"
 cask "postman"
 cask "telegram"
-cask "termius"
 cask "tuple"
 cask "visual-studio-code"
 cask "vlc"
 cask "webtorrent"
 
-tap "archivebox/archivebox"
-brew "archivebox"
-
-mas "Browserism for Chrome", id: 979047768
 mas "Poolside FM", id: 1514817810
 mas "Refined GitHub", id: 1519867270
 mas "Slack", id: 803453959
