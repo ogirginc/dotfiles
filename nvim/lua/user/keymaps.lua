@@ -32,9 +32,11 @@ keymap("n", "<leader>yfn", ":let @+ = expand(\"%:t\")<CR>", opts)
 
 -- Yank relative path
 keymap("n", "<leader>yrp", ":let @+ = expand(\"%\")<CR>", opts)
+keymap("n", "<leader>yrfn", ":let @+ = expand(\"%\")<CR>", opts)
 
 -- Yank full path
 keymap("n", "<leader>yfp", ":let @+ = expand(\"%:p\")<CR>", opts)
+keymap("n", "<leader>yfpn", ":let @+ = expand(\"%:p\")<CR>", opts)
 
 -- Trim blanks
 keymap("n", "<leader>tb", ":%s/\\s\\+$//<CR>", opts)
