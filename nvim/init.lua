@@ -1,20 +1,2 @@
-require "user.options"
-require "user.keymaps"
-require "user.plugins"
-require "user.colorscheme"
-require "user.helpers"
-
-require "plugins.autopairs"
-require "plugins.comment"
-require "plugins.ctrlsf"
-require "plugins.easy-align"
-require "plugins.fzf"
-require "plugins.gitsigns"
-require "plugins.lightline"
-require "plugins.neo-tree"
-require "plugins.toggleterm"
-require "plugins.treesitter"
-require "plugins.vim-move"
-require "plugins.vim-test"
-
-require "plugins.lsp"
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
