@@ -45,7 +45,11 @@ vim.opt.clipboard = "unnamedplus"   -- Allows neovim to access the system clipbo
 
 vim.opt.showcmd = true              -- Show partial commands on the screen as it is being typed.
 vim.opt.incsearch = true            -- Highlight matches as you type.
+
+-- https://stackoverflow.com/questions/43579742/toggle-absolute-and-relative-numbering-in-vim-by-insert-normal-mode
+vim.opt.number = true               -- Set number to toggle.
 vim.opt.relativenumber = true       -- Set relative numbered lines.
+
 vim.opt.backup = false              -- Get rid of annoying ~file.
 
 vim.opt.ignorecase = true           -- All your searches will be case insensitive.
