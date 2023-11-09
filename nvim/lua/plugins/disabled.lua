@@ -3,4 +3,5 @@ return {
   { "echasnovski/mini.indentscope", enabled = false },
   { "akinsho/bufferline.nvim", enabled = false },
   { "nvim-treesitter/nvim-treesitter-context", enabled = false },
+  { "todo-comments.nvim", enabled = false },
 }
