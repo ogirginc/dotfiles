@@ -5,4 +5,5 @@ return {
   { "nvim-treesitter/nvim-treesitter-context", enabled = false },
   { "todo-comments.nvim", enabled = false },
   { "vim-illuminate", enabled = false },
+  { "folke/flash.nvim", enabled = false },
 }
