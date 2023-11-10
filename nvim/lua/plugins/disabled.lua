@@ -4,4 +4,5 @@ return {
   { "akinsho/bufferline.nvim", enabled = false },
   { "nvim-treesitter/nvim-treesitter-context", enabled = false },
   { "todo-comments.nvim", enabled = false },
+  { "vim-illuminate", enabled = false },
 }
