@@ -6,4 +6,5 @@ return {
   { "todo-comments.nvim", enabled = false },
   { "vim-illuminate", enabled = false },
   { "folke/flash.nvim", enabled = false },
+  { "nvimdev/dashboard-nvim", enabled = false },
 }
