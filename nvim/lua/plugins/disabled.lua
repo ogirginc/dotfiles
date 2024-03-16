@@ -9,4 +9,5 @@ return {
   { "nvimdev/dashboard-nvim", enabled = false },
   { "ellisonleao/gruvbox.nvim", enabled = false },
   { "catppuccin", enabled = false },
+  -- { "stevearc/conform.nvim", enabled = false },
 }
