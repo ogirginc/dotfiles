@@ -6,3 +6,4 @@ local opt = vim.opt
 
 opt.colorcolumn = "81,101" -- Show column colors.
 opt.wrap = true -- Enable text wrap
+opt.scrolloff = 0 -- Lines of context
