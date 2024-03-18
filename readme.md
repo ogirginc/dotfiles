@@ -1,6 +1,12 @@
 # Dotfiles
 
-### How to clone
+## Steps
+
+### Install Homebrew
+
+Follow the steps on https://brew.sh.
+
+### Clone the project
 
 ```
 git clone https://github.com/ogirginc/dotfiles.git Dotfiles
@@ -9,14 +15,18 @@ git clone https://github.com/ogirginc/dotfiles.git Dotfiles
 ### Create folders
 
 ```
-mkdir -p ~/.config/nvim/
-mkdir ~/.config/nvim/.undo/
-mkdir ~/.config/nvim/.backup/
-mkdir ~/.config/nvim/.swp/
+mkdir ~/.config/
 mkdir ~/.hammerspoon/
 ```
 
-### How to link
+```
+mkdir ~/.config/nvim/
+mkdir ~/.config/nvim/.undo/
+mkdir ~/.config/nvim/.backup/
+mkdir ~/.config/nvim/.swp/
+```
+
+### Create links
 
 ```
 ln -sfn ~/Dotfiles/zshrc ~/.zshrc
