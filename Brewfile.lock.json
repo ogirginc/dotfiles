@@ -8,7 +8,7 @@
         "revision": "0b47eeb7b300b6b2285c0fd3cc123e229fd1fb85"
       },
       "homebrew/cask-versions": {
-        "revision": "e8f9e0fcf55ec774354f5d0b928b72241533a6ae"
+        "revision": "4134baf7d7ef227c3db1294ae97dc30b8d05a184"
       },
       "homebrew/core": {
         "revision": "8c6ad68b8f8bd0b65ffbfb0f6c5e22d27666ecaa"
@@ -20,7 +20,7 @@
         "revision": "2a06c836b4ce60ecd8908b058df12126da1cf560"
       },
       "homebrew/cask-fonts": {
-        "revision": "65284d1499907bf99f5437e43b77dd17b58078de"
+        "revision": "44a579d41aa4295a9bfa71c197e997eca9a6d72b"
       }
     },
     "brew": {
@@ -1603,6 +1603,12 @@
         "options": {
           "full_name": "raycast"
         }
+      },
+      "font-meslo-lg-nerd-font": {
+        "version": "3.1.1",
+        "options": {
+          "full_name": "font-meslo-lg-nerd-font"
+        }
       }
     },
     "mas": {
@@ -1612,7 +1618,7 @@
       "Poolside FM": null,
       "Slack": {
         "id": "803453959",
-        "version": "4.34.121"
+        "version": "4.36.140"
       },
       "Userscripts": null,
       "Vimari": {
@@ -1622,12 +1628,16 @@
       "WhatsApp Desktop": null,
       "Refined GitHub": {
         "id": "1519867270",
-        "version": "23.9.21"
+        "version": "24.2.8"
       },
       "LanguageTool - Grammar Checker": null,
       "ShellHistory": {
         "id": "1564015476",
-        "version": "2.1.0"
+        "version": "2.1.1"
+      },
+      "Velja": {
+        "id": "1607635845",
+        "version": "2.0.0"
       }
     }
   },
@@ -1662,8 +1672,8 @@
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "15.3.0.0.1.1708646388",
-        "Xcode": "15.3",
-        "macOS": "14.3.1"
+        "Xcode": "15.1",
+        "macOS": "14.4"
       }
     }
   }
