@@ -3,8 +3,8 @@
 ################################################################################
 # Homebrew tabs
 tap "homebrew/bundle"
+tap "homebrew/cask"
 tap "homebrew/cask-versions"
-tap "homebrew/core"
 tap "homebrew/services"
 
 # Additional tools for brew-bundle
