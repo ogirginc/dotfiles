@@ -783,7 +783,7 @@
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
-			<string>Default</string>
+			<string></string>
 			<key>Non Ascii Font</key>
 			<string>Monaco 12</string>
 			<key>Non-ASCII Anti Aliased</key>
@@ -860,6 +860,39 @@
 			<string>/Users/ogirginc</string>
 		</dict>
 	</array>
+	<key>PointerActions</key>
+	<dict>
+		<key>Button,1,1,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kContextMenuPointerAction</string>
+		</dict>
+		<key>Button,2,1,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kPasteFromClipboardPointerAction</string>
+		</dict>
+		<key>Gesture,ThreeFingerSwipeDown,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kPrevWindowPointerAction</string>
+		</dict>
+		<key>Gesture,ThreeFingerSwipeLeft,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kPrevTabPointerAction</string>
+		</dict>
+		<key>Gesture,ThreeFingerSwipeRight,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kNextTabPointerAction</string>
+		</dict>
+		<key>Gesture,ThreeFingerSwipeUp,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kNextWindowPointerAction</string>
+		</dict>
+	</dict>
 	<key>ShowPaneTitles</key>
 	<false/>
 	<key>SoundForEsc</key>
@@ -878,5 +911,7 @@
 	<false/>
 	<key>WindowNumber</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 </dict>
 </plist>
