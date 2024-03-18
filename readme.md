@@ -1,6 +1,12 @@
 # Dotfiles
 
-### How to clone
+## Steps
+
+### Install Homebrew
+
+Follow the steps on https://brew.sh.
+
+### Clone the project
 
 ```
 git clone https://github.com/ogirginc/dotfiles.git Dotfiles
@@ -16,7 +22,7 @@ mkdir ~/.config/nvim/.swp/
 mkdir ~/.hammerspoon/
 ```
 
-### How to link
+### Create links
 
 ```
 ln -sfn ~/Dotfiles/zshrc ~/.zshrc
