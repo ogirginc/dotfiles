@@ -15,11 +15,15 @@ git clone https://github.com/ogirginc/dotfiles.git Dotfiles
 ### Create folders
 
 ```
-mkdir -p ~/.config/nvim/
+mkdir ~/.config/
+mkdir ~/.hammerspoon/
+```
+
+```
+mkdir ~/.config/nvim/
 mkdir ~/.config/nvim/.undo/
 mkdir ~/.config/nvim/.backup/
 mkdir ~/.config/nvim/.swp/
-mkdir ~/.hammerspoon/
 ```
 
 ### Create links
