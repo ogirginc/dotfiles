@@ -5,6 +5,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask-versions"
 tap "homebrew/services"
+tap "homebrew/cask-fonts"
 
 # Additional tools for brew-bundle
 brew "mas" # https://github.com/mas-cli/mas
@@ -45,6 +46,7 @@ brew "zsh-syntax-highlighting"
 # brew "memcached"
 brew "overmind"
 
+cask "font-meslo-lg-nerd-font"
 cask "1password"
 cask "alfred"
 cask "raycast"
