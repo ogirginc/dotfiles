@@ -9,5 +9,6 @@ return {
   { "nvimdev/dashboard-nvim", enabled = false },
   { "ellisonleao/gruvbox.nvim", enabled = false },
   { "catppuccin", enabled = false },
+  { "lukas-reineke/headlines.nvim", enabled = false },
   -- { "stevearc/conform.nvim", enabled = false },
 }
