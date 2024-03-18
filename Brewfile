@@ -73,6 +73,7 @@ cask "vlc"
 # mas "Poolside FM", id: 1514817810
 mas "Refined GitHub", id: 1519867270
 mas "Slack", id: 803453959
+mas "Velja", id: 1607635845
 # mas "Userscripts", id: 1463298887
 # mas "LanguageTool - Grammar Checker", id: 1534275760
 mas "ShellHistory", id: 1564015476
