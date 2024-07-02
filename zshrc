@@ -104,6 +104,8 @@ source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f $HOME/.p10k.zsh ]] || source $HOME/.p10k.zsh
 
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+
 
 
 #########################################################################################
@@ -120,6 +122,7 @@ alias nvim-lazy="NVIM_APPNAME=nvim-lazy nvim"
 
 # Show all the history stored with fzf.
 alias history="fc -l 1 | fzf"
+
 
 
 #########################################################################################
@@ -176,8 +179,7 @@ export ASDF_RUBY_BUILD_VERSION=master
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 
-# To be able to access psql
-# export PATH="/opt/homebrew/opt/postgresql@11/bin:$PATH"
+
 
 #########################################################################################
 # Other
@@ -185,8 +187,11 @@ export PATH="/usr/local/sbin:$PATH"
 # Add fzf to shell
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
+# iTerm2's Shell Integration
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# Add direnv to shell
+eval "$(direnv hook zsh)"
+
+# Add https://github.com/ajeetdsouza/zoxide
+eval "$(zoxide init zsh)"
