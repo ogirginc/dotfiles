@@ -77,3 +77,4 @@ mas "Velja", id: 1607635845
 # mas "Userscripts", id: 1463298887
 # mas "LanguageTool - Grammar Checker", id: 1534275760
 mas "ShellHistory", id: 1564015476
+mas "UTC Time", id: 1538245904
