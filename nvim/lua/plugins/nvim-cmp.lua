@@ -1,5 +1,11 @@
 return {
   "hrsh7th/nvim-cmp",
+  dependencies = {
+    "supermaven-inc/supermaven-nvim",
+    opts = {
+      disable_inline_completion = true, -- disables inline completion for use with cmp
+    },
+  },
 
   ---@param opts cmp.ConfigSchema
   opts = function(_, opts)
@@ -42,5 +48,11 @@ return {
     opts.experimental = {
       ghost_text = false,
     }
+
+    table.insert(opts.sources, 1, {
+      name = "supermaven",
+      group_index = 1,
+      priority = 100,
+    })
   end,
 }
