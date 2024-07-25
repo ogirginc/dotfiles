@@ -2,6 +2,9 @@ return {
   {
     "neovim/nvim-lspconfig",
     opts = {
+      document_highlight = {
+        enabled = false,
+      },
       diagnostics = {
         underline = false,
         virtual_text = false,
