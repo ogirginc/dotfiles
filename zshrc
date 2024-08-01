@@ -161,18 +161,6 @@ function fixadguard() {
 
 
 #########################################################################################
-# asdf
-#########################################################################################
-# Add to shell
-. $(brew --prefix asdf)/libexec/asdf.sh
-
-# Get all available language versions rather than waiting someone to bump it
-# https://github.com/asdf-vm/asdf-ruby/commit/af80345be901838ce2c6a58c6536a6fccc573b91
-export ASDF_RUBY_BUILD_VERSION=master
-
-
-
-#########################################################################################
 # Homebrew
 #########################################################################################
 # Export these to your path because doctor said so! :)
@@ -195,3 +183,15 @@ eval "$(direnv hook zsh)"
 
 # Add https://github.com/ajeetdsouza/zoxide
 eval "$(zoxide init zsh)"
+
+
+
+#########################################################################################
+# asdf - MUST BE LAST
+#########################################################################################
+# Get all available language versions rather than waiting someone to bump it
+# https://github.com/asdf-vm/asdf-ruby/commit/af80345be901838ce2c6a58c6536a6fccc573b91
+export ASDF_RUBY_BUILD_VERSION=master
+
+# Add to shell
+. $(brew --prefix asdf)/libexec/asdf.sh
