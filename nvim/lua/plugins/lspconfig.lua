@@ -15,6 +15,12 @@ return {
           enabled = true,
           cmd = { "/Users/ogirginc/.asdf/shims/ruby-lsp" },
         },
+        rubocop = {
+          mason = false,
+          enabled = true,
+          cmd = { "bundle", "exec", "rubocop", "--lsp" },
+          -- cmd = { "/Users/ogirginc/.asdf/shims/rubocop", "--lsp" },
+        },
       },
     },
   },
