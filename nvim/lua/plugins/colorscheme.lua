@@ -2,6 +2,7 @@ return {
   -- -- Add colorscheme plugin
   -- { "ishan9299/nvim-solarized-lua" },
   { "craftzdog/solarized-osaka.nvim" },
+  -- { "catppuccin/nvim", name = "catppuccin" },
 
   -- Configure LazyVim to load preferred colorscheme
   {
@@ -12,6 +13,8 @@ return {
     opts = {
       -- colorscheme = "solarized",
       colorscheme = "solarized-osaka",
+      -- colorscheme = "tokyonight",
+      -- colorscheme = "catppuccin-mocha",
     },
   },
 }
