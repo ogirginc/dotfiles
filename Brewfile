@@ -3,7 +3,6 @@
 ################################################################################
 # Homebrew tabs
 tap "homebrew/bundle"
-tap "homebrew/cask-versions"
 tap "homebrew/services"
 tap "homebrew/cask-fonts"
 
