@@ -8,6 +8,13 @@ vim.keymap.set("n", "gb", "gT", { desc = "Go back one tab", noremap = true, sile
 vim.keymap.set("n", "<leader><tab>-", ":tabm-<CR>", { desc = "Move tab to the left", noremap = true, silent = true })
 vim.keymap.set("n", "<leader><tab>+", ":tabm+<CR>", { desc = "Move tab to the right", noremap = true, silent = true })
 
+-- BUFFERS
+vim.keymap.set(
+  "n",
+  "<leader>bx",
+  ":%bd|e#<CR>",
+  { desc = "Delete Buffers Except Current", noremap = true, silent = true }
+)
 ---------------------------------------------------------------------------------
 -- PLUGINGS
 ---------------------------------------------------------------------------------
