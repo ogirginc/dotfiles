@@ -51,7 +51,7 @@ setopt INC_APPEND_HISTORY_TIME  # append command to history file immediately aft
 
 # Append history without exiting shell.
 setopt inc_append_history
-export HISTTIMEFORMAT="[%F %T] "
+export HISTTIMEFORMAT="%Y-%m-%d %H:%M:%S "
 
 # Add Timestamp to history.
 setopt extended_history
