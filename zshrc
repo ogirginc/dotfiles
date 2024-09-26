@@ -4,19 +4,17 @@
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 
-	# Initialize the zsh completion system
-	# http://zsh.sourceforge.net/Doc/Release/Completion-System.html#Completion-System
+  # Initialize the zsh completion system
+  # http://zsh.sourceforge.net/Doc/Release/Completion-System.html#Completion-System
   autoload -Uz compinit
   compinit
 
 
-	# case insensitive path-completion
-	# https://scriptingosx.com/2019/07/moving-to-zsh-part-5-completions/
-	zstyle ':completion:*' matcher-list \
-		'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' \
-		'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' \
-		'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' \
-		'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*'
+  # case insensitive path-completion
+  # https://scriptingosx.com/2019/07/moving-to-zsh-part-5-completions/
+  zstyle ':completion:*' matcher-list \
+    'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' \
+    'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' \
 
 fi
 
