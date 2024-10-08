@@ -4,7 +4,6 @@
 # Homebrew tabs
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap "homebrew/cask-fonts"
 
 # Additional tools for brew-bundle
 brew "mas" # https://github.com/mas-cli/mas
