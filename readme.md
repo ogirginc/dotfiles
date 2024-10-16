@@ -29,6 +29,7 @@ mkdir ~/.config/nvim/.swp/
 ### Create links
 
 ```
+ln -sfn ~/Dotfiles/psqlrc ~/.psqlrc
 ln -sfn ~/Dotfiles/zshrc ~/.zshrc
 ln -sfn ~/Dotfiles/p10k.zsh ~/.p10k.zsh
 ```
