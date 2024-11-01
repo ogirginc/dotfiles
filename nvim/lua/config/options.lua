@@ -7,3 +7,4 @@ local opt = vim.opt
 opt.colorcolumn = "81,101" -- Show column colors.
 opt.wrap = true -- Enable text wrap
 opt.scrolloff = 0 -- Lines of context
+opt.smartcase = false -- Don't ignore case with capital letters
