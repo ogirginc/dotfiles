@@ -4,9 +4,9 @@ return {
   build = "make",
   opts = {
     mappings = {
-      ask = "<leader>aca",
-      edit = "<leader>ace",
-      refresh = "<leader>acr",
+      -- ask = "<leader>aca",
+      -- edit = "<leader>ace",
+      -- refresh = "<leader>acr",
       --   --- @class AvanteConflictMappings
       --   diff = {
       --     ours = "<leader>acco",
