@@ -15,7 +15,7 @@ setw -g mode-keys vi
 set -g mouse on
 
 # Use ctrl-b ctrl-k to clear pane history
-bind -n C-k send-keys -R \; send-keys C-l \; clear-history; display "Cleared"
+bind -n C-k send-keys -R \; send-keys C-l \; clear-history \; display "Cleared!"
 
 # Select panes like Vim with h, j, k, l
 bind-key h select-pane -L
