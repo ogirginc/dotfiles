@@ -216,4 +216,4 @@ eval "$(zoxide init zsh)"
 export ASDF_RUBY_BUILD_VERSION=master
 
 # Add to shell
-. $(brew --prefix asdf)/libexec/asdf.sh
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
