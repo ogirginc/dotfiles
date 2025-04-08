@@ -1,14 +1,15 @@
-brew 'mas'
+brew "mas"
 
-brew 'readline' 
-brew 'libyaml'
-brew 'gmp' 
-brew 'autoconf'
+brew "readline"
+brew "libyaml"
+brew "gmp"
+brew "autoconf"
 
-brew 'mise'
-brew 'neovim'
+brew "mise"
+brew "neovim"
 
 brew "fzf"
+brew "ripgrep"
 brew "gh"
 brew "git"
 
@@ -16,12 +17,11 @@ brew "htop"
 brew "jq"
 brew "lazygit"
 
-brew "ripgrep" 
-
 brew "tree"
-brew "overmind" 
+brew "overmind"
+brew "zoxide"
 
-cask 'ghostty'
+cask "ghostty"
 cask "1password"
 cask "raycast"
 cask "contexts"
