@@ -1,8 +1,0 @@
-/* ==UserStyle==
-@name        Heroku Metrics
-@description Display Heroku Metrics without max width.
-@match       *://dashboard.heroku.com/*
-==/UserStyle== */
-html body.ember-application div#ember6.ember-view main#ember7.app-wrapper.protected-app-metrics-type.ember-view div.main-panel.bg-lightest-silver.relative div.main-content div.limit-width {
-  max-width: none;
-}

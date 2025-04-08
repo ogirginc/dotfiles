@@ -1,3 +1,0 @@
-return {
-  "AndrewRadev/splitjoin.vim",
-}

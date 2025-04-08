@@ -1,1 +1,0 @@
-\pset pager off
