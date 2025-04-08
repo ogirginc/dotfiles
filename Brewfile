@@ -25,3 +25,4 @@ cask "raycast"
 cask "contexts"
 
 cask "appcleaner"
+cask "dropbox"
