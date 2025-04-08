@@ -1,3 +1,5 @@
+brew 'mas'
+
 brew 'readline' 
 brew 'libyaml'
 brew 'gmp' 
@@ -26,3 +28,5 @@ cask "contexts"
 
 cask "appcleaner"
 cask "dropbox"
+
+mas "ShellHistory", id: 1564015476
