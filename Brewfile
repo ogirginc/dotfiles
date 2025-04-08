@@ -1,33 +1,36 @@
 brew "mas"
 
-brew "readline"
-brew "libyaml"
-brew "gmp"
 brew "autoconf"
+brew "gmp"
+brew "gpg"
+brew "libyaml"
+brew "readline"
 
 brew "mise"
-brew "neovim"
 
 brew "fzf"
-brew "ripgrep"
 brew "gh"
 brew "git"
+brew "ripgrep"
+brew "zoxide"
 
 brew "htop"
 brew "jq"
 brew "lazygit"
-
-brew "tree"
+brew "neovim"
 brew "overmind"
-brew "zoxide"
+brew "tree"
 
-cask "ghostty"
+# brew "iterm2"
+# brew "jordanbaird-ice"
+
 cask "1password"
-cask "raycast"
-cask "contexts"
-
 cask "appcleaner"
+cask "contexts"
 cask "dropbox"
+cask "ghostty"
+cask "logseq"
+cask "raycast"
 
-mas "ShellHistory", id: 1564015476
-mas "Velja", id: 1607635845
+# mas "ShellHistory", id: 1564015476
+# mas "Velja", id: 1607635845
