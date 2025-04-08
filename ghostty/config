@@ -48,4 +48,4 @@ keybind = command+shift+h=goto_split:left
 keybind = command+shift+l=goto_split:right
 keybind = command+shift+j=goto_split:bottom
 keybind = command+shift+k=goto_split:top
-font-feature = -calt \\disable ligatures
+font-feature = -calt, -liga, -dlig \\ disable ligatures
