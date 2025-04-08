@@ -30,3 +30,4 @@ cask "appcleaner"
 cask "dropbox"
 
 mas "ShellHistory", id: 1564015476
+mas "Velja", id: 1607635845
