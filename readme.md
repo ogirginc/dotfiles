@@ -30,4 +30,14 @@ mkdir ~/.config/nvim/.swp/
 ```
 ln -sfn ~/Dotfiles/zprofile ~/.zprofile
 ln -sfn ~/Dotfiles/zshrc ~/.zshrc
+ln -sfn ~/Dotfiles/hushlogin ~/.hushlogin
+```
+
+```
+ln -sfn ~/Dotfiles/nvim/lua ~/.config/nvim/
+ln -sfn ~/Dotfiles/nvim/init.lua ~/.config/nvim/
+```
+
+```
+ln -sfn ~/Dotfiles/psqlrc ~/.psqlrc
 ```
