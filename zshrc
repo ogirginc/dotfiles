@@ -1,11 +1,5 @@
-
-eval "$(mise activate zsh)"
-
-eval "$(zoxide init zsh)"
-
-
 ###############################################################################
-# SHELL HISTORY APP
+# ShellHistory App
 ###############################################################################
 
 # adding shhist to PATH, so we can use it from Terminal
@@ -23,3 +17,63 @@ __shhist_prompt() {
 
 # integrating prompt function in prompt
 precmd_functions=(__shhist_prompt $precmd_functions)
+
+
+
+#########################################################################################
+# Aliases
+#########################################################################################
+alias .dotfiles="cd $HOME/Dotfiles && nvim -c ':Neotree'"
+alias .brewrc="nvim $HOME/Dotfiles/Brewfile"
+alias .gitconfig="nvim $HOME/Dotfiles/git/config"
+alias .nvimrc="nvim $HOME/Dotfiles/nvim/init.lua"
+alias .zshrc="nvim $HOME/Dotfiles/zshrc"
+alias .history="nvim $HOME/.zsh_history"
+
+# Show all the history stored with fzf.
+alias history="fc -l 1 | fzf"
+
+
+
+#########################################################################################
+# Environment Variables
+#########################################################################################
+export XDG_CONFIG_HOME="$HOME/.config"
+export HOMEBREW_BUNDLE_FILE="$HOME/Dotfiles/Brewfile"
+export LANG="en_US.UTF-8"
+export EDITOR="nvim"
+
+# source "$HOME/Documents/Dotfiles/env-vars.sh"
+
+
+
+#########################################################################################
+# Functions
+#########################################################################################
+function rubocop_changes() {
+  git status --porcelain | sed s/^...// | xargs rubocop
+}
+
+function bundle_rubocop_changes() {
+  git status --porcelain | sed s/^...// | xargs bundle exec rubocop
+}
+
+function rz() {
+  echo "sourcing ~/.zshrc"
+  source ~/.zshrc
+}
+
+function fixadguard() {
+  sudo ifconfig lo0 up
+}
+
+#########################################################################################
+# Other
+#########################################################################################
+# Add https://github.com/ajeetdsouza/zoxide
+eval "$(zoxide init zsh)"
+
+# Use mise
+eval "$(mise activate zsh)"
+
+# export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
