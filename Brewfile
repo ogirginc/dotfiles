@@ -9,6 +9,7 @@ brew "readline"
 brew "mise"
 
 brew "fzf"
+brew "fd"
 brew "gh"
 brew "git"
 brew "ripgrep"
@@ -34,3 +35,4 @@ cask "raycast"
 
 # mas "ShellHistory", id: 1564015476
 # mas "Velja", id: 1607635845
+# mas "UTC Time", id: 1538245904
