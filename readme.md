@@ -39,5 +39,9 @@ ln -sfn ~/Dotfiles/nvim/init.lua ~/.config/nvim/
 ```
 
 ```
+ln -sfn ~/Dotfiles/ghostty/config ~/.config/ghostty/config
+```
+
+```
 ln -sfn ~/Dotfiles/psqlrc ~/.psqlrc
 ```
