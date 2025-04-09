@@ -34,6 +34,7 @@ ln -sfn ~/Dotfiles/hushlogin ~/.hushlogin
 ```
 
 ```
+ln -sfn ~/Dotfiles/git/ ~/.config/
 ln -sfn ~/Dotfiles/nvim/lua ~/.config/nvim/
 ln -sfn ~/Dotfiles/nvim/init.lua ~/.config/nvim/
 ```
