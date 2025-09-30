@@ -1,33 +1,13 @@
-# macOS
+# macOS specific
 .DS_Store
 
-# Neovim
-[._]*.s[a-w][a-z]
-[._]s[a-w][a-z]
-Session.vim
-.netrwhist
-*~
-.un~
+# Personal Claude local
+# CLAUDE.local.md
 
-# Tags
-tags
-tags.lock
-tags.temp
-tags.temp.tmp
-.gutctags
-.ctags
+# Personal Mise local
+mise.local.toml
 
-# Solargraph
-.solargraph.yml
-
-# Vscode
-.vscode/
-
-# Rubymine
-.idea/
-
-# Notes
+# Anything under my own username
 ogirginc/
 
-# Personal Procfiles
-Procfile.ogi
+**/.claude/settings.local.json

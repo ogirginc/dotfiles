@@ -2,65 +2,21 @@
   name = Oğulcan Girginç
   email = ogulcan@girginc.com
 
+[init]
+  defaultBranch = main
+
 [core]
   editor = nvim
   commentChar = ";"
-  attributesfile = /Users/ogirginc/.config/git/attributes
-  excludesfile = /Users/ogirginc/.gitignore_global
-  ; core.excludesfile is not needed as $XDG_CONFIG_HOME is defined which forces
-  ; Git to use it's default value, $XDG_CONFIG_HOME/git/ignore.
-  ; excludesfile = $HOME/Configurations/git/ignore
 
-[commit]
-  verbose = true
-
-[rebase]
-  autosquash = true
+[push]
+  autoSetupRemote = true
 
 [alias]
-  upstream = "!f() { git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD); }; f"
-  unrestore = "restore --staged ."
-  undo = "reset head~1"
-
-  cam = "!f() { git add . && git commit -m \"$1\"; }; f"
-  wip = "!f() { git add . && git commit -m "WIP" --no-verify; }; f"
-
-  rb = "!f() { git rebase -i HEAD~$1 --autostash; }; f"
-
   sb   = "!f() { git switch $(git branch | fzf --height 40% --reverse --border); }; f"
-  sbr  = "!f() { git switch -t $(git branch -r | fzf --height 40% --reverse --border); }; f"
-
+  srb  = "!f() { git switch -t $(git branch -r | fzf --height 40% --reverse --border); }; f"
   ssb  = "!f() { git add . && git stash && git switch $(git branch | fzf --height 40% --reverse --border) && git stash pop; }; f"
-  ssbr = "!f() { git add . && git stash && git switch -t $(git branch -r | fzf --height 40% --reverse --border) && git stash pop; }; f"
-
-  bd = "!f() { git branch -d \"$1\"; }; f"
-  lb = "branch --list"
-  lbr = "branch --list --remotes"
-  prs = "pull --rebase --autostash"
-  cpr = "commit -m 'Apply PR reviews'"
-
-  bs = "for-each-ref --sort='authordate:iso8601' --format=' %(color:green)%(authordate:relative)%09%(color:white)%(refname:short)' refs/heads"
-
-  rubocop = "!f() { git diff --name-only | sed s/^...// | xargs bundle exec rubocop; }; f"
-  rubocop-autofix = "!f() { git diff --name-only | xargs bundle exec rubocop -a; }; f"
-  rubocop-staged = "!f() { git diff --name-only --cached | xargs bundle exec rubocop; }; f"
-  rubocop-staged-autofix = "!f() { git diff --name-only --cached | xargs bundle exec rubocop -a; }; f"
-
-  rspec = "!f() { git status --porcelain | sed s/^...// | xargs bundle exec rspec; }; f"
-  rspec-staged = "!f() { git diff --name-only --cached | xargs bundle exec rspec; }; f"
-
-  staged-rspec = "!f() { git rspec-staged; }; f"
-  staged-rubocop = "!f() { git rubocop-staged; }; f"
-  staged-rr = "!f() { git staged-rubocop && git staged-rspec; }; f"
-
-  ob = "!f() { gh browse -b=$(git branch --show-current); }; f"
-
-[diff "rspec"]
-  xfuncname = "^[ \t]*((RSpec|describe|context|it|before|after|feature|scenario|background)[ \t].*)$"
-
-[merge "merge-structure-sql"]
-  name = Rails structure.sql merge driver
-  driver = git-merge-structure-sql %A %O %B
+  sc    = switch -c
 
 [filter "lfs"]
   clean = git-lfs clean -- %f
@@ -68,13 +24,5 @@
   process = git-lfs filter-process
   required = true
 
-[mergetool "vimdiff"]
-  path = nvim
-[difftool "sourcetree"]
-  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-  path = 
-[mergetool "sourcetree"]
-  cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-  trustExitCode = true
-[init]
-	defaultBranch = main
+[commit]
+  verbose = true

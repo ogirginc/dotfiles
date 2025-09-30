@@ -1,98 +1,108 @@
-#########################################################################################
-# zsh-completions
-#########################################################################################
-if type brew &>/dev/null; then
-  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+###############################################################################
+# Oh My Zsh configuration
+###############################################################################
+# Path to your Oh My Zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
 
-  # Initialize the zsh completion system
-  # http://zsh.sourceforge.net/Doc/Release/Completion-System.html#Completion-System
-  autoload -Uz compinit
-  compinit
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="robbyrussell"
+
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
+
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
+
+# Uncomment one of the following lines to change the auto-update behavior
+# zstyle ':omz:update' mode disabled  # disable automatic updates
+# zstyle ':omz:update' mode auto      # update automatically without asking
+zstyle ':omz:update' mode reminder  # just remind me to update when it's time
+
+# Uncomment the following line to change how often to auto-update (in days).
+zstyle ':omz:update' frequency 13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS="true"
+
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"
+
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
+
+# Uncomment the following line to enable command auto-correction.
+# ENABLE_CORRECTION="true"
+
+# Uncomment the following line to display red dots whilst waiting for completion.
+# You can also set it to another string to have that shown instead of the default red dots.
+# e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
+# Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
+COMPLETION_WAITING_DOTS="true"
+
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# You can set one of the optional three formats:
+# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# or set a custom format using the strftime function format specifications,
+# see 'man strftime' for details.
+# HIST_STAMPS="mm/dd/yyyy"
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load?
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
 
 
-  # case insensitive path-completion
-  # https://scriptingosx.com/2019/07/moving-to-zsh-part-5-completions/
-  zstyle ':completion:*' matcher-list \
-    'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' \
-    'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' \
 
-fi
+###############################################################################
+# User configuration
+###############################################################################
 
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
 
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=243'
-ZSH_AUTOSUGGEST_STRATEGY=(history completion)
-ZSH_AUTOSUGGEST_USE_ASYNC=true
-MENU_COMPLETE=true
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='nvim'
+# fi
 
+# Compilation flags
+# export ARCHFLAGS="-arch $(uname -m)"
 
-
-#########################################################################################
-# ZSH History Settings
-#########################################################################################
-# https://scarff.id.au/blog/2019/zsh-history-conditional-on-command-success/
-# Prevent the command from being written to history before it's
-# executed; save it to LASTHIST instead.  Write it to history
-# in precmd.
+# Set personal aliases, overriding those provided by Oh My Zsh libs,
+# plugins, and themes. Aliases can be placed here, though Oh My Zsh
+# users are encouraged to define aliases within a top-level file in
+# the $ZSH_CUSTOM folder, with .zsh extension. Examples:
+# - $ZSH_CUSTOM/aliases.zsh
+# - $ZSH_CUSTOM/macos.zsh
+# For a full list of active aliases, run `alias`.
 #
-# called before a history line is saved.  See zshmisc(1).
-function zshaddhistory() {
-  # Remove line continuations since otherwise a "\" will eventually
-  # get written to history with no newline.
-  LASTHIST=${1//\\$'\n'/}
-  # Return value 2: "... the history line will be saved on the internal
-  # history list, but not written to the history file".
-  return 2
-}
-
-# zsh hook called before the prompt is printed.  See zshmisc(1).
-function precmd() {
-  # Write the last command if successful, using the history buffered by
-  # zshaddhistory().
-  if [[ $? == 0 && -n ${LASTHIST//[[:space:]\n]/} && -n $HISTFILE ]] ; then
-    print -sr -- ${=${LASTHIST%%'\n'}}
-  fi
-}
-
-# History location.
-export HISTFILE=~/.zsh_history
-
-# It’s not possible to set the history to an unlimited size in zsh. The max
-# history size can be the value of LONG_MAX variable from limits.h header,
-# which is 9223372036854775807.
-export HISTFILESIZE=9223372036854775800
-export HISTSIZE=9223372036854775800
-
-# Maximum number of items for the history file
-export SAVEHIST=9223372036854775800
-
-# The meaning of these options can be found in man page of `zshoptions`.
-setopt HIST_IGNORE_ALL_DUPS  # do not put duplicated command into history list
-setopt HIST_SAVE_NO_DUPS  # do not save duplicated command
-setopt HIST_REDUCE_BLANKS  # remove unnecessary blanks
-setopt INC_APPEND_HISTORY_TIME  # append command to history file immediately after execution
-
-# Append history without exiting shell.
-setopt inc_append_history
-export HISTTIMEFORMAT="%Y-%m-%d %H:%M:%S "
-
-# Add Timestamp to history.
-setopt extended_history
-
-# When searching, skip duplicates and show each command only once.
-setopt hist_find_no_dups
-
-# To retrieve the history file everytime history is called upon. The only
-# caveat is the need to press enter to fetch history.
-setopt share_history
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
 
-#########################################################################################
+###############################################################################
 # ShellHistory App
-#########################################################################################
-# Adding shhist to PATH, so we can use it from Terminal
+###############################################################################
+
+# adding shhist to PATH, so we can use it from Terminal
 PATH="${PATH}:/Applications/ShellHistory.app/Contents/Helpers"
 
 # creating an unique session id for each terminal session
@@ -111,36 +121,14 @@ precmd_functions=(__shhist_prompt $precmd_functions)
 
 
 #########################################################################################
-# Powerlevel10k
-#########################################################################################
-
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
-source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f $HOME/.p10k.zsh ]] || source $HOME/.p10k.zsh
-
-typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
-
-
-
-#########################################################################################
 # Aliases
 #########################################################################################
-alias .dotfiles="cd $HOME/Dotfiles && nvim -c ':Neotree'"
+alias .dotfiles="cd $HOME/Dotfiles && nvim"
 alias .brewrc="nvim $HOME/Dotfiles/Brewfile"
 alias .gitconfig="nvim $HOME/Dotfiles/git/config"
 alias .nvimrc="nvim $HOME/Dotfiles/nvim/init.lua"
 alias .zshrc="nvim $HOME/Dotfiles/zshrc"
 alias .history="nvim $HOME/.zsh_history"
-
-alias nvim-lazy="NVIM_APPNAME=nvim-lazy nvim"
 
 # Show all the history stored with fzf.
 alias history="fc -l 1 | fzf"
@@ -154,9 +142,8 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export HOMEBREW_BUNDLE_FILE="$HOME/Dotfiles/Brewfile"
 export LANG="en_US.UTF-8"
 export EDITOR="nvim"
-export PATH="$PATH:$HOME/.exo/bin" # https://github.com/deref/exo
 
-source "$HOME/Documents/Dotfiles/env-vars.sh"
+# source "$HOME/Documents/Dotfiles/env-vars.sh"
 
 
 
@@ -180,40 +167,15 @@ function fixadguard() {
   sudo ifconfig lo0 up
 }
 
-
-
-#########################################################################################
-# Homebrew
-#########################################################################################
-# Export these to your path because doctor said so! :)
-export PATH="/usr/local/opt/openjdk/bin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
-
-
-
 #########################################################################################
 # Other
 #########################################################################################
-# Add fzf to shell
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# iTerm2's Shell Integration
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-# Add direnv to shell
-eval "$(direnv hook zsh)"
-
 # Add https://github.com/ajeetdsouza/zoxide
 eval "$(zoxide init zsh)"
 
+# Use mise
+eval "$(mise activate zsh)"
 
-
-#########################################################################################
-# asdf - MUST BE LAST
-#########################################################################################
-# Get all available language versions rather than waiting someone to bump it
-# https://github.com/asdf-vm/asdf-ruby/commit/af80345be901838ce2c6a58c6536a6fccc573b91
-export ASDF_RUBY_BUILD_VERSION=master
-
-# Add to shell
-export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+# Added by OrbStack: command-line tools and integration
+# This won't be added again if you remove it.
+source ~/.orbstack/shell/init.zsh 2>/dev/null || :

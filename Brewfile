@@ -1,79 +1,39 @@
-################################################################################
-#	REQUIRED
-################################################################################
-# Homebrew tabs
-tap "homebrew/bundle"
-tap "homebrew/services"
-tap "homebrew/cask-fonts"
+brew "mas"
 
-# Additional tools for brew-bundle
-brew "mas" # https://github.com/mas-cli/mas
-brew "whalebrew" # https://github.com/whalebrew/whalebrew
-
-
-################################################################################
-#	TOOLS
-################################################################################
-# asdf with it's requirements
-brew "asdf"
-brew "coreutils"
-brew "gnupg"
+brew "autoconf"
+brew "gmp"
 brew "gpg"
+brew "libyaml"
+brew "readline"
 
-brew "awscli"
+brew "mise"
+
 brew "fzf"
+brew "fd"
 brew "gh"
 brew "git"
-# brew "git-bug"
-brew "heroku/brew/heroku"
+brew "ripgrep"
+brew "zoxide"
+
 brew "htop"
-# brew "jq"
+brew "jq"
 brew "lazygit"
 brew "neovim"
-brew "redis"
-brew "ripgrep"
-brew "powerlevel10k"
-brew "tree"
-brew "zplug"
-brew "zsh"
-brew "zsh-autosuggestions"
-brew "zsh-completions"
-brew "zsh-syntax-highlighting"
-# brew "pgcli"
-# brew "pgweb"
-
-# brew "memcached"
 brew "overmind"
+brew "tree"
+brew "font-jetbrains-mono-nerd-font"
 
-cask "font-meslo-lg-nerd-font"
+# brew "iterm2"
+# brew "jordanbaird-ice"
+
 cask "1password"
-cask "alfred"
-cask "raycast"
-# cask "apparition47/tap/mailtrackerblocker"
 cask "appcleaner"
-cask "chromedriver"
 cask "contexts"
-# cask "detectx-swift"
-cask "docker"
-cask "github"
-cask "hammerspoon"
-cask "iterm2"
-# cask "karabiner-elements"
-# cask "keycastr"
-cask "krisp"
-# cask "notion"
-# cask "postman"
-cask "telegram"
-cask "tuple"
-cask "visual-studio-code"
-cask "vlc"
-# cask "webtorrent"
+cask "dropbox"
+cask "ghostty"
+cask "logseq"
+cask "raycast"
 
-# mas "Poolside FM", id: 1514817810
-mas "Refined GitHub", id: 1519867270
-mas "Slack", id: 803453959
-mas "Velja", id: 1607635845
-# mas "Userscripts", id: 1463298887
-# mas "LanguageTool - Grammar Checker", id: 1534275760
-mas "ShellHistory", id: 1564015476
-mas "UTC Time", id: 1538245904
+# mas "ShellHistory", id: 1564015476
+# mas "Velja", id: 1607635845
+# mas "UTC Time", id: 1538245904

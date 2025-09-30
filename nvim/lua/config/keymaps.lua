@@ -11,13 +11,14 @@ vim.keymap.set(
   "n",
   "<leader>bx",
   ":%bd|e#<CR>",
-  { desc = "Delete Buffers Except Current", noremap = true, silent = true }
+  { desc = "Delete Buffers except current", noremap = true, silent = true }
 )
----------------------------------------------------------------------------------
--- PLUGINGS
----------------------------------------------------------------------------------
 
--- VIM TEST
-vim.keymap.set("n", "<leader>ttn", ":TestNearest<CR>", { desc = "Test nearest", noremap = true, silent = true })
-vim.keymap.set("n", "<leader>ttf", ":TestFile<CR>", { desc = "Test file", noremap = true, silent = true })
-vim.keymap.set("n", "<leader>ttl", ":TestLast<CR>", { desc = "Test last", noremap = true, silent = true })
+vim.keymap.set("n", "<leader>by", function()
+  vim.fn.setreg(vim.v.register, vim.fn.expand("%:."))
+end, { desc = "Yank Buffer's path to clipboard" })
+
+vim.keymap.set("n", "<leader>bcw", function()
+  vim.cmd([[%s/\s\+$//e]])
+  vim.cmd("noh")
+end, { desc = "Remove Buffer trailing whitespace" })
