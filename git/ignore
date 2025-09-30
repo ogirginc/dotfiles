@@ -1,0 +1,13 @@
+# macOS specific
+.DS_Store
+
+# Personal Claude local
+# CLAUDE.local.md
+
+# Personal Mise local
+mise.local.toml
+
+# Anything under my own username
+ogirginc/
+
+**/.claude/settings.local.json

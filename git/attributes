@@ -1,0 +1,9 @@
+# Ruby file handling
+*.rake       diff=ruby
+*.gemspec    diff=ruby
+*_spec.rb    diff=rspec
+Rakefile     diff=ruby
+Gemfile      diff=ruby
+
+# Documentation
+*.md         text diff=markdown

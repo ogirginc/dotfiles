@@ -21,6 +21,7 @@ brew "lazygit"
 brew "neovim"
 brew "overmind"
 brew "tree"
+brew "font-jetbrains-mono-nerd-font"
 
 # brew "iterm2"
 # brew "jordanbaird-ice"

@@ -1,2 +1,28 @@
+[user]
+  name = Oğulcan Girginç
+  email = ogulcan@girginc.com
+
+[init]
+  defaultBranch = main
+
+[core]
+  editor = nvim
+  commentChar = ";"
+
 [push]
   autoSetupRemote = true
+
+[alias]
+  sb   = "!f() { git switch $(git branch | fzf --height 40% --reverse --border); }; f"
+  srb  = "!f() { git switch -t $(git branch -r | fzf --height 40% --reverse --border); }; f"
+  ssb  = "!f() { git add . && git stash && git switch $(git branch | fzf --height 40% --reverse --border) && git stash pop; }; f"
+  sc    = switch -c
+
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
+
+[commit]
+  verbose = true
