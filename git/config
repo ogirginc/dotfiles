@@ -8,6 +8,7 @@
 [core]
   editor = nvim
   commentChar = ";"
+	pager = delta
 
 [push]
   autoSetupRemote = true
@@ -27,9 +28,26 @@
 
 [commit]
   verbose = true
+
 [credential "https://github.com"]
 	helper =
 	helper = !/opt/homebrew/bin/gh auth git-credential
+
 [credential "https://gist.github.com"]
 	helper =
 	helper = !/opt/homebrew/bin/gh auth git-credential
+
+[interactive]
+	diffFilter = delta --color-only
+
+[merge]
+	conflictStyle = zdiff3
+
+[diff]
+  colorMoved = default
+
+[delta]
+	navigate = true
+  side-by-side = true
+  dark = true
+  true-color = always
