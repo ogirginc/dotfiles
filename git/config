@@ -11,6 +11,7 @@
 
 [push]
   autoSetupRemote = true
+	default = current
 
 [alias]
   sb   = "!f() { git switch $(git branch | fzf --height 40% --reverse --border); }; f"
@@ -26,3 +27,9 @@
 
 [commit]
   verbose = true
+[credential "https://github.com"]
+	helper =
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper =
+	helper = !/opt/homebrew/bin/gh auth git-credential
