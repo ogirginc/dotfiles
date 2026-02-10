@@ -43,6 +43,9 @@
 [merge]
 	conflictStyle = zdiff3
 
+[rebase]
+  updateRefs = true
+
 [diff]
   colorMoved = default
 
