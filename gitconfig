@@ -8,7 +8,7 @@
 [core]
   editor = nvim
   commentChar = ";"
-	pager = delta
+  pager = delta --paging=never
 
 [push]
   autoSetupRemote = true
