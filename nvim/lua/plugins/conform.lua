@@ -4,6 +4,7 @@ return {
     opts = {
       formatters_by_ft = {
         ruby = { "rubocop" },
+        yaml = { "yamlfmt" },
       },
       formatters = {
         rubocop = {
