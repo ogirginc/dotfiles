@@ -186,3 +186,6 @@ eval "$(mise activate zsh --shims)"
 # Added by OrbStack: command-line tools and integration
 # This won't be added again if you remove it.
 source ~/.orbstack/shell/init.zsh 2>/dev/null || :
+
+# Cloudflare CLI completions
+[[ -f "/Users/ogirginc/.config/cf/completions/_cf.zsh" ]] && source "/Users/ogirginc/.config/cf/completions/_cf.zsh"
