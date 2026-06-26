@@ -167,6 +167,13 @@ function fixadguard() {
   sudo ifconfig lo0 up
 }
 
+# Reads from .config/mise/config.toml
+claude-personal() {
+  CLAUDE_CONFIG_DIR="$HOME/.claude-personal" \
+  CLAUDE_CODE_OAUTH_TOKEN="$PERSONAL_CLAUDE_CODE_OAUTH_TOKEN" \
+  command claude "$@"
+}
+
 #########################################################################################
 # Other
 #########################################################################################
