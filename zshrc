@@ -180,8 +180,8 @@ claude-personal() {
 # Add https://github.com/ajeetdsouza/zoxide
 eval "$(zoxide init zsh)"
 
-# Use mise
-eval "$(mise activate zsh)"
+# Use mise (shims-only so PATH stays project-driven; full activate hooks into chpwd which non-interactive shells never run anyway)
+eval "$(mise activate zsh --shims)"
 
 # Added by OrbStack: command-line tools and integration
 # This won't be added again if you remove it.
