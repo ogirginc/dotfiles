@@ -18,7 +18,7 @@
   sb   = "!f() { git switch $(git branch | fzf --height 40% --reverse --border); }; f"
   srb  = "!f() { git switch -t $(git branch -r | fzf --height 40% --reverse --border); }; f"
   ssb  = "!f() { git add . && git stash && git switch $(git branch | fzf --height 40% --reverse --border) && git stash pop; }; f"
-  sc    = switch -c
+  sc   = "!f() { if e=$(git switch -c \"$1\" 2>&1); then echo \"$e\" >&2; elif echo \"$e\" | grep -q 'already exists'; then git switch \"$1\"; else echo \"$e\" >&2; return 1; fi; }; f"
 
 [filter "lfs"]
   clean = git-lfs clean -- %f
